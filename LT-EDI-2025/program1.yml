@@ -1,0 +1,172 @@
+- end_time: 2025-05-03 09:15:00
+  start_time: 2025-05-03 09:00:00
+  title: Opening Remarks
+- end_time: 2025-05-03 09:45:00
+  start_time: 2025-05-03 09:15:00
+  title: To be done
+  chair: To be done
+  location: Palazzo del Mediterraneo, Naples, Italy
+- title: Oral Session 1
+  start_time: 2025-05-03 09:45:00
+  end_time: 2025-05-03 10:30:00
+  subsessions:
+    - end_time: 2025-05-03 10:30:00
+      papers:
+        - end_time: 2025-05-03 10:00:00
+          id: 34
+          start_time: 2025-05-03 09:45:00
+        - end_time: 2025-05-03 10:15:00
+          id: 35
+          start_time: 2025-05-03 10:00:00
+        - end_time: 2025-05-03 10:30:00
+          id: 36
+          start_time: 2025-05-03 10:15:00
+      start_time: 2025-05-03 09:45:00
+      title: Oral Session 1
+      chair: To be done
+      location: Palazzo del Mediterraneo, Naples, Italy
+- end_time: 2025-05-03 11:00:00
+  start_time: 2025-05-03 10:30:00
+  title: Tea Break
+- title: Oral Session 2
+  start_time: 2025-05-03 11:00:00
+  end_time: 2025-05-03 12:30:00
+  subsessions:
+    - end_time: 2025-05-03 12:30:00
+      papers:
+        - end_time: 2025-05-03 11:15:00
+          id: 37
+          start_time: 2025-05-03 11:00:00
+        - end_time: 2025-05-03 11:30:00
+          id: 38
+          start_time: 2025-05-03 11:15:00
+        - end_time: 2025-05-03 11:45:00
+          id: 40
+          start_time: 2025-05-03 11:30:00
+        - end_time: 2025-05-03 12:00:00
+          id: 41
+          start_time: 2025-05-03 11:45:00
+        - end_time: 2025-05-03 12:15:00
+          id: 1
+          start_time: 2025-05-03 12:00:00
+        - end_time: 2025-05-03 12:30:00
+          id: 2
+          start_time: 2025-05-03 12:15:00
+      start_time: 2025-05-03 11:00:00
+      title: Oral Session 2
+      chair: To be done
+      location: Palazzo del Mediterraneo, Naples, Italy
+- end_time: 2025-05-03 14:15:00
+  start_time: 2025-05-03 12:30:00
+  title: Lunch Break
+- title: Oral Session 3
+  start_time: 2025-05-03 14:15:00
+  end_time: 2025-05-03 15:30:00
+  subsessions:
+    - end_time: 2025-05-03 15:30:00
+      papers:
+        - end_time: 2025-05-03 14:30:00
+          id: 4
+          start_time: 2025-05-03 14:15:00
+        - end_time: 2025-05-03 14:45:00
+          id: 5
+          start_time: 2025-05-03 14:30:00
+        - end_time: 2025-05-03 15:00:00
+          id: 6
+          start_time: 2025-05-03 14:45:00
+        - end_time: 2025-05-03 15:15:00
+          id: 8
+          start_time: 2025-05-03 15:00:00
+        - end_time: 2025-05-03 15:30:00
+          id: 9
+          start_time: 2025-05-03 15:15:00
+      start_time: 2025-05-03 14:15:00
+      title: Oral Session 3
+      chair: To be done
+      location: Palazzo del Mediterraneo, Naples, Italy
+- end_time: 2025-05-03 16:00:00
+  start_time: 2025-05-03 15:30:00
+  title: Tea Break 
+- title: Poster Session
+  start_time: 2025-05-03 16:00:00
+  end_time: 2025-05-03 17:30:00
+  subsessions:
+    - end_time: 2025-05-03 17:30:00
+      papers:
+        - end_time: 2025-05-03 17:30:00
+          id: 10
+          start_time: 2025-05-03 16:00:00
+        - end_time: 2025-05-03 17:30:00
+          id: 11
+          start_time: 2025-05-03 16:00:00
+        - end_time: 2025-05-03 17:30:00
+          id: 13
+          start_time: 2025-05-03 16:00:00
+        - end_time: 2025-05-03 17:30:00
+          id: 14
+          start_time: 2025-05-03 16:00:00
+        - end_time: 2025-05-03 17:30:00
+          id: 15
+          start_time: 2025-05-03 16:00:00
+        - end_time: 2025-05-03 17:30:00
+          id: 16
+          start_time: 2025-05-03 16:00:00
+        - end_time: 2025-05-03 17:30:00
+          id: 17
+          start_time: 2025-05-03 16:00:00
+        - end_time: 2025-05-03 17:30:00
+          id: 18
+          start_time: 2025-05-03 16:00:00
+        - end_time: 2025-05-03 17:30:00
+          id: 19
+          start_time: 2025-05-03 16:00:00
+        - end_time: 2025-05-03 17:30:00
+          id: 20
+          start_time: 2025-05-03 16:00:00
+        - end_time: 2025-05-03 17:30:00
+          id: 21
+          start_time: 2025-05-03 16:00:00
+        - end_time: 2025-05-03 17:30:00
+          id: 22
+          start_time: 2025-05-03 16:00:00
+        - end_time: 2025-05-03 17:30:00
+          id: 23
+          start_time: 2025-05-03 16:00:00
+        - end_time: 2025-05-03 17:30:00
+          id: 24
+          start_time: 2025-05-03 16:00:00
+        - end_time: 2025-05-03 17:30:00
+          id: 25
+          start_time: 2025-05-03 16:00:00
+        - end_time: 2025-05-03 17:30:00
+          id: 26
+          start_time: 2025-05-03 16:00:00
+        - end_time: 2025-05-03 17:30:00
+          id: 27
+          start_time: 2025-05-03 16:00:00
+        - end_time: 2025-05-03 17:30:00
+          id: 28
+          start_time: 2025-05-03 16:00:00
+        - end_time: 2025-05-03 17:30:00
+          id: 29
+          start_time: 2025-05-03 16:00:00
+        - end_time: 2025-05-03 17:30:00
+          id: 30
+          start_time: 2025-05-03 16:00:00
+        - end_time: 2025-05-03 17:30:00
+          id: 31
+          start_time: 2025-05-03 16:00:00
+        - end_time: 2025-05-03 17:30:00
+          id: 32
+          start_time: 2025-05-03 16:00:00
+        - end_time: 2025-05-03 17:30:00
+          id: 33
+          start_time: 2025-05-03 16:00:00
+      start_time: 2025-05-03 16:00:00
+      title: Poster Session
+      chair: To be done
+      location: Palazzo del Mediterraneo, Naples, Italy
+- end_time: 2025-05-03 17:45:00
+  start_time: 2025-05-03 17:30:00
+  title: Meeting, Awards, Closing Remarks
+  chair: Bharathi Raja Chakravarthi
