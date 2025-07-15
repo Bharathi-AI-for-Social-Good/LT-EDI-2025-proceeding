@@ -1,0 +1,334 @@
+\documentclass[11pt,oneside]{book}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage[a4paper,top=2cm,bottom=3cm,left=2cm,right=2cm,marginparwidth=1.75cm]{geometry}
+\usepackage{hyperref}
+\usepackage{eurosym}
+
+
+%\usepackage[T1]{fontenc}
+% For Vietnamese characters
+\usepackage[T5]{fontenc}
+\usepackage[utf8]{inputenc}
+
+\usepackage{multicol}
+\usepackage{pdfpages}
+\usepackage{pax}
+\usepackage{times}
+\usepackage[english,latin]{babel}
+
+\hypersetup{
+    colorlinks,
+    linktoc=all,
+    linkcolor=red,
+    pdftitle={Proceedings of the Fifth Workshop on Language Technology for Equality, Diversity, Inclusion}
+}
+\setlength{\paperwidth}{21cm}    % A4
+\setlength{\paperheight}{29.7cm} % A4
+\special{papersize=21cm, 29.7cm}
+\pdfpageheight\paperheight
+\pdfpagewidth\paperwidth
+\setlength\topmargin{-5mm} \setlength\oddsidemargin{-0cm}
+\setlength\textheight{24.7cm} \setlength\textwidth{16cm}
+\setlength\columnsep{0.6cm}  \newlength\titlebox \setlength\titlebox{2.00in}
+\setlength\headheight{5pt}   \setlength\headsep{0pt}
+\setlength\footskip{1.0cm}
+\setlength\parindent{0pt}
+
+\pagestyle{plain}
+\pagenumbering{roman}
+
+\date{}
+\title{ACL Anthology}
+
+% General use macros
+
+\begin{document}
+
+%%%%%%%%%
+% Cover %
+%%%%%%%%%
+\begin{titlepage}
+  \phantomsection
+  \addcontentsline{toc}{section}{Title page}
+  \begin{center}
+    \vspace{1.5cm}
+
+    {\LARGE LT-EDI 2025}
+
+    \vspace*{65mm}
+
+    {\bf\LARGE Fifth Workshop on Language Technology for Equality, Diversity, Inclusion}
+
+    \vspace*{5cm}
+
+    {\bf\LARGE Proceedings of the Workshop}
+
+    \vfill
+
+    {\LARGE September 9, 2025}
+  \end{center}
+\end{titlepage}
+\newpage
+
+%%%%%%%%%%%%
+% Sponsors %
+%%%%%%%%%%%%
+\setcounter{page}{2}
+\phantomsection
+\addcontentsline{toc}{section}{Sponsors}
+\vspace*{2cm}
+\noindent
+
+{\Large The LT-EDI organizers gratefully acknowledge the support from the following sponsors.}
+\bigskip
+
+\vspace*{1cm}
+
+
+    \begin{samepage}
+  \noindent
+  {\Large \textbf{In cooperation with}}
+
+  \nopagebreak
+            \begin{minipage}[c][0.21\linewidth][c]{0.21\linewidth}
+        \includegraphics[width=\linewidth]{LT-EDI-2025/sponsor_logos/uog.jpg}
+      \end{minipage}\hspace{0.05\linewidth}
+          \begin{minipage}[c][0.21\linewidth][c]{0.21\linewidth}
+        \includegraphics[width=\linewidth]{LT-EDI-2025/sponsor_logos/ssn.png}
+      \end{minipage}\hspace{0.05\linewidth}
+          \begin{minipage}[c][0.21\linewidth][c]{0.21\linewidth}
+        \includegraphics[width=\linewidth]{LT-EDI-2025/sponsor_logos/insight.png}
+      \end{minipage}\hspace{0.05\linewidth}
+          \begin{minipage}[c][0.21\linewidth][c]{0.21\linewidth}
+        \includegraphics[width=\linewidth]{LT-EDI-2025/sponsor_logos/Research_Ireland.png}
+      \end{minipage}\hspace{0.05\linewidth}
+    
+            \begin{minipage}[c][0.21\linewidth][c]{0.21\linewidth}
+        \includegraphics[width=\linewidth]{LT-EDI-2025/sponsor_logos/sfi.jpg}
+      \end{minipage}\hspace{0.05\linewidth}
+          \begin{minipage}[c][0.21\linewidth][c]{0.21\linewidth}
+        \includegraphics[width=\linewidth]{LT-EDI-2025/sponsor_logos/uja.png}
+      \end{minipage}\hspace{0.05\linewidth}
+    
+    \end{samepage}
+
+  \bigskip
+  \bigskip
+\newpage
+
+
+%%%%%%%%%%%%%
+% Copyright %
+%%%%%%%%%%%%%
+\phantomsection
+\addcontentsline{toc}{section}{Copyright}
+\vspace*{11cm}
+{\large
+
+\noindent
+\textcopyright 2025 Association for Computational Linguistics\\
+
+\vspace*{2cm}
+\noindent
+Order copies of this and other ACL proceedings from:
+
+\vspace*{1cm}
+\begin{tabular}{p{1.5cm}l}
+& Association for Computational Linguistics (ACL)\\
+& 317 Sidney Baker St. S \\
+& Suite 400 - 134\\
+& Kerrville, TX 78028\\
+& USA\\
+& Tel: +1-855-225-1962\\
+&{\tt acl@aclweb.org}\\
+\end{tabular}
+
+\vspace*{1cm}
+ISBN None
+}
+\newpage
+
+
+%%%%%%%%%%%%
+% Prefaces %
+%%%%%%%%%%%%
+  \phantomsection
+  \addcontentsline{toc}{section}{Introduction}
+  \begin{center}
+   { \Large \textbf{Introduction}}
+  \end{center}
+  \vspace*{0.5cm}
+  We are excited to welcome you to the Fifth Workshop on Language Technology for Equality, Diversity, Inclusion (LT-EDI-2025), the 5th Conference on Language, Data and Knowledge (LDK). This year, the workshop will be held in a hybrid format (both online and Workshops will take place at Palazzo del Mediterraneo on 9th September 2025, while the main venue for the conference will be Palazzo Corigliano, on 10th - 11th September 2025, located in the Naples, Italy. With the rapid advancement of technology, digital communication has become a central part of daily life. While many globally dominant languages have successfully transitioned into the digital era, numerous regional and low-resource languages continue to face significant technological challenges. Equality, Diversity and Inclusion (EDI) is an important agenda across every field throughout the world. Language as a major part of communication should be inclusive and treat everyone with equality. Today’s large internet community uses language technology (LT) and has a direct impact on people across the globe. EDI is crucial to ensure everyone is valued and included, so it is necessary to build LT that serves this purpose. Recent results have shown that big data and deep learning are entrenching existing biases and that some algorithms are even naturally biased due to problems such as ‘regression to the mode’. Our focus is on creating LT that will be more inclusive of gender, racial, sexual orientation, persons with disability. The workshop will focus on creating speech and language technology to address EDI not only in English, but also in less resourced languages. The workshop received a total of 40 active submissions. Reviewer recruitment was highly effective, with 232 out of 249 invited reviewers accepting the invitation. Of the 270 assigned reviews, 117 were completed, resulting in a review submission rate of 43.33\%. Additionally, 41.67\% of reviewers (100 out of 240) completed all their assigned reviews. A majority of submissions (65\%, or 26 out of 40) received at least three reviews, ensuring a robust evaluation process. Decisions were finalized for all submissions (100\%), leading to an acceptance rate of 95\% (38 papers). This included 6 papers (15\%) accepted for oral presentations and 32 papers (80\%) accepted for poster presentations. Only 2 submissions (5\%) were rejected. There were no withdrawn submissions, and only one paper was desk rejected. These metrics reflect a thorough and inclusive review process, driven by active reviewer participation and a strong commitment to quality.
+  \newpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%
+% Organizing Committee %
+%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%
+% Program Committee %
+%%%%%%%%%%%%%%%%%%%%%
+\phantomsection
+\addcontentsline{toc}{section}{Program Committee}
+\begin{center}
+\Large \textbf{Program Committee}
+\end{center}
+\vspace*{1cm}
+\begin{description}
+  \item{\bf Program Chairs}\vspace{2mm}\\
+            Bharathi B\\
+          Paul Buitelaar, University of Galway\\
+          Bharathi Raja Chakravarthi, University of Galway\\
+          Shunmuga Priya Muthusamy Chinnan\\
+          Thenmozhi Durairaj\\
+          Miguel Ángel García\\
+          Salud María Jiménez-Zafra, Universidad de Jaén\\
+          Prasanna Kumar Kumaresan, Data Science Institution, University of Galway, Ireland\\
+          Rahul Ponnusamy\\
+      
+  \item{\bf Reviewers}\vspace{2mm}\\
+            Habiba A\index{A}, Keerthi Vasan A\index{A}, Kritika A\index{A}, Lekhashree A\index{A}, Mohan Raj M A\index{A}, Moogambigai A\index{A}, Belo Abhigyan\index{Abhigyan}, Babatunde Abimbola Abiola\index{Abiola}, Tolulope Olalekan Abiola\index{Abiola}, Jidan Al Abrar\index{Abrar}, Tewodros Achamaleh\index{Achamaleh}, Raksha Adyanthaya\index{Adyanthaya}, Shamima Afroz\index{Afroz}, Sabik Aftahee\index{Aftahee}, Nitisha Aggarwal\index{Aggarwal}, Saurabh Aggarwal\index{Aggarwal}, N.Nasurudeen Ahamed\index{Ahamed}, Anisha Ahmed\index{Ahmed}, Kawsar Ahmed\index{Ahmed}, S Ananthasivan\index{Ananthasivan}, Mahfuz Ahmed Anik\index{Anik}, K Anishka\index{Anishka}, Shuang Ao\index{Ao}, Mohammad Shamsul Arefin\index{Arefin}, Priyanka Ashokan\index{Ashokan}\\
+      \newline
+          Bharathi B\index{B}, Premjith B\index{B}, Tofayel Ahmmed Babu\index{Babu}, Girma Yohannis Bade\index{Bade}, Priyatharshan Balachandran\index{Balachandran}, Nitin Nikamanth Appiah Balaji\index{Balaji}, Arupa Barua\index{Barua}, Kavin Bharathi\index{Bharathi}, J Bhuvana\index{Bhuvana}, Manan Buddhadev\index{Buddhadev}, Miriam Butt\index{Butt}\\
+      \newline
+          Bagavathi C\index{C}, Hare Ram C\index{C}, Jerin Mahibha C\index{C}, Dola Chakraborty\index{Chakraborty}, Trina Chakraborty\index{Chakraborty}, Soham Chaudhuri\index{Chaudhuri}, Md. Sajid Alam Chowdhury\index{Chowdhury}, Minhaz Chowdhury\index{Chowdhury}\\
+      \newline
+          Arun Prasad T D\index{D}, Pandiarajan D\index{D}, Sakkthi Gurru D\index{D}, Dipankar Das\index{Das}, Sayan Das\index{Das}, Sayan Das\index{Das}, Udoy Das\index{Das}, Somsubhra De\index{De}, Ashraf Deen\index{Deen}, Naihao Deng\index{Deng}, Ashim Dey\index{Dey}, MC Dhanush\index{Dhanush}, Srijita Dhar\index{Dhar}, Thenmozhi Durairaj\index{Durairaj}\\
+      \newline
+          Boomika E\index{E}, Enjamamul Haque Eram\index{Eram}\\
+      \newline
+          Wahid Faisal\index{Faisal}\\
+      \newline
+          Dhanyashree G\index{G}, Gnanasabesan G\index{G}, Jyothish Lal G\index{G}, Payal Godhani\index{Godhani}, A. Justin Gopinath\index{Gopinath}, Anusha M D Gowda\index{Gowda}, Pranav Gupta\index{Gupta}, V Gurucharan\index{Gurucharan}\\
+      \newline
+          Nida Hafeez\index{Hafeez}, Adeep Hande\index{Hande}, Tareque Md Hanif\index{Hanif}, Fariha Haq\index{Haq}, Bachu Naga Sri Harini\index{Harini}, Md Mehedi Hasan\index{Hasan}, Asha Hegde\index{Hegde}, Md. Sajjad Hossain\index{Hossain}, Md. Refaj Hossan\index{Hossan}\\
+      \newline
+          Ariful Islam\index{Islam}\\
+      \newline
+          Pavithra J\index{J}, Vikash J\index{J}, Amit Jaspal\index{Jaspal}, Abirami Jayaraman\index{Jayaraman}, Jayanth Jeyadevaswamy\index{Jeyadevaswamy}, Deeptanshu Jha\index{Jha}, Sandra Johnson\index{Johnson}, Jobin Jose\index{Jose}, Uma Jothi\index{Jothi}, Fiona Victoria Stanley Jothiraj\index{Jothiraj}\\
+      \newline
+          Arivuchudar K\index{K}, Durai Singh K\index{K}, Kalpana K\index{K}, Nithish Ariyha K\index{K}, Sitara K\index{K}, Sreeja K\index{K}, Srihari V K\index{K}, Md Minhazul Kabir\index{Kabir}, Santhosh Kakarla\index{Kakarla}, Shreyas Karthik\index{Karthik}, Arunaggiri Pandian Karunanidhi\index{Karunanidhi}, Dondluru Keerthana\index{Keerthana}, Mahir Absar Khan\index{Khan}, Rohith Gowtham Kodali\index{Kodali}, Olga Kolesnikova\index{Kolesnikova}, Sai Koneru\index{Koneru}, Avaneesh Koushik\index{Koushik}, Mikhail Krasitskii\index{Krasitskii}, Mahankali Sri Ram Krishna\index{Krishna}, Abhinav Kumar\index{Kumar}\\
+      \newline
+          Aravindh M\index{M}, Mithun M\index{M}, Niranjan Kumar M\index{M}, Geetha M P\index{M P}, Bitan Mallik\index{Mallik}, Dr G Manikandan\index{Manikandan}, Poojitha Sai Manikandan\index{Manikandan}, Durga Prasad Manukonda\index{Manukonda}, Kankipati Venkata Meghana\index{Meghana}, Md Ayon Mia\index{Mia}, Md. Alam Miah\index{Miah}, Sabrina Afroz Mitu\index{Mitu}, Md. Mohiuddin\index{Mohiuddin}, Hasan Murad\index{Murad}, Jahnavi Murali\index{Murali}\\
+      \newline
+          Hari Krishnan N\index{N}, Radha N\index{N}, Sripriya N\index{N}, Gladiss Merlin N.r\index{N.r}, Abdullah Al Nahian\index{Nahian}, Md. Mubasshir Naib\index{Naib}, Hamada Nayel\index{Nayel}, Nishanth.S Nishanth.S\index{Nishanth.S}, Aathavan Nithiyananthan\index{Nithiyananthan}, Ahamed Rameez Mohamed Nizzad\index{Nizzad}, Keerthana Nnl\index{Nnl}, Syeda Alisha Noor\index{Noor}\\
+      \newline
+          Temitope Oladepo\index{Oladepo}\\
+      \newline
+          Lahari P\index{P}, Lalith Kishore V P\index{P}, Sarumathi P\index{P}, Yeshwanth Balaji A P\index{P}, Ashraful Islam Paran\index{Paran}, Sarbajeet Pattanaik\index{Pattanaik}, Fred Philippy\index{Philippy}, Ravi Teja Potla\index{Potla}, Rahatun Nesa Priti\index{Priti}\\
+      \newline
+          Arthi R\index{R}, Eshwanth Karti T R\index{R}, Ponsubash Raj R\index{R}, Ramesh Kannan R\index{R}, Shankari S R\index{R}, Swathika R\index{R}, Vijay Manickam R\index{R}, Mostafa Rahgouy\index{Rahgouy}, Abdur Rahman\index{Rahman}, MD.Mahadi Rahman\index{Rahman}, Md Mizanur Rahman\index{Rahman}, Sheikh Ayatur Rahman\index{Rahman}, Burugu Rahul\index{Rahul}, Mohan Raj\index{Raj}, Ratnavel Rajalakshmi\index{Rajalakshmi}, Riya Rajeev\index{Rajeev}, RajeswariRajasekar RajeswariRajasekar\index{RajeswariRajasekar}, RajeswariRajasekar RajeswariRajasekar\index{RajeswariRajasekar}, Kasu Sai Kartheek Reddy\index{Reddy}, Shruthi Rengarajan\index{Rengarajan}, Billodal Roy\index{Roy}\\
+      \newline
+          Angel Deborah S\index{S}, Dr Jannath Nisha O S\index{S}, Ganesh Sundhar S\index{S}, Meenakshy S\index{S}, Sachin Kumar S\index{S}, Vishal A S\index{S}, B Saathvik\index{Saathvik}, Dipanjan Saha\index{Saha}, Bommineni Sahitya\index{Sahitya}, Meetesh Saini\index{Saini}, Nazmus Sakib\index{Sakib}, Tara Samiksha\index{Samiksha}, Eric SanJuan\index{SanJuan}, Minoru Sasaki\index{Sasaki}, Dharunika Sasikumar\index{Sasikumar}, Khadiza Sultana Sayma\index{Sayma}, Siddhaarth Sekar\index{Sekar}, Aishwarya Selvamurugan\index{Selvamurugan}, Diya Seshan\index{Seshan}, Aruna Devi Shanmugam\index{Shanmugam}, Kogilavani Shanmugavadivel\index{Shanmugavadivel}, Anik Mahmud Shanto\index{Shanto}, Deepawali Sharma\index{Sharma}, Harshita Sharma\index{Sharma}, Rasha Sharma\index{Sharma}, Hosahalli Lakshmaiah Shashirekha\index{Shashirekha}, Md. Tanvir Ahammed Shawon\index{Shawon}, Arya Palackal Shijish\index{Shijish}, Gersome Shimi\index{Shimi}, Symom Hossain Shohan\index{Shohan}, Simran Simran\index{Simran}, Aakash Singh\index{Singh}, Abhai Pratap Singh\index{Singh}, Vivek Kumar Singh\index{Singh}, Vrijendra Singh\index{Singh}, Bhuvaneswari Sivagnanam\index{Sivagnanam}, Janeshvar Sivakumar\index{Sivakumar}, Rajalakshmi Sivanaiah\index{Sivanaiah}, Raj Sonani\index{Sonani}, Ippatapu Venkata Srichandra\index{Srichandra}, Tanisha Sriram\index{Sriram}, Subhashini Sudhakar\index{Sudhakar}, Sivasuthan Sukumar\index{Sukumar}, Monorama Swain\index{Swain}, Swetha.N.G Swetha.N.G\index{Swetha.N.G}\\
+      \newline
+          Radhika K T\index{T}, Luxshan Thavarasa\index{Thavarasa}, Shanmitha Thirumoorthy\index{Thirumoorthy}, Farjana Alam Tofa\index{Tofa}, Ashutosh Tripathi\index{Tripathi}\\
+      \newline
+          Mugilkrishna D U\index{U}\\
+      \newline
+          Shruthikaa V\index{V}, Vijay Karthick Vaidyanathan\index{Vaidyanathan}, Vajratiya Vajrobol\index{Vajrobol}, Adarsh Valoor\index{Valoor}, Advait Vats\index{Vats}, Venkatesh Velugubantla\index{Velugubantla}, Satya Subrahmanya Gautama Shastry Bulusu Venkata\index{Venkata}, Konkimalla Laxmi Vignesh\index{Vignesh}, Abhay Vishwakarma\index{Vishwakarma}\\
+      \newline
+          Azmine Toushik Wasi\index{Wasi}, Sidney Wong\index{Wong}\\
+      \newline
+          Abhishek Singh Yadav\index{Yadav}, Ashok Yadav\index{Yadav}, Mesay Gemeda Yigezu\index{Yigezu}\\
+      \newline
+      
+\end{description}
+\newpage
+
+%%%%%%%%%%%%%%%%%
+% Invited Talks %
+%%%%%%%%%%%%%%%%%
+  \phantomsection
+  \addcontentsline{toc}{section}{Keynote Talk: Understanding Attention in Asymmetric Kernel Point of View}
+  \begin{center}
+          {\Large \textbf{Keynote Talk}\\}
+      {\LARGE \textbf{Understanding Attention in Asymmetric Kernel Point of View}\\}
+        \vspace*{0.5cm}
+    %\begin{minipage}[c][0.35\linewidth][c]{0.35\linewidth}
+     % \end{minipage}\\
+    \textbf{Dr. Soman K. P.}\\
+        Amrita Vishwa Vidyapeetham, India\\
+        
+        
+        \textbf{2025-05-03 09:15} -- 
+                Room: \textbf{Acoma, The Albuquerque Convention Center, Albuquerque, New Mexico, USA}\\
+        
+  \end{center}
+
+  \vspace*{0.2cm}
+    \textbf{Abstract:} Transformers has redefined deep learning research and has become the most prominent architecture across domains such as natural language processing, computer vision, and image processing. Attention mechanism, particularly self-attention, is central to the success of this architecture, which allows the model to capture dependencies across the input sequences. However, the fundamental challenge in understanding self-attention is its intrinsic symmetry. The existing works often consider self-attention as a kernel method, leveraging symmetric kernels based on Mercer's theorem. However, the self-attention matrices used in the transformer architectures are inherently asymmetric, which leads to an inconsistency between the theoretical formulation and the practical implementation. The primal-attention, a novel attention mechanism based on kernel singular value decomposition explicitly models the asymmetry. Therefore, reformulating self-attention using primal-dual representation ensures efficient computation and low-rank approximation that enhances performance and generalization. 
+\\
+  \newline
+  
+    \textbf{Bio:} Dr. Soman K. P. is the Dean of the School of Artificial Intelligence and Head of the Department at Amrita Vishwa Vidyapeetham, Coimbatore. With over 27 years of experience in research and teaching, his expertise spans Artificial Intelligence and Data Science. He has published more than 500 papers in leading journals and conferences, including IEEE Transactions, IEEE Access, and Applied Energy. He is the author of four books, including Insight into Wavelets, Insight into Data Mining (also translated into Chinese), Support Vector Machines and Other Kernel Methods, and Signal and Image Processing—the Sparse Way. Dr. Soman is the most cited researcher with over 10,000 citations. He has consistently been ranked among the world’s top 2\% most influential scientists by Stanford University for the past three years. His contributions have also been recognized by the Government of India and organizations like Springer Nature and Career 360. At CEN, he leads M.Tech programs in Computational Engineering and Networking (Data Science) and Computer Science and Engineering (Artificial Intelligence). A new B.Tech program in AI and Data Science launched under his leadership in 2023. He has guided over 20 Ph.D. scholars and currently supervises 8+ ongoing doctoral researchers. His current research interests include AI for DNA sequence analysis, reinforcement learning in robotics, computer vision, and cyber-physical systems.
+  \newpage
+  
+
+%%%%%%%%%%%%%%%%%
+% Panels %
+%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%
+% Special Additional Pages %
+%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%
+% Table of Contents %
+%%%%%%%%%%%%%%%%%%%%%
+\phantomsection
+\addcontentsline{toc}{section}{Table of Contents}
+\newpage  % Empty page before TOC
+\pagestyle{plain}
+\begin{center}
+{\Large \textbf{Table of Contents}}
+\end{center}
+\vspace*{1em}
+\newcommand\page[1]{\rightskip=25pt \dotfill\rlap{\hbox to 25pt{\hfill#1}}\par}
+\begin{itemize}[leftmargin=*,label={}]
+       \item \hyperlink{page.1}{\emph{SSNCSE@LT-EDI-2025:Detecting Misogyny Memes using Pretrained Deep Learning models}}\\ \hspace*{2em} Sreeja K\index{K} and Bharathi B\index{B}\dotfill \hyperlink{page.1}{1}
+       \item \hyperlink{page.6}{\emph{SSNCSE@LT-EDI-2025:Speech Recognition for Vulnerable Individuals in Tamil}}\\ \hspace*{2em} Sreeja K\index{K} and Bharathi B\index{B}\dotfill \hyperlink{page.6}{6}
+       \item \hyperlink{page.11}{\emph{CrewX@LT-EDI-2025: Transformer-Based Tamil ASR Fine-Tuning with AVMD Denoising and GRU-VAD for Enhanced Transcription Accuracy}}\\ \hspace*{2em} Ganesh Sundhar S\index{S}, Hari Krishnan N\index{N}, Arun Prasad T D\index{D}, Shruthikaa V\index{V} and Jyothish Lal G\index{G}\dotfill \hyperlink{page.11}{11}
+       \item \hyperlink{page.17}{\emph{JUNLP@LT-EDI-2025: Efficient Low-Rank Adaptation of Whisper for Inclusive Tamil Speech Recognition Targeting Vulnerable Populations}}\\ \hspace*{2em} Priyobroto Acharya\index{Acharya}, Soham Chaudhuri\index{Chaudhuri}, Sayan Das\index{Das}, Dipanjan Saha\index{Saha} and Dipankar Das\index{Das}\dotfill \hyperlink{page.17}{17}
+       \item \hyperlink{page.26}{\emph{SKVtrio@LT-EDI-2025: Hybrid TF-IDF and BERT Embeddings for  Multilingual Homophobia and Transphobia Detection in Social Media  Comments}}\\ \hspace*{2em} Konkimalla Laxmi Vignesh\index{Vignesh}, Mahankali Sri Ram Krishna\index{Krishna}, Dondluru Keerthana\index{Keerthana} and Premjith B\index{B}\dotfill \hyperlink{page.26}{26}
+       \item \hyperlink{page.31}{\emph{Dll5143A@LT-EDI 2025: Bias-Aware Detection of Racial Hoaxes in Code-Mixed Social Media Data (BaCoHoax)}}\\ \hspace*{2em} Ashok Yadav\index{Yadav} and Vrijendra Singh\index{Singh}\dotfill \hyperlink{page.31}{31}
+       \item \hyperlink{page.39}{\emph{Hope\_for\_best@LT-EDI 2025: Detecting Racial Hoaxes in Code-Mixed Hindi-English Social Media Data using a multi-phase fine-tuning strategy}}\\ \hspace*{2em} Abhishek Singh Yadav\index{Yadav}, Deepawali Sharma\index{Sharma}, Aakash Singh\index{Singh} and Vivek Kumar Singh\index{Singh}\dotfill \hyperlink{page.39}{39}
+       \item \hyperlink{page.47}{\emph{CVF-NITT@LT-EDI-2025:MisogynyDetection}}\\ \hspace*{2em} Radhika K T\index{T} and Sitara K\index{K}\dotfill \hyperlink{page.47}{47}
+       \item \hyperlink{page.54}{\emph{Wise@LT-EDI-2025: Combining Classical and Neural Representations with Multi-scale Ensemble Learning for Code-mixed Hate Speech Detection}}\\ \hspace*{2em} Ganesh Sundhar S\index{S}, Durai Singh K\index{K}, Gnanasabesan G\index{G}, Hari Krishnan N\index{N} and MC Dhanush\index{Dhanush}\dotfill \hyperlink{page.54}{54}
+       \item \hyperlink{page.63}{\emph{CUET's\_White\_Walkers@LT-EDI 2025: Racial Hoax Detection in Code-Mixed on Social Media Data}}\\ \hspace*{2em} Md Mizanur Rahman\index{Rahman}, Jidan Al Abrar\index{Abrar}, Md Siddikul Imam Kawser\index{Kawser}, Ariful Islam\index{Islam}, Md. Mubasshir Naib\index{Naib} and Hasan Murad\index{Murad}\dotfill \hyperlink{page.63}{63}
+       \item \hyperlink{page.68}{\emph{CUET's\_White\_Walkers@LT-EDI-2025: A Multimodal Framework for the Detection of Misogynistic Memes in Chinese Online Content}}\\ \hspace*{2em} Md. Mubasshir Naib\index{Naib}, Md Mizanur Rahman\index{Rahman}, Jidan Al Abrar\index{Abrar}, Md Mehedi Hasan\index{Hasan}, Md Siddikul Imam Kawser\index{Kawser} and Mohammad Shamsul Arefin\index{Arefin}\dotfill \hyperlink{page.68}{68}
+       \item \hyperlink{page.75}{\emph{CUET's\_White\_Walkers@LT-EDI 2025: Transformer-Based Model for the Detection of Caste and Migration Hate Speech}}\\ \hspace*{2em} Jidan Al Abrar\index{Abrar}, Md Mizanur Rahman\index{Rahman}, Ariful Islam\index{Islam}, Md Mehedi Hasan\index{Hasan}, Md. Mubasshir Naib\index{Naib} and Mohammad Shamsul Arefin\index{Arefin}\dotfill \hyperlink{page.75}{75}
+       \item \hyperlink{page.80}{\emph{NS@LT-EDI-2025 CasteMigration based hate speech Detection}}\\ \hspace*{2em} Nishanth.S Nishanth.S\index{Nishanth.S}, Shruthi Rengarajan\index{Rengarajan} and Sachin Kumar S\index{S}\dotfill \hyperlink{page.80}{80}
+       \item \hyperlink{page.84}{\emph{SSN\_IT\_HATE@LT-EDI-2025: Caste and Migration Hate Speech Detection}}\\ \hspace*{2em} Maria Nancy C\index{C}, Radha N\index{N} and Swathika R\index{R}\dotfill \hyperlink{page.84}{84}
+       \item \hyperlink{page.90}{\emph{ItsAllGoodMan@LT-EDI-2025: Fusing TF-IDF and MuRIL Embeddings for Detecting Caste and Migration Hate Speech}}\\ \hspace*{2em} Amritha Nandini K L\index{L}, Vishal S\index{S}, Giri Prasath R\index{R}, Anerud Thiyagarajan\index{Thiyagarajan} and Sachin Kumar S\index{S}\dotfill \hyperlink{page.90}{90}
+       \item \hyperlink{page.95}{\emph{NSR\_LT-EDI-2025 Automatic speech recognition in Tamil}}\\ \hspace*{2em} Nishanth.S Nishanth.S\index{Nishanth.S}, Shruthi Rengarajan\index{Rengarajan}, Burugu Rahul\index{Rahul} and Jyothish Lal G\index{G}\dotfill \hyperlink{page.95}{95}
+       \item \hyperlink{page.100}{\emph{Solvers@LT-EDI-2025: Caste and Migration Hate Speech Detection in Tamil-English Code-Mixed Text}}\\ \hspace*{2em} Ananthakumar S\index{S}, Bharath P\index{P}, Devasri A\index{A}, Anirudh Sriram K S\index{S} and Mohanapriya K T\index{T}\dotfill \hyperlink{page.100}{100}
+       \item \hyperlink{page.105}{\emph{CUET\_N317@LT-EDI2025: Detecting Hate Speech Related to Caste and Migration with Transformer Models}}\\ \hspace*{2em} Md. Nur Siddik Ruman\index{Ruman}, Md. Tahfim Juwel Chowdhury\index{Chowdhury} and Hasan Murad\index{Murad}\dotfill \hyperlink{page.105}{105}
+       \item \hyperlink{page.111}{\emph{KEC-Elite-Analysts@LT-EDI 2025: Leveraging Deep Learning for Racial Hoax Detection in Code-Mixed Hindi-English Tweets}}\\ \hspace*{2em} Malliga Subramanian\index{Subramanian}, Aruna A\index{A}, Amudhavan M\index{M}, Jahaganapathi S\index{S} and Kogilavani Shanmugavadivel\index{Shanmugavadivel}\dotfill \hyperlink{page.111}{111}
+       \item \hyperlink{page.116}{\emph{Team\_Luminaries\_0227@LT-EDI-2025: A Transformer-Based Fusion Approach to Misogyny Detection in Chinese Memes}}\\ \hspace*{2em} Adnan Faisal\index{Faisal}, Shiti Chowdhury\index{Chowdhury}, Momtazul Arefin Labib\index{Labib} and Hasan Murad\index{Murad}\dotfill \hyperlink{page.116}{116}
+       \item \hyperlink{page.121}{\emph{Hinterwelt@LT-EDI 2025: A Transformer-Based Approach for Identifying Racial Hoaxes in Code-Mixed Hindi-English Social Media Narratives}}\\ \hspace*{2em} Md. Abdur Rahman\index{Rahman}, MD AL Amin\index{Amin}, Sabik Aftahee\index{Aftahee} and Md Ashiqur Rahman\index{Rahman}\dotfill \hyperlink{page.121}{121}
+       \item \hyperlink{page.127}{\emph{CUET\_12033@LT-EDI-2025: Misogyny Detection}}\\ \hspace*{2em} Mehreen Rahman\index{Rahman}, Faozia Fariha\index{Fariha}, Nabilah Tabassum\index{Tabassum}, Samia Rahman\index{Rahman} and Hasan Murad\index{Murad}\dotfill \hyperlink{page.127}{127}
+       \item \hyperlink{page.133}{\emph{CUET\_Blitz\_Aces@LT-EDI-2025: Leveraging Transformer Ensembles and Majority Voting for Hate Speech Detection}}\\ \hspace*{2em} Shahriar Farhan Karim\index{Karim}, Anower Sha Shajalal Kashmary\index{Kashmary} and Hasan Murad\index{Murad}\dotfill \hyperlink{page.133}{133}
+       \item \hyperlink{page.140}{\emph{Hinterwelt@LT-EDI 2025: A Transformer-Based Detection of Caste and Migration Hate Speech in Tamil Social Media}}\\ \hspace*{2em} MD AL Amin\index{Amin}, Sabik Aftahee\index{Aftahee}, Md. Abdur Rahman\index{Rahman}, Md Sajid Hossain Khan\index{Khan} and Md Ashiqur Rahman\index{Rahman}\dotfill \hyperlink{page.140}{140}
+       \item \hyperlink{page.146}{\emph{EM-26@LT-EDI 2025: Detecting Racial Hoaxes in Code-Mixed Social Media Data}}\\ \hspace*{2em} Tewodros Achamaleh\index{Achamaleh}, Fatima Uroosa\index{Uroosa}, Nida Hafeez\index{Hafeez}, Tolulope Olalekan Abiola\index{Abiola}, Mikiyas Mebraihtu\index{Mebraihtu}, Sara Getachew\index{Getachew}, Grigori Sidorov\index{Sidorov} and Rolando Quintero\index{Quintero}\dotfill \hyperlink{page.146}{146}
+       \item \hyperlink{page.152}{\emph{EM-26@LT-EDI 2025: Caste and Migration Hate Speech Detection in Tamil-English Code-Mixed Social Media Texts}}\\ \hspace*{2em} Tewodros Achamaleh\index{Achamaleh}, Tolulope Olalekan Abiola\index{Abiola}, Mikiyas Mebraihtu\index{Mebraihtu}, Sara Getachew\index{Getachew} and Grigori Sidorov\index{Sidorov}\dotfill \hyperlink{page.152}{152}
+       \item \hyperlink{page.159}{\emph{Hoax Terminators@LT-EDI 2025: CharBERT's dominance over LLM Models in the Detection of Racial Hoaxes in Code-Mixed Hindi-English Social Media Data}}\\ \hspace*{2em} Abrar Hafiz Rabbani\index{Rabbani}, Diganta Das Droba\index{Droba}, Momtazul Arefin Labib\index{Labib}, Samia Rahman\index{Rahman} and Hasan Murad\index{Murad}\dotfill \hyperlink{page.159}{159}
+       \item \hyperlink{page.171}{\emph{CUET\_Ignite@LT-EDI-2025: A Multimodal Transformer-Based Approach for Detecting Misogynistic Memes in Chinese Social Media}}\\ \hspace*{2em} MD.Mahadi Rahman\index{Rahman}, Mohammad Minhaj Uddin\index{Uddin}, Mohammad Oman\index{Oman} and Mohammad Shamsul Arefin\index{Arefin}\dotfill \hyperlink{page.171}{171}
+       \item \hyperlink{page.177}{\emph{girlsteam@LT-EDI-2025: Caste/Migration based hate speech Detection}}\\ \hspace*{2em} Towshin HOssain Tushi\index{Tushi}, Walisa Alam\index{Alam}, Rehenuma Ilman\index{Ilman} and Samia Rahman\index{Rahman}\dotfill \hyperlink{page.177}{177}
+       \item \hyperlink{page.183}{\emph{CUET\_320@LT-EDI-2025: A Multimodal Approach for Misogyny Meme Detection in Chinese Social Media}}\\ \hspace*{2em} Madiha Ahmed Chowdhury\index{Chowdhury}, Lamia Tasnim Khan\index{Khan}, Md.shafiqul Hasan\index{Hasan} and Ashim Dey\index{Dey}\dotfill \hyperlink{page.183}{183}
+       \item \hyperlink{page.189}{\emph{Speech Personalization using Parameter Efficient Fine-Tuning for Nepali Speakers}}\\ \hspace*{2em} Kiran Pantha\index{Pantha}, Rupak Raj Ghimire\index{Ghimire} and Bal Krishna Bal\index{Bal}\dotfill \hyperlink{page.189}{189}
+       \item \hyperlink{page.199}{\emph{An Overview of the Misogyny Meme Detection Shared Task for Chinese Social Media}}\\ \hspace*{2em} Bharathi Raja Chakravarthi\index{Chakravarthi}, Rahul Ponnusamy\index{Ponnusamy}, Ping Du\index{Du}, Xiaojian Zhuang\index{Zhuang}, Saranya Rajiakodi\index{Rajiakodi}, Paul Buitelaar\index{Buitelaar}, Premjith B\index{B}, Bhuvaneswari Sivagnanam\index{Sivagnanam} and SK Lavanya\index{Lavanya}\dotfill \hyperlink{page.199}{199}
+       \item \hyperlink{page.208}{\emph{Findings of the Shared Task Multilingual Bias and Propaganda Annotation in Political Discourse}}\\ \hspace*{2em} Shunmuga Priya Muthusamy Chinnan\index{Chinnan}, Bharathi Raja Chakravarthi\index{Chakravarthi}, Senthil Kumar B\index{B}, Saranya Rajiakodi\index{Rajiakodi} and Angel Deborah S\index{S}\dotfill \hyperlink{page.208}{208}
+       \item \hyperlink{page.214}{\emph{Findings of the Shared Task Caste and Migration Hate Speech Detection}}\\ \hspace*{2em} Saranya Rajiakodi\index{Rajiakodi}, Bharathi Raja Chakravarthi\index{Chakravarthi}, Rahul Ponnusamy\index{Ponnusamy}, Shunmuga Priya Muthusamy Chinnan\index{Chinnan}, Prasanna Kumar Kumaresan\index{Kumaresan}, Sathiyaraj Thangasamy\index{Thangasamy}, Bhuvaneswari Sivagnanam\index{Sivagnanam}, Balasubramanian Palani\index{Palani}, Kogilavani Shanmugavadivel\index{Shanmugavadivel}, Abirami Murugappan\index{Murugappan} and Charmathi Rajkumar\index{Rajkumar}\dotfill \hyperlink{page.214}{214}
+       \item \hyperlink{page.221}{\emph{Overview of the Shared Task on Detecting Racial Hoaxes in Code-Mixed Hindi-English Social Media Data}}\\ \hspace*{2em} Bharathi Raja Chakravarthi\index{Chakravarthi}, Prasanna Kumar Kumaresan\index{Kumaresan}, Shanu Dhawale\index{Dhawale}, Saranya Rajiakodi\index{Rajiakodi}, Sajeetha Thavareesan\index{Thavareesan}, Subalalitha Chinnaudayar Navaneethakrishnan\index{Navaneethakrishnan} and Thenmozhi Durairaj\index{Durairaj}\dotfill \hyperlink{page.221}{221}
+       \item \hyperlink{page.228}{\emph{Overview of Homophobia and Transphobia Span Detection in Social Media Comments}}\\ \hspace*{2em} Prasanna Kumar Kumaresan\index{Kumaresan}, Bharathi Raja Chakravarthi\index{Chakravarthi}, Ruba Priyadharshini\index{Priyadharshini}, Paul Buitelaar\index{Buitelaar}, Malliga Subramanian\index{Subramanian} and Kishore Kumar Ponnusamy\index{Ponnusamy}\dotfill \hyperlink{page.228}{228}
+       \item \hyperlink{page.234}{\emph{Overview of the Fifth Shared Task on Speech Recognition for Vulnerable Individuals in Tamil}}\\ \hspace*{2em} Bharathi B\index{B}, Bharathi Raja Chakravarthi\index{Chakravarthi}, Sripriya N\index{N}, Rajeswari Natarajan\index{Natarajan} and Ratnavel Rajalakshmi\index{Rajalakshmi}\dotfill \hyperlink{page.234}{234}
+  \end{itemize}
+\newpage
+
+%%%%%%%%%%%
+% Program %
+%%%%%%%%%%%
+
+
+\end{document}
