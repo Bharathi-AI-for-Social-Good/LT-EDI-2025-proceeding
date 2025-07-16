@@ -89,19 +89,6 @@
     name: A. JUSTIN GOPINATH
     username: ~A._JUSTIN_GOPINATH1
     institution: Vellore Institute of Technology, India
-  - emails: '****@cs.du.ac.in'
-    first_name: Aakash
-    homepage: https://www.aakashsingh.co.in
-    last_name: Singh
-    name: Aakash Singh
-    username: ~Aakash_Singh3
-    institution: Delhi University, India
-  - emails: '****@cse.mrt.ac.lk'
-    first_name: Aathavan
-    last_name: Nithiyananthan
-    name: Aathavan Nithiyananthan
-    username: ~Aathavan_Nithiyananthan1
-    institution: University of Moratuwa, Sri Lanka
   - emails: '****@gmail.com'
     first_name: Abdullah
     last_name: Nahian
@@ -116,40 +103,12 @@
     name: Abdur Rahman
     orcid: https://orcid.org/0009-0002-0507-8870
     username: ~Abdur_Rahman2
-  - emails: '****@ieee.org'
-    first_name: Abhai
-    institution: Carnegie Mellon University, India
-    last_name: Singh
-    middle_name: Pratap
-    name: Abhai Pratap Singh
-    orcid: https://orcid.org/0009-0002-2246-5442
-    username: ~Abhai_Pratap_Singh1
-  - emails: '****@mnnit.ac.in'
-    first_name: Abhay
-    last_name: Vishwakarma
-    name: Abhay Vishwakarma
-    username: ~Abhay_Vishwakarma1
-    institution: Motilal Nehru National Institute of Technology Allahabad, India
-  - emails: '****@cs.du.ac.in'
-    first_name: Abhishek
-    last_name: Yadav
-    middle_name: Singh
-    name: Abhishek Singh Yadav
-    username: ~Abhishek_Singh_Yadav1
-    institution: Delhi University, India
   - emails: '****@ssn.edu.in'
     first_name: Abirami
     last_name: Jayaraman
     name: Abirami Jayaraman
     username: ~Abirami_Jayaraman1
     institution: Sri Sivasubramaniya Nadar College of Engineering, India
-  - emails: '****@soton.ac.uk'
-    first_name: Adarsh
-    google_scholar_id: https://scholar.google.com/citations?user=5LHdUAcAAAAJ&hl=en
-    last_name: Valoor
-    name: Adarsh Valoor
-    username: ~Adarsh_Valoor1
-    institution: University of Southampton, UK
   - dblp_id: https://dblp.org/pid/290/7385
     emails: '****@cable.comcast.com'
     first_name: Adeep
@@ -160,16 +119,6 @@
     orcid: https://orcid.org/0000-0002-2003-4836
     semantic_scholar_id: https://www.semanticscholar.org/author/Adeep-Hande/2029654648
     username: ~Adeep_Hande1
-  - emails: '****@bcas.lk'
-    first_name: Ahamed
-    google_scholar_id: https://scholar.google.com/citations?user=kTsg84wAAAAJ&hl=en
-    homepage: https://www.linkedin.com/in/mohamednizzad/
-    institution: British College of Applied Studies, Sri Lanka
-    last_name: Nizzad
-    middle_name: Rameez Mohamed
-    name: Ahamed Rameez Mohamed Nizzad
-    orcid: https://orcid.org/0000-0003-2044-9027
-    username: ~Ahamed_Rameez_Mohamed_Nizzad1
   - emails: '****@sece.ac.in'
     first_name: Aishwarya
     google_scholar_id: https://scholar.google.com/citations?user=VXuXwQEAAAAJ&hl=en
@@ -193,20 +142,6 @@
     name: Angel Deborah S
     username: ~Angel_Deborah_S1
     institution: Sri Sivasubramaniya Nadar College of Engineering, India
-  - emails: '****@student.cuet.ac.bd'
-    first_name: Anik
-    last_name: Shanto
-    middle_name: Mahmud
-    name: Anik Mahmud Shanto
-    username: ~Anik_Mahmud_Shanto1
-    institution: Chittagong University of Engineering and Technology, Bangladesh
-  - emails: '****@student.sust.edu'
-    first_name: Anisha
-    last_name: Ahmed
-    name: Anisha Ahmed
-    orcid: https://orcid.org/0009-0000-5483-5781
-    username: ~Anisha_Ahmed1
-    institution: Shahjalal University of Science and Technology, Bangladesh
   - emails: '****@gmail.com'
     first_name: Anusha
     google_scholar_id: https://scholar.google.com/citations?user=SOsmjpwAAAAJ&hl=en
@@ -216,37 +151,12 @@
     name: Anusha M D Gowda
     username: ~Anusha_M_D_Gowda1
     institution: University of Mysore, India
-  - emails: '****@rmkec.ac.in'
-    first_name: Aravindh
-    last_name: M
-    name: Aravindh M
-    username: ~Aravindh_M2
-    institution: RMK Engineering College, India
   - emails: '****@student.cuet.ac.bd'
     first_name: Ariful
     last_name: Islam
     name: Ariful Islam
     username: ~Ariful_Islam2
     institution: Chittagong University of Engineering and Technology, Bangladesh
-  - emails: '****@rmkec.ac.in'
-    first_name: Arivuchudar
-    last_name: K
-    name: Arivuchudar K
-    username: ~Arivuchudar_K1
-    institution: RMK Engineering College, India
-  - emails: '****@rmkec.ac.in'
-    first_name: Arthi
-    last_name: R
-    name: ARTHI R
-    username: ~ARTHI_R2
-    institution: RMK Engineering College, India
-  - emails: '****@cb.students.amrita.edu'
-    first_name: Arun
-    last_name: D
-    middle_name: Prasad T
-    name: Arun Prasad T D
-    username: ~Arun_Prasad_T_D1
-    institution: Amrita Vishwa Vidyapeetham, India
   - emails: '****@ssn.edu.in'
     first_name: Aruna
     last_name: Shanmugam
@@ -263,13 +173,6 @@
     name: Arunaggiri Pandian Karunanidhi
     orcid: https://orcid.org/0000-0001-8420-573X
     username: ~Arunaggiri_Pandian_Karunanidhi1
-  - emails: '****@cb.students.amrita.edu'
-    first_name: Arya
-    last_name: Shijish
-    middle_name: Palackal
-    name: Arya Palackal Shijish
-    username: ~Arya_Palackal_Shijish1
-    institution: Amrita Vishwa Vidyapeetham, India
   - emails: '****@gmail.com'
     first_name: Asha
     institution: Mangalore University, India
@@ -291,12 +194,6 @@
     name: Ashok Yadav
     username: ~Ashok_Yadav1
     institution: Indian Institute of Information Technology, Allahabad, India
-  - emails: '****@rmkec.ac.in'
-    first_name: Ashraf
-    last_name: Deen
-    name: Ashraf Deen
-    username: ~Ashraf_Deen1
-    institution: RMK Engineering College, India
   - dblp_id: https://dblp.org/pid/382/9787
     emails: '****@student.cuet.ac.bd'
     first_name: Ashraful
@@ -306,13 +203,6 @@
     name: Ashraful Islam Paran
     username: ~Ashraful_Islam_Paran1
     institution: Chittagong University of Engineering and Technology, Bangladesh
-  - emails: '****@rgipt.ac.in'
-    first_name: Ashutosh
-    homepage: https://scholar.google.com/citations?user=9ocag4gAAAAJ&hl=en
-    last_name: Tripathi
-    name: Ashutosh Tripathi
-    username: ~Ashutosh_Tripathi1
-    institution: Rajiv Gandhi Institute of Petroleum Technology, India
   - dblp_id: https://dblp.org/pid/382/9873
     emails: '****@ssn.edu.in'
     first_name: Avaneesh
@@ -322,27 +212,6 @@
     orcid: https://orcid.org/0009-0003-2734-2393
     username: ~Avaneesh_Koushik1
     institution: Sri Sivasubramaniya Nadar College of Engineering, India
-  - emails: '****@ssn.edu.in'
-    first_name: B
-    last_name: Saathvik
-    name: B Saathvik
-    username: ~B_Saathvik1
-    institution: Sri Sivasubramaniya Nadar College of Engineering, India
-  - emails: '****@cput.ac.za'
-    first_name: Babatunde
-    google_scholar_id: https://scholar.google.com/citations?user=TatNmNsAAAAJ&hl=en
-    last_name: Abiola
-    middle_name: Abimbola
-    name: BABATUNDE Abimbola ABIOLA
-    username: ~BABATUNDE_Abimbola_ABIOLA1
-    institution: Cape Peninsula University of Technology, South Africa
-  - emails: '****@gmail.com'
-    first_name: Bachu
-    last_name: Harini
-    middle_name: Naga Sri
-    name: Bachu Naga sri Harini
-    username: ~Bachu_Naga_sri_Harini1
-    institution: Vellore Institute of Technology, India
   - emails: '****@cb.amrita.edu'
     first_name: Bagavathi
     google_scholar_id: https://scholar.google.com/citations?user=yS7BfzEAAAAJ&hl=en
@@ -364,25 +233,6 @@
     last_name: Sivagnanam
     name: Bhuvaneswari Sivagnanam
     username: ~Bhuvaneswari_Sivagnanam1
-  - emails: '****@buffalo.edu'
-    first_name: Billodal
-    homepage: https://github.com/billodalroy
-    institution: Lowe's, USA
-    last_name: Roy
-    name: Billodal Roy
-    username: ~Billodal_Roy1
-  - emails: '****@vitstudent.ac.in'
-    first_name: Bitan
-    last_name: Mallik
-    name: Bitan Mallik
-    username: ~Bitan_Mallik1
-    institution: Vellore Institute of Technology, India
-  - emails: '****@rmkec.ac.in'
-    first_name: Bommineni
-    last_name: Sahitya
-    name: Bommineni Sahitya
-    username: ~Bommineni_Sahitya1
-    institution: RMK Engineering College, India
   - emails: '****@rmkec.ac.in'
     first_name: Boomika
     last_name: E
@@ -395,13 +245,6 @@
     name: BURUGU RAHUL
     username: ~BURUGU_RAHUL1
     institution: Amrita Vishwa Vidyapeetham, India
-  - emails: '****@bhu.ac.in'
-    first_name: Deepawali
-    google_scholar_id: https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=deepawali+sharma&oq=
-    last_name: Sharma
-    name: Deepawali Sharma
-    username: ~Deepawali_Sharma1
-    institution: Banaras Hindu University, India
   - emails: '****@ieee.org'
     first_name: Deeptanshu
     google_scholar_id: https://scholar.google.com/citations?user=9Nbv7q0AAAAJ&hl=en
@@ -409,18 +252,6 @@
     last_name: Jha
     name: Deeptanshu Jha
     username: ~Deeptanshu_Jha1
-  - emails: '****@rmkec.ac.in'
-    first_name: Dhanyashree
-    last_name: G
-    name: Dhanyashree G
-    username: ~Dhanyashree_G1
-    institution: RMK Engineering College, India
-  - emails: '****@ssn.edu.in'
-    first_name: Dharunika
-    last_name: Sasikumar
-    name: Dharunika Sasikumar
-    username: ~Dharunika_Sasikumar1
-    institution: Sri Sivasubramaniya Nadar College of Engineering, India
   - emails: '****@jadavpuruniversity.in'
     first_name: Dipanjan
     google_scholar_id: https://scholar.google.com/citations?user=37Fs8n4AAAAJ&hl=en
@@ -428,55 +259,11 @@
     name: Dipanjan Saha
     username: ~Dipanjan_Saha1
     institution: Jadavpur University, India
-  - dblp_id: https://dblp.org/pid/48/3180-1
-    emails: '****@gmail.com'
-    first_name: Dipankar
-    google_scholar_id: https://scholar.google.com/citations?user=xiUCjgoAAAAJ&hl=en
-    institution: Jadavpur University, India
-    last_name: Das
-    name: Dipankar Das
-    orcid: https://orcid.org/0000-0002-8110-9344
-    username: ~Dipankar_Das3
-  - emails: '****@ssn.edu.in'
-    first_name: Diya
-    last_name: Seshan
-    name: Diya Seshan
-    username: ~Diya_Seshan1
-    institution: Sri Sivasubramaniya Nadar College of Engineering, India
-  - emails: '****@student.cuet.ac.bd'
-    first_name: Dola
-    last_name: Chakraborty
-    name: Dola Chakraborty
-    username: ~Dola_Chakraborty1
-    institution: Chittagong University of Engineering and Technology, Bangladesh
   - emails: '****@cb.students.amrita.edu'
     first_name: Dondluru
     last_name: Keerthana
     name: Dondluru Keerthana
     username: ~Dondluru_Keerthana1
-    institution: Amrita Vishwa Vidyapeetham, India
-  - emails: '****@rmkec.ac.in'
-    first_name: Dr
-    google_scholar_id: https://scholar.google.com/citations?user=d08vtdgAAAAJ&hl=en
-    last_name: Manikandan
-    middle_name: G
-    name: Dr G Manikandan
-    username: ~Dr_G_Manikandan1
-    institution: RMK Engineering College, India
-  - emails: '****@vit.ac.in'
-    first_name: Dr
-    google_scholar_id: https://scholar.google.com/citations?hl=en&user=V5h3q2IAAAAJ
-    institution: Vellore Institute of Technology, India
-    last_name: S
-    middle_name: Jannath Nisha O
-    name: Dr JANNATH NISHA O S
-    username: ~Dr_JANNATH_NISHA_O_S1
-  - emails: '****@cb.students.amrita.edu'
-    first_name: Durai
-    last_name: K
-    middle_name: Singh
-    name: Durai Singh K
-    username: ~Durai_Singh_K1
     institution: Amrita Vishwa Vidyapeetham, India
   - emails: '****@gmail.com'
     first_name: Durga
@@ -485,40 +272,6 @@
     middle_name: Prasad
     name: Durga Prasad Manukonda
     username: ~Durga_Prasad_Manukonda1
-  - dblp_id: https://dblp.org/pid/94/6877
-    emails: '****@univ-avignon.fr'
-    first_name: Eric
-    google_scholar_id: https://scholar.google.fr/citations?user=MMDTIhYAAAAJ&hl=en
-    homepage: https://termwatch.es
-    institution: Université d'Avignon, France
-    last_name: SanJuan
-    name: Eric SanJuan
-    orcid: https://orcid.org/0000-0002-4057-6691
-    username: ~Eric_SanJuan1
-  - emails: '****@student.cuet.ac.bd'
-    first_name: Fariha
-    last_name: Haq
-    name: Fariha Haq
-    username: ~Fariha_Haq1
-    institution: Chittagong University of Engineering and Technology, Bangladesh
-  - emails: '****@student.cuet.ac.bd'
-    first_name: Farjana
-    institution: Chittagong University of Engineering and Technology, Bangladesh
-    last_name: Tofa
-    middle_name: Alam
-    name: Farjana Alam Tofa
-    username: ~Farjana_Alam_Tofa1
-  - dblp_id: https://dblp.org/pid/329/4625
-    emails: '****@oregonstate.edu'
-    first_name: Fiona
-    google_scholar_id: https://scholar.google.com/citations?user=jKYhsdsAAAAJ&hl=en
-    homepage: https://fionavictoria.github.io/
-    last_name: Jothiraj
-    middle_name: Victoria Stanley
-    name: Fiona Victoria Stanley Jothiraj
-    semantic_scholar_id: https://www.semanticscholar.org/author/Fiona-Victoria-Stanley-Jothiraj/2184773396
-    username: ~Fiona_Victoria_Stanley_Jothiraj1
-    institution: Oregon State University, USA
   - dblp_id: https://dblp.org/pid/346/0237
     emails: '****@gmail.com'
     first_name: Fred
@@ -560,46 +313,12 @@
     orcid: https://orcid.org/0000-0002-1872-4555
     username: ~Girma_Yohannis_Bade1
     institution: Addis Ababa University, Ethiopia
-  - emails: '****@rmkec.ac.in'
-    first_name: Gladiss
-    google_scholar_id: https://scholar.google.com/citations?view_op=list_works&hl=en&user=l8t5fWoAAAAJ
-    last_name: N.r
-    middle_name: Merlin
-    name: Gladiss Merlin N.R
-    username: ~Gladiss_Merlin_N.R1
-    institution: RMK Engineering College, India
   - emails: '****@cb.students.amrita.edu'
     first_name: Gnanasabesan
     last_name: G
     name: Gnanasabesan G
     username: ~Gnanasabesan_G1
     institution: Amrita Vishwa Vidyapeetham, India
-  - emails: '****@nitpy.ac.in'
-    first_name: Habiba
-    last_name: A
-    name: Habiba A
-    orcid: https://orcid.org/0009-0005-6891-0726
-    username: ~Habiba_A1
-    institution: National Institute of Technology Puducherry, India
-  - dblp_id: https://dblp.org/pid/49/10546
-    emails: '****@fci.bu.edu.eg'
-    first_name: Hamada
-    google_scholar_id: https://scholar.google.co.in/citations?user=lIAtdBEAAAAJ&hl=en
-    homepage: https://bu.edu.eg/staff/hamadaali14
-    institution: Prince Sattam bin Abdulaziz University and Benha University, Saudi
-      Arabia
-    last_name: Nayel
-    name: Hamada Nayel
-    orcid: https://orcid.org/0000-0002-2768-4639
-    semantic_scholar_id: https://www.semanticscholar.org/author/Hamada-A.-Nayel/39926998
-    username: ~Hamada_Nayel1
-  - emails: '****@rmkec.ac.in'
-    first_name: Hare
-    last_name: C
-    middle_name: Ram
-    name: HARE RAM C
-    username: ~HARE_RAM_C1
-    institution: RMK Engineering College, India
   - emails: '****@cb.students.amrita.edu'
     first_name: Hari
     last_name: N
@@ -631,49 +350,12 @@
     middle_name: Lakshmaiah
     name: Hosahalli Lakshmaiah Shashirekha
     username: ~Hosahalli_Lakshmaiah_Shashirekha1
-  - emails: '****@cb.students.amrita.edu'
-    first_name: Ippatapu
-    last_name: Srichandra
-    middle_name: Venkata
-    name: Ippatapu Venkata Srichandra
-    username: ~IPPATAPU_VENKATA_SRICHANDRA1
-    institution: Amrita Vishwa Vidyapeetham, India
-  - dblp_id: https://dblp.org/pid/52/11350.html
-    emails: '****@ssn.edu.in'
-    first_name: J
-    google_scholar_id: https://scholar.google.co.in/citations?user=Ku7gQJAAAAAJ&hl=en
-    homepage: https://www.ssn.edu.in/staff-members/dr-j-bhuvana/
-    last_name: Bhuvana
-    name: J Bhuvana
-    orcid: https://orcid.org/0000-0002-9328-6989
-    username: ~J_Bhuvana1
-    institution: Sri Sivasubramaniya Nadar College of Engineering, India
-  - emails: '****@ssn.edu.in'
-    first_name: Jahnavi
-    last_name: Murali
-    name: Jahnavi Murali
-    username: ~Jahnavi_Murali1
-    institution: Sri Sivasubramaniya Nadar College of Engineering, India
-  - emails: '****@ssn.edu.in'
-    first_name: Janeshvar
-    last_name: Sivakumar
-    name: Janeshvar Sivakumar
-    username: ~Janeshvar_Sivakumar1
-    institution: Sri Sivasubramaniya Nadar College of Engineering, India
   - emails: '****@universityofgalway.ie'
     first_name: Jayanth
     last_name: Jeyadevaswamy
     name: Jayanth Jeyadevaswamy
     username: ~Jayanth_Jeyadevaswamy1
     institution: University of Galway, Ireland
-  - emails: '****@student.cuet.ac.bd'
-    first_name: Jidan
-    last_name: Abrar
-    middle_name: Al
-    name: Jidan Al Abrar
-    username: ~Jidan_Al_Abrar1
-    institution: Chittagong University of Engineering and Technology, Bangladesh,
-      India
   - emails: '****@iiitkottayam.ac.in'
     first_name: Jobin
     homepage: https://www.linkedin.com/in/dr-jobin-jose-iiitk-785288296?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
@@ -690,25 +372,6 @@
     middle_name: Lal
     name: JYOTHISH LAL G
     username: ~JYOTHISH_LAL_G1
-  - emails: '****@ssn.edu.in'
-    first_name: K
-    institution: Sri Sivasubramaniya Nadar College Of Engineering, India
-    last_name: Anishka
-    name: K ANISHKA
-    username: ~K_ANISHKA1
-  - emails: '****@rmkec.ac.in'
-    first_name: Kalpana
-    last_name: K
-    name: Kalpana K
-    username: ~Kalpana_K1
-    institution: RMK Engineering College, India
-  - emails: '****@gmail.com'
-    first_name: Kankipati
-    last_name: Meghana
-    middle_name: Venkata
-    name: Kankipati Venkata Meghana
-    username: ~Kankipati_Venkata_Meghana1
-    institution: Vellore Institute of Technology, India
   - dblp_id: https://dblp.org/pid/402/0669.html
     emails: '****@gmail.com'
     first_name: Kasu
@@ -720,18 +383,6 @@
     semantic_scholar_id: https://www.semanticscholar.org/author/Sai-Kartheek-Reddy-Kasu/2291373685
     username: ~Kasu_Sai_Kartheek_Reddy1
     institution: Indian Institute of Technology Tirupati, India
-  - emails: '****@vitstudent.ac.in'
-    first_name: Kavin
-    last_name: Bharathi
-    name: Kavin Bharathi
-    username: ~Kavin_Bharathi1
-    institution: Vellore Institute of Technology, India
-  - emails: '****@student.cuet.ac.bd'
-    first_name: Kawsar
-    last_name: Ahmed
-    name: Kawsar Ahmed
-    username: ~Kawsar_Ahmed2
-    institution: Chittagong University of Engineering and Technology, Bangladesh
   - emails: '****@gmail.com'
     first_name: Keerthana
     last_name: Nnl
@@ -739,58 +390,11 @@
     username: ~Keerthana_NNL1
     institution: Vellore Institute of Technology, India
   - emails: '****@rmkec.ac.in'
-    first_name: Keerthi
-    last_name: A
-    middle_name: Vasan
-    name: Keerthi Vasan A
-    username: ~Keerthi_Vasan_A1
-    institution: RMK Engineering College, India
-  - emails: '****@student.cuet.ac.bd'
-    first_name: Khadiza
-    last_name: Sayma
-    middle_name: Sultana
-    name: Khadiza Sultana Sayma
-    username: ~Khadiza_Sultana_Sayma1
-    institution: Chittagong University of Engineering and Technology, Bangladesh
-  - emails: '****@gmail.com'
-    first_name: Kogilavani
-    google_scholar_id: https://scholar.google.co.in/citations?user=Jx7cdnoAAAAJ&hl=en
-    last_name: Shanmugavadivel
-    name: Kogilavani Shanmugavadivel
-    orcid: https://orcid.org/my-orcid?orcid=0000-0002-0715-143X
-    username: ~Kogilavani_Shanmugavadivel1
-    institution: Sri Sivasubramaniya Nadar College of Engineering, India
-  - emails: '****@cb.students.amrita.edu'
-    first_name: Konkimalla
-    last_name: Vignesh
-    middle_name: Laxmi
-    name: Konkimalla Laxmi Vignesh
-    username: ~KONKIMALLA_LAXMI_VIGNESH2
-    institution: Amrita Vishwa Vidyapeetham, India
-  - emails: '****@cb.students.amrita.edu'
-    first_name: Kritika
-    last_name: A
-    name: Kritika A
-    username: ~Kritika_A1
-    institution: Amrita Vishwa Vidyapeetham, India
-  - emails: '****@rmkec.ac.in'
-    first_name: Lahari
-    last_name: P
-    name: Lahari P
-    username: ~Lahari_P1
-    institution: RMK Engineering College, India
-  - emails: '****@rmkec.ac.in'
     first_name: Lalith
     last_name: P
     middle_name: Kishore V
     name: Lalith Kishore V P
     username: ~Lalith_Kishore_V_P1
-    institution: RMK Engineering College, India
-  - emails: '****@rmkec.ac.in'
-    first_name: Lekhashree
-    last_name: A
-    name: Lekhashree A
-    username: ~Lekhashree_A1
     institution: RMK Engineering College, India
   - emails: '****@cse.mrt.ac.lk'
     first_name: Luxshan
@@ -798,12 +402,6 @@
     name: Luxshan Thavarasa
     username: ~Luxshan_Thavarasa1
     institution: University of Moratuwa, Sri Lanka
-  - emails: '****@cb.students.amrita.edu'
-    first_name: MC
-    last_name: Dhanush
-    name: MC Dhanush
-    username: ~MC_Dhanush1
-    institution: Amrita Vishwa Vidyapeetham, India
   - emails: '****@student.cuet.ac.bd'
     first_name: MD.Mahadi
     institution: Chittagong University of Engineering and Technology, Bangladesh
@@ -840,13 +438,6 @@
     username: ~Manan_Buddhadev1
   - emails: '****@student.cuet.ac.bd'
     first_name: Md
-    last_name: Hasan
-    middle_name: Mehedi
-    name: Md Mehedi Hasan
-    username: ~Md_Mehedi_Hasan2
-    institution: Chittagong University of Engineering and Technology, Bangladesh
-  - emails: '****@student.cuet.ac.bd'
-    first_name: Md
     institution: Chittagong University of Engineering and Technology, Bangladesh
     last_name: Kabir
     middle_name: Minhazul
@@ -872,20 +463,6 @@
     username: ~Md_Ayon_Mia1
   - emails: '****@student.cuet.ac.bd'
     first_name: Md.
-    last_name: Chowdhury
-    middle_name: Sajid Alam
-    name: Md. Sajid Alam Chowdhury
-    username: ~Md._Sajid_Alam_Chowdhury1
-    institution: Chittagong University of Engineering and Technology, Bangladesh
-  - emails: '****@student.cuet.ac.bd'
-    first_name: Md.
-    last_name: Hossain
-    middle_name: Sajjad
-    name: Md. Sajjad Hossain
-    username: ~Md._Sajjad_Hossain1
-    institution: Chittagong University of Engineering and Technology, Bangladesh
-  - emails: '****@student.cuet.ac.bd'
-    first_name: Md.
     homepage: https://refaj-hossan.vercel.app/home.html
     last_name: Hossan
     middle_name: Refaj
@@ -894,39 +471,11 @@
     institution: Chittagong University of Engineering and Technology, Bangladesh
   - emails: '****@student.cuet.ac.bd'
     first_name: Md.
-    institution: Chittagong University of Engineering and Technology, Bangladesh
-    last_name: Miah
-    middle_name: Alam
-    name: Md. Alam Miah
-    username: ~Md._Alam_Miah1
-  - emails: '****@student.cuet.ac.bd'
-    first_name: Md.
     last_name: Naib
     middle_name: Mubasshir
     name: Md. Mubasshir Naib
     username: ~Md._Mubasshir_Naib1
     institution: Chittagong University of Engineering and Technology, Bangladesh
-  - emails: '****@cb.students.amrita.edu'
-    first_name: Meenakshy
-    last_name: S
-    name: Meenakshy S
-    username: ~Meenakshy_S1
-    institution: Amrita Vishwa Vidyapeetham, India
-  - emails: '****@vitstudent.ac.in'
-    first_name: Meetesh
-    last_name: Saini
-    name: Meetesh Saini
-    username: ~Meetesh_Saini1
-    institution: Vellore Institute of Technology, India
-  - emails: '****@gmail.com'
-    first_name: Mesay
-    google_scholar_id: https://scholar.google.com/citations?user=2MzwqbgAAAAJ&hl=en
-    institution: Instituto Politécnico Nacional, Mexico
-    last_name: Yigezu
-    middle_name: Gemeda
-    name: Mesay Gemeda Yigezu
-    orcid: https://orcid.org/0000-0003-1913-2612
-    username: ~Mesay_Gemeda_Yigezu1
   - emails: '****@cic.ipn.mx'
     first_name: Mikhail
     google_scholar_id: https://scholar.google.com/citations?hl=es?authuser%3D1&pli=1&authuser=1&user=hDQWdP4AAAAJ
@@ -964,14 +513,6 @@
     name: Mithun M
     username: ~Mithun_M1
     institution: Sri Eshwar College of Engineering, India
-  - emails: '****@cuet.ac.bd'
-    first_name: Mohammad
-    google_scholar_id: https://scholar.google.com/citations?user=BnNejIMAAAAJ&hl=en
-    last_name: Arefin
-    middle_name: Shamsul
-    name: Mohammad Shamsul Arefin
-    username: ~Mohammad_Shamsul_Arefin1
-    institution: Chittagong University of Engineering and Technology, Bangladesh
   - emails: '****@rmkec.ac.in'
     first_name: Mohan
     last_name: A
@@ -1028,23 +569,6 @@
     semantic_scholar_id: https://www.semanticscholar.org/author/Dr-N-Nasurudeen-Ahamed/120130665
     username: ~N.Nasurudeen_Ahamed1
     institution: United Arab Emirates University, UAE
-  - dblp_id: https://dblp.org/pid/303/0640
-    emails: '****@umich.edu'
-    first_name: Naihao
-    google_scholar_id: https://scholar.google.com/citations?user=3_qUtH4AAAAJ&hl=en
-    homepage: https://dnaihao.github.io
-    last_name: Deng
-    name: Naihao Deng
-    orcid: https://orcid.org/0000-0003-0294-2897
-    semantic_scholar_id: https://www.semanticscholar.org/author/Naihao-Deng/2142468208
-    username: ~Naihao_Deng1
-    institution: University of Michigan, USA
-  - emails: '****@student.cuet.ac.bd'
-    first_name: Nazmus
-    last_name: Sakib
-    name: Nazmus Sakib
-    username: ~Nazmus_Sakib4
-    institution: Chittagong University of Engineering and Technology, Bangladesh
   - emails: '****@cic.ipn.mx'
     first_name: Nida
     last_name: Hafeez
@@ -1052,25 +576,11 @@
     orcid: https://orcid.org/0009-0008-5490-102X
     username: ~Nida_Hafeez1
     institution: Instituto Politécnico Nacional, Mexico
-  - emails: '****@lowes.com'
-    first_name: Niranjan
-    institution: Lowe's Companies, Inc.
-    last_name: M
-    middle_name: Kumar
-    name: Niranjan kumar M
-    username: ~Niranjan_kumar_M1
   - emails: '****@cb.students.amrita.edu'
     first_name: Nishanth.S
     last_name: Nishanth.S
     name: Nishanth.S
     username: ~Nishanth.S1
-    institution: Amrita Vishwa Vidyapeetham, India
-  - emails: '****@cb.students.amrita.edu'
-    first_name: Nithish
-    last_name: K
-    middle_name: Ariyha
-    name: Nithish Ariyha K
-    username: ~Nithish_Ariyha_K1
     institution: Amrita Vishwa Vidyapeetham, India
   - dblp_id: https://dblp.org/pid/277/0807
     emails: '****@gmail.com'
@@ -1083,34 +593,12 @@
     name: Nitin Nikamanth Appiah Balaji
     orcid: https://orcid.org/0000-0002-6105-0998
     username: ~Nitin_Nikamanth_Appiah_Balaji1
-  - emails: '****@iic.ac.in'
-    first_name: Nitisha
-    last_name: Aggarwal
-    name: Nitisha Aggarwal
-    orcid: https://orcid.org/0000-0001-7468-8395
-    username: ~Nitisha_Aggarwal2
-    institution: University of Delhi, India
-  - dblp_id: https://dblp.org/pid/89/8671
-    emails: '****@gmail.com'
-    first_name: Olga
-    google_scholar_id: https://scholar.google.com/citations?user=cXgJJqAAAAAJ&hl=en
-    institution: Instituto Politécnico Nacional (CIC), Mexico
-    last_name: Kolesnikova
-    name: Olga Kolesnikova
-    orcid: https://orcid.org/0000-0002-6159-6261
-    username: ~Olga_Kolesnikova1
   - emails: '****@ssn.edu.in'
     first_name: Pandiarajan
     last_name: D
     name: Pandiarajan D
     username: ~Pandiarajan_D1
     institution: Sri Sivasubramaniya Nadar College of Engineering, India
-  - emails: '****@rmkec.ac.in'
-    first_name: Pavithra
-    last_name: J
-    name: Pavithra J
-    username: ~Pavithra_J1
-    institution: RMK Engineering College, India
   - emails: '****@oracle.com'
     first_name: Payal
     last_name: Godhani
@@ -1118,26 +606,6 @@
     orcid: https://orcid.org/0009-0005-6675-3157
     username: ~Payal_Godhani1
     institution: Oracle, India
-  - emails: '****@ssn.edu.in'
-    first_name: Ponsubash
-    last_name: R
-    middle_name: Raj
-    name: Ponsubash Raj R
-    username: ~Ponsubash_Raj_R1
-    institution: Sri Sivasubramaniya Nadar College of Engineering, India
-  - emails: '****@cb.students.amrita.edu'
-    first_name: Poojitha
-    last_name: Manikandan
-    middle_name: Sai
-    name: Poojitha Sai Manikandan
-    username: ~Poojitha_Sai_Manikandan1
-    institution: Amrita Vishwa Vidyapeetham, India
-  - emails: '****@cornell.edu'
-    first_name: Pranav
-    institution: Lowes Inc
-    last_name: Gupta
-    name: Pranav Gupta
-    username: ~Pranav_Gupta4
   - emails: '****@cb.amrita.edu'
     first_name: Premjith
     google_scholar_id: https://scholar.google.co.in/citations?user=B4J7II0AAAAJ&hl=en
@@ -1152,19 +620,6 @@
     name: PRIYANKA ASHOKAN
     username: ~PRIYANKA_ASHOKAN1
     institution: Sree Chitra Thirunal College of Engineering, India
-  - emails: '****@cse.mrt.ac.lk'
-    first_name: Priyatharshan
-    last_name: Balachandran
-    name: Priyatharshan Balachandran
-    username: ~Priyatharshan_Balachandran1
-    institution: University of Moratuwa, Sri Lanka
-  - emails: '****@ssn.edu.in'
-    first_name: Radha
-    google_scholar_id: https://scholar.google.co.in/citations?user=MxoJelkAAAAJ&hl=en
-    last_name: N
-    name: Radha N
-    username: ~Radha_N1
-    institution: Sri Sivasubramaniya Nadar College of Engineering, India
   - emails: '****@iptgptc.ac.in'
     first_name: Radhika
     institution: National Institute of Technology Trichy and Institute of Printing
@@ -1189,14 +644,6 @@
     name: Rajalakshmi Sivanaiah
     username: ~Rajalakshmi_Sivanaiah1
   - emails: '****@gmail.com'
-    first_name: Rajeswari
-    google_scholar_id: https://scholar.google.com/citations?hl=en&amp;user=V63CVVcAAAAJ
-    institution: Sri Sivasubramaniya Nadar Institutions, India
-    last_name: Rajasekar
-    name: Rajeswari Rajasekar
-    orcid: https://orcid.org/0000-0003-0705-0548
-    username: ~RajeswariRajasekar1
-  - emails: '****@gmail.com'
     first_name: RajeswariRajasekar
     google_scholar_id: https://scholar.google.com/citations?hl=en&amp;user=V63CVVcAAAAJ
     institution: Sri Sivasubramaniya Nadar Institutions, India
@@ -1211,21 +658,6 @@
     name: Raksha Adyanthaya
     username: ~Raksha_Adyanthaya1
     institution: Yenepoya Institute Of Arts, Science, Commerce and Management, India
-  - emails: '****@vitstudent.ac.in'
-    first_name: Ramesh
-    google_scholar_id: https://scholar.google.com/citations?user=ddCj3iYAAAAJ&hl=en
-    last_name: R
-    middle_name: Kannan
-    name: Ramesh Kannan R
-    orcid: https://orcid.org/0000-0002-6220-1217
-    username: ~Ramesh_Kannan_R1
-    institution: Vellore Institute of Technology, India
-  - emails: '****@cb.students.amrita.edu'
-    first_name: Rasha
-    last_name: Sharma
-    name: Rasha Sharma
-    username: ~Rasha_Sharma1
-    institution: Amrita Vishwa Vidyapeetham, India
   - dblp_id: https://dblp.org/pid/287/7762
     emails: '****@vit.ac.in'
     first_name: Ratnavel
@@ -1244,26 +676,6 @@
     name: Ravi Teja Potla
     orcid: https://orcid.org/0009-0006-1683-5098
     username: ~Ravi_Teja_Potla2
-  - emails: '****@cb.students.amrita.edu'
-    first_name: Riya
-    institution: Amrita Vishwa Vidyapeetham, India
-    last_name: Rajeev
-    name: Riya Rajeev
-    username: ~Riya_Rajeev1
-  - emails: '****@gmail.com'
-    first_name: Rohith
-    homepage: https://asrlytics.com
-    institution: asrlytics LLC, USA
-    last_name: Kodali
-    middle_name: Gowtham
-    name: Rohith Gowtham Kodali
-    username: ~Rohith_Gowtham_Kodali1
-  - emails: '****@cb.students.amrita.edu'
-    first_name: S
-    last_name: Ananthasivan
-    name: S Ananthasivan
-    username: ~S_Ananthasivan1
-    institution: Amrita Vishwa Vidyapeetham, India
   - emails: '****@student.cuet.ac.bd'
     first_name: Sabik
     homepage: https://sites.google.com/view/sabik-aftahee/home?authuser=0
@@ -1273,22 +685,6 @@
     username: ~Sabik_Aftahee1
     institution: Chittagong University of Engineering and Technology, Bangladesh
   - emails: '****@gmail.com'
-    first_name: Sabrina
-    last_name: Mitu
-    middle_name: Afroz
-    name: Sabrina Afroz Mitu
-    username: ~Sabrina_Afroz_Mitu1
-    institution: Shahjalal University of Science and Technology, Bangladesh
-  - emails: '****@gmail.com'
-    first_name: Sachin
-    google_scholar_id: https://scholar.google.co.in/citations?user=-ztk7jMAAAAJ&hl=en
-    homepage: https://www.amrita.edu/faculty/s-sachinkumar/
-    institution: Amrita Vishwa Vidyapeetham, India
-    last_name: S
-    middle_name: Kumar
-    name: Sachin Kumar S
-    username: ~Sachin_Kumar_S1
-  - emails: '****@gmail.com'
     first_name: Sai
     google_scholar_id: https://scholar.google.com/citations?user=U-3Z1b4AAAAJ&hl=en
     institution: Pennsylvania State University, USA
@@ -1296,39 +692,12 @@
     name: Sai Koneru
     orcid: https://orcid.org/0000-0001-8582-5914
     username: ~Sai_Koneru2
-  - emails: '****@vitstudent.ac.in'
-    first_name: Sakkthi
-    last_name: D
-    middle_name: Gurru
-    name: Sakkthi Gurru D
-    username: ~Sakkthi_Gurru_D2
-    institution: Vellore Institute of Technology, India
-  - emails: '****@rmkec.ac.in'
-    first_name: Sandra
-    homepage: https://www.rmkec.ac.in/2023/aids/hod/
-    institution: RMK Engineering College, India
-    last_name: Johnson
-    name: SANDRA JOHNSON
-    username: ~SANDRA_JOHNSON1
-  - emails: '****@gmu.edu'
-    first_name: Santhosh
-    google_scholar_id: https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=l86hPDUAAAAJ
-    last_name: Kakarla
-    name: Santhosh Kakarla
-    username: ~Santhosh_Kakarla2
-    institution: George Mason University, USA
   - emails: '****@iiita.ac.in'
     first_name: Sarbajeet
     last_name: Pattanaik
     name: Sarbajeet Pattanaik
     username: ~Sarbajeet_Pattanaik1
     institution: Indian Institute of Information Technology, Allahabad, India
-  - emails: '****@ssn.edu.in'
-    first_name: Sarumathi
-    last_name: P
-    name: Sarumathi P
-    username: ~Sarumathi_P1
-    institution: Sri Sivasubramaniya Nadar College of Engineering, India
   - emails: '****@gmu.edu'
     first_name: Satya
     last_name: Venkata
@@ -1350,39 +719,6 @@
     name: Sayan Das
     username: ~Sayan_Das1
     institution: Jadavpur University, India
-  - emails: '****@gmail.com'
-    first_name: Sayan
-    last_name: Das
-    name: Sayan Das
-    username: ~Sayan_Das1
-    institution: Jadavpur University, India
-  - emails: '****@student.cuet.ac.bd'
-    first_name: Shamima
-    last_name: Afroz
-    name: Shamima Afroz
-    username: ~Shamima_Afroz1
-    institution: Chittagong University of Engineering and Technology, Bangladesh
-  - emails: '****@ssn.edu.in'
-    first_name: Shankari
-    last_name: R
-    middle_name: S
-    name: Shankari S R
-    username: ~Shankari_S_R1
-    institution: Sri Sivasubramaniya Nadar College of Engineering, India
-  - emails: '****@vitstudent.ac.in'
-    first_name: Shanmitha
-    last_name: Thirumoorthy
-    name: Shanmitha Thirumoorthy
-    username: ~Shanmitha_Thirumoorthy1
-    institution: Vellore Institute of Technology, India
-  - emails: '****@g.bracu.ac.bd'
-    first_name: Sheikh
-    last_name: Rahman
-    middle_name: Ayatur
-    name: Sheikh Ayatur Rahman
-    orcid: https://orcid.org/0009-0005-1043-5774
-    username: ~Sheikh_Ayatur_Rahman1
-    institution: BRAC University, Bangladesh
   - emails: '****@ssn.edu.in'
     first_name: Shreyas
     google_scholar_id: https://scholar.google.com/citations?user=I5dp48gAAAAJ&hl=en&authuser=2
@@ -1402,19 +738,6 @@
     name: Shruthikaa V
     username: ~Shruthikaa_V1
     institution: Amrita Vishwa Vidyapeetham, India
-  - emails: '****@soton.ac.uk'
-    first_name: Shuang
-    google_scholar_id: https://scholar.google.com/citations?user=WtxgM-wAAAAJ&hl=en
-    institution: University of Southampton, England
-    last_name: Ao
-    name: Shuang Ao
-    username: ~Shuang_Ao4
-  - emails: '****@gmail.com'
-    first_name: Siddhaarth
-    last_name: Sekar
-    name: Siddhaarth Sekar
-    username: ~Siddhaarth_Sekar1
-    institution: Vellore Institute of Technology, India
   - dblp_id: https://dblp.org/pid/234/1259
     emails: '****@pg.canterbury.ac.nz'
     first_name: Sidney
@@ -1460,20 +783,6 @@
     last_name: K
     name: Sreeja K
     username: ~Sreeja_K1
-  - emails: '****@ssn.edu.in'
-    first_name: Srihari
-    last_name: K
-    middle_name: V
-    name: Srihari V K
-    orcid: https://orcid.org/0009-0004-6900-834X
-    username: ~Srihari_V_K1
-    institution: Sri Sivasubramaniya Nadar College of Engineering, India
-  - emails: '****@student.cuet.ac.bd'
-    first_name: Srijita
-    last_name: Dhar
-    name: Srijita Dhar
-    username: ~Srijita_Dhar1
-    institution: Chittagong University of Engineering and Technology, Bangladesh
   - dblp_id: 'https://dblp.org/pid/196/6100 #dblp'
     emails: '****@ssn.edu.in'
     first_name: Sripriya
@@ -1484,52 +793,12 @@
     semantic_scholar_id: https://www.semanticscholar.org/author/N.-Sripriya/9368009
     username: ~Sripriya_N1
     institution: Sri Sivasubramaniya Nadar College of Engineering, India
-  - emails: '****@cb.students.amrita.edu'
-    first_name: Subhashini
-    last_name: Sudhakar
-    name: Subhashini Sudhakar
-    username: ~Subhashini_Sudhakar1
-    institution: Amrita Vishwa Vidyapeetham, India
-  - emails: '****@ssn.edu.in'
-    first_name: Swathika
-    google_scholar_id: https://scholar.google.com/citations?user=ETtcUuQAAAAJ&hl=en
-    last_name: R
-    name: Swathika R
-    username: ~Swathika_R1
-    institution: Sri Sivasubramaniya Nadar College of Engineering, India
-  - emails: '****@vit.ac.in'
-    first_name: Swetha.N.G
-    google_scholar_id: https://scholar.google.com/citations?user=CMJ8TiQAAAAJ&hl=en
-    last_name: Swetha.N.G
-    name: Swetha.N.G
-    username: ~Swetha.N.G1
-    institution: Vellore Institute of Technology, India
-  - emails: '****@student.cuet.ac.bd'
-    first_name: Syeda
-    last_name: Noor
-    middle_name: Alisha
-    name: Syeda Alisha Noor
-    username: ~Syeda_Alisha_Noor1
-    institution: Chittagong University of Engineering and Technology, Bangladesh
-  - emails: '****@student.cuet.ac.bd'
-    first_name: Symom
-    last_name: Shohan
-    middle_name: Hossain
-    name: Symom Hossain Shohan
-    username: ~Symom_Hossain_Shohan1
-    institution: Chittagong University of Engineering and Technology, Bangladesh
   - emails: '****@ssn.edu.in'
     first_name: Tanisha
     last_name: Sriram
     name: Tanisha Sriram
     username: ~Tanisha_Sriram1
     institution: Sri Sivasubramaniya Nadar College of Engineering, India
-  - emails: '****@cb.students.amrita.edu'
-    first_name: Tara
-    last_name: Samiksha
-    name: Tara Samiksha
-    username: ~Tara_Samiksha1
-    institution: Amrita Vishwa Vidyapeetham, India
   - emails: '****@yahoo.com'
     first_name: Tareque
     homepage: https://tmdh.github.io/
@@ -1538,13 +807,6 @@
     name: Tareque Md Hanif
     username: ~Tareque_Md_Hanif1
     institution: Shahjalal University of Science and Technology, Bangladesh
-  - emails: '****@fuoye.edu.ng'
-    first_name: Temitope
-    homepage: http://googlescholar.com/oladepo.temitope
-    last_name: Oladepo
-    name: Temitope Oladepo
-    username: ~Temitope_Oladepo1
-    institution: Federal University Oye-Ekiti, Nigeria
   - emails: '****@gmail.com'
     first_name: Tewodros
     google_scholar_id: https://scholar.google.com/citations?user=vODJs98AAAAJ&hl=en&authuser=1
@@ -1580,17 +842,6 @@
     name: Uma Jothi
     username: ~Uma_Jothi1
     institution: Amrita Vishwa Vidyapeetham, India
-  - dblp_id: https://dblp.org/pid/380/5969.html
-    emails: '****@pm.me'
-    first_name: V
-    google_scholar_id: https://scholar.google.co.in/citations?user=7vmyl_IAAAAJ&hl=en
-    homepage: https://vgcharan.github.io/
-    institution: Collaborative Dynamics, India
-    last_name: Gurucharan
-    name: V Gurucharan
-    orcid: https://orcid.org/0000-0002-7355-6558
-    semantic_scholar_id: https://www.semanticscholar.org/author/V.-Gurucharan/102704485
-    username: ~V_Gurucharan1
   - emails: '****@gmail.com'
     first_name: Vajratiya
     google_scholar_id: https://scholar.google.co.in/citations?user=aXHZ4g4AAAAJ&hl=en
@@ -1599,64 +850,5 @@
     name: Vajratiya Vajrobol
     username: ~Vajratiya_Vajrobol1
     institution: Vellore Institute of Technology, India
-  - emails: '****@gmail.com'
-    first_name: Venkatesh
-    institution: Meridian Cooperative, India
-    last_name: Velugubantla
-    name: Venkatesh Velugubantla
-    username: ~Venkatesh_Velugubantla1
-  - emails: '****@vitstudent.ac.in'
-    first_name: Vijay
-    last_name: R
-    middle_name: Manickam
-    name: Vijay Manickam R
-    username: ~Vijay_Manickam_R1
-    institution: Vellore Institute of Technology, India
-  - emails: '****@cb.students.amrita.edu'
-    first_name: Vikash
-    last_name: J
-    name: Vikash J
-    username: ~Vikash_J1
-    institution: Amrita Vishwa Vidyapeetham, India
-  - emails: '****@cb.students.amrita.edu'
-    first_name: Vishal
-    google_scholar_id: https://scholar.google.com/citations?user=fPK6EDAAAAAJ&hl=en
-    last_name: S
-    middle_name: A
-    name: Vishal A S
-    username: ~Vishal_A_S1
-    institution: Amrita Vishwa Vidyapeetham, India
-  - emails: '****@cs.du.ac.in'
-    first_name: Vivek
-    homepage: https://viveksingh.in/
-    last_name: Singh
-    middle_name: Kumar
-    name: Vivek Kumar Singh
-    username: ~Vivek_Kumar_Singh7
-    institution: Delhi University, India
-  - dblp_id: https://dblp.org/pid/70/7529.html
-    emails: '****@iiita.ac.in'
-    first_name: Vrijendra
-    google_scholar_id: https://scholar.google.com/citations?user=8i9FP_QAAAAJ&hl=en
-    homepage: https://profile.iiita.ac.in/vrij/
-    last_name: Singh
-    name: Vrijendra Singh
-    orcid: https://orcid.org/0000-0002-8818-5673
-    username: ~Vrijendra_Singh1
-    institution: Indian Institute of Information Technology, Allahabad, India
-  - emails: '****@student.sust.edu'
-    first_name: Wahid
-    last_name: Faisal
-    name: Wahid Faisal
-    orcid: https://orcid.org/0009-0006-4691-1207
-    username: ~Wahid_Faisal1
-    institution: Shahjalal University of Science and Technology, Bangladesh
-  - emails: '****@cb.students.amrita.edu'
-    first_name: Yeshwanth
-    last_name: P
-    middle_name: Balaji A
-    name: Yeshwanth Balaji A P
-    username: ~Yeshwanth_Balaji_A_P1
-    institution: Amrita Vishwa Vidyapeetham, India
   role: Reviewers
   type: name_block

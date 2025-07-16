@@ -443,13 +443,14 @@ ISBN \VAR{conference.isbn}
 \BLOCK{endfor}
 \BLOCK{endif}
 
+
 \BLOCK{if include_papers}  % Flag to generate only front matter or include papers.
 %%%%%%%%%%
 % Papers %
 %%%%%%%%%%
 \pagenumbering{arabic}
 \setcounter{page}{1}
- \renewcommand{\headrulewidth}{0pt}
+\renewcommand{\headrulewidth}{0pt}
 \BLOCK{for paper in archival_papers}
   \AddToShipoutPicture*{
     \setlength{\unitlength}{1mm}
