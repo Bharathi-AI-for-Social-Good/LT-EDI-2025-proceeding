@@ -1760,4 +1760,22 @@
     username: ~Yeshwanth_Balaji_A_P1
     institution: Amrita Vishwa Vidyapeetham, India
   role: Reviewers
+- entries:
+  - emails: '****@gmail.com'
+    first_name: Naihao
+    last_name: Deng
+    middle_name: Deng
+    name: Naihao Deng Deng
+    username: ~Naihao_Deng1
+    institution: University of Michigan, USA
+  role: Best Reviewers
+- entries:
+  - emails: '****@gmail.com'
+    first_name: Naihao
+    last_name: Deng
+    middle_name: Deng
+    name: Naihao Deng Deng
+    username: ~Naihao_Deng1
+    institution: University of Michigan, USA
+  role: Active Reviewers
   type: name_block

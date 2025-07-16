@@ -1726,6 +1726,14 @@
     name: Bhuvaneswari Sivagnanam
     username: ~Bhuvaneswari_Sivagnanam1
   - emails: '****@gmail.com'
+    first_name: Anshid
+    google_scholar_id: https://scholar.google.com/citations?hl=en&user=2MUgbbEAAAAJ
+    last_name: A
+    middle_name: K
+    name: Anshid K A
+    orcid: https://orcid.org/0009-0003-4824-5250
+    username: ~Anshid_K_A1
+  - emails: '****@gmail.com'
     first_name: SK
     google_scholar_id: https://scholar.google.com/citations?user=s3dszaoAAAAJ&hl=en&oi=sra
     institution: Anna University
@@ -1736,7 +1744,7 @@
   file: 35.pdf
   id: 35
   openreview_id: TwgB03jAYP
-  pdf_file: 1273867e45b542f80efc8b566472fdbacaa91e5e.pdf
+  pdf_file: 309ea4e2be433d4ab4c19328fd291c01642b3ad8.pdf
   title: An Overview of the Misogyny Meme Detection Shared Task for Chinese Social
     Media
 - abstract: The Multilingual Bias and Propaganda Annotation task focuses on annotating
@@ -2140,10 +2148,15 @@
     name: Ratnavel Rajalakshmi
     orcid: https://orcid.org/0000-0002-6570-483X
     username: ~Ratnavel_Rajalakshmi1
+  - emails: '****@ssn.edu.in'
+    first_name: Suhasini
+    last_name: S
+    name: Suhasini S
+    username: ~Suhasini_S1
   decision: Submission
   file: 41.pdf
   id: 41
   openreview_id: qGDXhdehLm
-  pdf_file: 703dbb6abd47797df41fc60ab963329a27983fd4.pdf
+  pdf_file: 890d3f272c4350ce691ca0776340e6796b8cce29.pdf
   title: Overview of the Fifth Shared Task on Speech Recognition for Vulnerable Individuals
     in Tamil

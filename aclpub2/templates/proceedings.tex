@@ -211,8 +211,8 @@ ISBN \VAR{conference.isbn}
     \BLOCK{endfor}
       \BLOCK{elif block.type is equalto("name_block")}
     \BLOCK{if block.role == "Reviewers"}
-      \BLOCK{for reviewer in sort_by_first_name(block.entries)}
-        \VAR{reviewer.name} (\VAR{reviewer.institution})\\
+      \BLOCK{for reviewer in block.entries}
+        \VAR{reviewer.name|title}, \VAR{reviewer.institution}\\
       \BLOCK{endfor}
     \BLOCK{else}
       \BLOCK{for name_block in group_by_last_name(block.entries)}
