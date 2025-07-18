@@ -409,25 +409,30 @@ ISBN \VAR{conference.isbn}
 % Program %
 %%%%%%%%%%%
 \BLOCK{if program}
-\phantomsection
-\addcontentsline{toc}{section}{Program}
 \renewcommand{\baselinestretch}{0.87}
 \setlength{\parindent}{0in}
 \setlength{\parskip}{2ex}
 
-\begin{center}
-{\Large \textbf{Program}}
-\end{center}
-\vspace*{0.5em}
-
+\BLOCK{set date_index = 0}
 \BLOCK{for date, pages in program}
+  \BLOCK{set date_index = date_index + 1}
   \BLOCK{set ns = namespace(first=true)}
   \BLOCK{for page in pages}
+
+    \BLOCK{if date_index == 1 and loop.index == 1}
+      \phantomsection
+      \addcontentsline{toc}{section}{Program}
+      \begin{center}
+      {\Large \textbf{Program}}
+      \end{center}
+      \vspace*{0.5em}
+    \BLOCK{endif}
+
     \begin{tabular}{p{24mm}p{124mm}}
     \multicolumn{2}{l}{\bf \VAR{program_date(date)} \BLOCK{if ns.first is not true}(continued)\BLOCK{endif}} \\\\
     \BLOCK{for entry in page}
       \BLOCK{if entry.type is equalto("header")}
-      \VAR{session_times(entry)} & \emph{\VAR{entry.title}}\\\\
+        \VAR{session_times(entry)} & \emph{\VAR{entry.title}}\\\\
       \BLOCK{endif}
 
       \BLOCK{if entry.type is equalto("paper")}
