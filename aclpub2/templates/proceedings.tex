@@ -405,38 +405,41 @@ ISBN \VAR{conference.isbn}
 % \newpage
 \BLOCK{endif}
 
+
 %%%%%%%%%%%
 % Program %
 %%%%%%%%%%%
 \BLOCK{if program}
+\phantomsection
+\addcontentsline{toc}{section}{Program}
 \renewcommand{\baselinestretch}{0.87}
 \setlength{\parindent}{0in}
 \setlength{\parskip}{2ex}
+% \BLOCK{set total_dates = program|length}
+% \BLOCK{set date_index = 0}
+% \clearpage
+\begin{center}
+  {\Large \textbf{Program}}
+\end{center}
+\vspace*{0.5em}
 
-\BLOCK{set date_index = 0}
 \BLOCK{for date, pages in program}
-  \BLOCK{set date_index = date_index + 1}
+  % \BLOCK{set date_index = date_index + 1}
+  % \BLOCK{set total_pages = pages|length}
+  % \BLOCK{set page_index = 0}
   \BLOCK{set ns = namespace(first=true)}
-  \BLOCK{for page in pages}
 
-    \BLOCK{if date_index == 1 and loop.index == 1}
-      \phantomsection
-      \addcontentsline{toc}{section}{Program}
-      \begin{samepage}
-      \begin{center}
-        {\Large \textbf{Program}}
-      \end{center}
-      \vspace*{0.5em}
-    \BLOCK{endif}
+  \BLOCK{for page in pages}
+    \BLOCK{set page_index = page_index + 1}
 
     \begin{tabular}{p{24mm}p{124mm}}
-    \multicolumn{2}{l}{\bf \VAR{program_date(date)} \BLOCK{if ns.first is not true}(continued)\BLOCK{endif}} \\\\
+    \multicolumn{2}{l}{\bf \VAR{program_date(date)} \BLOCK{if not ns.first}(continued)\BLOCK{endif}} \\\\
     \BLOCK{for entry in page}
-      \BLOCK{if entry.type is equalto("header")}
+      \BLOCK{if entry.type == "header"}
         \VAR{session_times(entry)} & \emph{\VAR{entry.title}}\\\\
       \BLOCK{endif}
 
-      \BLOCK{if entry.type is equalto("paper")}
+      \BLOCK{if entry.type == "paper"}
         \BLOCK{set paper = id_to_paper[entry.paper.id]}
         & \hyperlink{page.\VAR{paper.start_page}}{\emph{\VAR{paper.title}}}\\
         & \VAR{join_names(", ", paper.authors, " and ")}\\\\
@@ -444,16 +447,15 @@ ISBN \VAR{conference.isbn}
     \BLOCK{endfor}
     \end{tabular}
 
-    \BLOCK{if date_index == 1 and loop.index == 1}
-      \end{samepage}
-    \BLOCK{endif}
-
-    \newpage
+    % Only insert \newpage if not the last page of the last date
+    % \BLOCK{if not (date_index == total_dates and page_index == total_pages)}
+      % \newpage
+    % \BLOCK{endif}
     \BLOCK{set ns.first = false}
+
   \BLOCK{endfor}
 \BLOCK{endfor}
 \BLOCK{endif}
-
 
 \BLOCK{if include_papers}  % Flag to generate only front matter or include papers.
 %%%%%%%%%%
