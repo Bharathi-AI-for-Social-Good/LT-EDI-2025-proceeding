@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.7.15)  22 JUL 2025 11:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.7.15)  22 JUL 2025 11:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -799,32 +799,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 320--322
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 320--322
-
- []
-
 [8]
 Underfull \hbox (badness 10000) in paragraph at lines 343--345
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 343--345
-
- []
-
-[9] [10] [11] [12]
+[9] [10] [11] [12] [13]
 Overfull \vbox (12.64677pt too high) has occurred while \output is active []
 
 
-[13]
+[14]
 Underfull \hbox (badness 1430) in paragraph at lines 467--468
 [][][]\T5/ptm/m/it/10.95 SSNCSE@LT-EDI-2025:Detecting Mi-so-gy-ny Me-mes using 
 Pre-trai-ned Deep
  []
 
-[14] [15] [16] [17] (build/front_matter.aux)
+[15] [16] [17] [18] (build/front_matter.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
@@ -837,11 +827,11 @@ Package rerunfilecheck Warning: File `front_matter.out' has changed.
 
 Package rerunfilecheck Info: Checksums for `front_matter.out':
 (rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  B7A9F52B43DCF55BD9BD58415C7E3154;1072.
+(rerunfilecheck)             After:  B3C9D8DC9760BE113482B9E3AC75C5B2;1000.
  ) 
 Here is how much of TeX's memory you used:
- 13179 strings out of 474222
- 209220 string characters out of 5748733
+ 13180 strings out of 474222
+ 209230 string characters out of 5748733
  1944975 words of memory out of 5000000
  35176 multiletter control sequences out of 15000+600000
  585639 words of font info for 61 fonts, out of 8000000 for 9000
@@ -1001,10 +991,10 @@ dist/fonts/type1/vntex/urwvn/utmbi8v.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/vntex/urwv
 n/utmr8v.pfb></usr/share/texlive/texmf-dist/fonts/type1/vntex/urwvn/utmri8v.pfb
 >
-Output written on build/front_matter.pdf (17 pages, 1200621 bytes).
+Output written on build/front_matter.pdf (18 pages, 1200963 bytes).
 PDF statistics:
- 345 PDF objects out of 1000 (max. 8388607)
- 300 compressed objects within 3 object streams
- 64 named destinations out of 1000 (max. 500000)
+ 350 PDF objects out of 1000 (max. 8388607)
+ 303 compressed objects within 4 object streams
+ 65 named destinations out of 1000 (max. 500000)
  31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
