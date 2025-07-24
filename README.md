@@ -1,36 +1,14 @@
-# How to generate proceedings for \*CL Conferences and Workshops in aclpub2 format
+# Generate proceedings for LT-EDI 2025 Workshops in aclpub2 format
 
-**aclpub2** supports the generation of Proceedings and Booklets for \*CL Conferences (ACL, NAACL, EMNLP, ... ) and related Workshops. 
-This README has been created to provide the instructions to follow to generate proceedings/booklets in aclpub2 format. 
+This README created to provide the instructions to follow to generate proceedings. 
 
 The provided Python tool to generate the proceedings takes as input a set of files containing all information on the event (in the `.yml` format) and generates a `.tex` file containing the conference details, sponsors, prefaces, organizing and program committees, as well as the concatenation of all the watermarked accepted papers and the author index. Such `.tex` file is then compiled to generate the `pdf` file of the proceedings.
-
-
-## Before starting
-
-###  Which reviewing platform is your conference/workshop using?
-- OpenReview. This guide is for you, we will explain you how to use the provided tool to generate the proceedings (and the handbook) automatically from OpenReview. 
-- EasyChair (or any other reviewing platform). This guide is for you, we will explain you how to generate the proceedings starting from manually edited files.
-- SoftConf. You can either follow the istructions provided by this guide to generate the proceedings starting from manually edited files (this is the suggested option for small-medium size events) or follow the [ACLPUB instructions](https://github.com/acl-org/acl-pub/blob/gh-pages/aclpub-start.md). In case you choose to use aclpub2 from information uploaded to softconf, we have recently added scripts to automate the export of info about the papers and program committee from that platform in a format compatible with aclpub2. The process is not fully automated but can be useful to simplify the process. Please take a look at the folder `softconf`.
-
-
-## Table of Contents
-1. [Proceedings input format and structure](#Proceedings-input-format-and-structure)
-
-2. [Expected output](#Expected-output)
-
-3. [Manually editing yml input files](#Manually-editing-yml-input-files)
-
-4. [How to export yml files from OpenReview](#How-to-export-yml-files-from-OpenReview)
-
-5. [Testing the tool to generate your proceedings](#Testing-the-tool-to-generate-your-proceedings)
-
 
 ## Proceedings input format and structure
 The scripts to generate the proceedings accept as input a set of `.yml` files and directories. A YML file is a text document that contains data formatted using YAML (YAML Ain't Markup Language), a human-readable data format used for data serialization. You can open a YML file in any text editor (or source code editor).
 Examples and usage of YAML syntax can be found [here](https://www.w3schools.io/file/yaml-arrays/).
 
-The following `.yml` files should be provided to the generation scripts. Files 1, 2, 3, 4 and 6 should be manually edited with information concerning your conference/workshops, while files 5 and 7 can be automatically exported from OpenReview (or manually edited if you are not using OpenReview).
+The following `.yml` files should be provided to the generation scripts. Files 1, 2, 3, 4 and 6 should be manually edited with information concerning workshops, while files 5 and 7 can be automatically exported from OpenReview (or manually edited if you are not using OpenReview).
 
 1. `conference_details.yml`
 2. `sponsors.yml` (optional)
@@ -41,24 +19,6 @@ The following `.yml` files should be provided to the generation scripts. Files 1
 7. `papers.yml`
 
 We strongly suggest taking a look at this [link](https://github.com/rycolab/aclpub2/tree/main/examples/sigdial), where you can find **examples** of all the above files initialized for a past conference.
-
-In addition, for the handbook, a file `program.yml` should be created [Jump to Handbook generation instructions](#Handbook-generation-instructions). 
-
-## Expected output
-The generated proceedings should be sent to the publication chairs as a `.zip` or `.tgz` file containing a folder named with the conference/workshop acronym. Some publication chairs prefer uploading the files to a dedicated GitHub repository.
-
-The build process creates two directories called `build` and `output`. Note that the `build` directory is just temporary and is **not** intended to be shippied to the publication chairs. The `output` directory is the one to be shipped. This directory should contain all of the files that the publication chairs need, but it is always a good idea to confirm that this directory contains all of the files described below.
-
-If you are interested in an example of the `output` folder, just run the software on the test case, as discussed [here](#test-run).
-
-In a nutshell, such folder should contain:
-1. A PDF file named `proceedings.pdf` containing the whole conference/workshop proceedings (i.e., the introduction and all the watermarked PDFs of the camera ready papers).
-2. A folder named `watermarked_pdf` containing all the pdfs of the watermarked camera ready papers. 
- - **Important:** this folder *MUST* contain the special file named `0.pdf` that only contains the initial part of the proceedings (from the cover to the table of contents). The software automatically add it, but please check it, otherwise the Proceedings cannot be added to the ACL Anthology.
-3. A folder name `attachments` containinng all files attached to the indivual papers during their submission (e.g., the code attached to a paper). Notice that each attachment myst be correctly referred in the `papers.yml` file with respect to the base folder named `attachments`. Only in case no paper has an attachment, this folder can be omitted. 
-4. A folder named `inputs` containing all the input files used to generate the proceedings. In particular, this folder must contain the input `yml` and `tex` files used. You can also an the not watermarked pdfs in the subfolder `inputs/papers`. Plase avoid to add here the attachments of the individual papers (e.g., the code or software). They must be collected in the `attachments` folder described below. This folder is automatically built from the software and copied in the output folder, but please remember to check it. 
-
-Upload the resulting file (`ACRONYM_data.tgz`) to a file server or cloud storage (e.g., Google Drive) and email the link to it to the ACL publication chairs, who will assemble them for delivery to the Anthology. Please do not send the file as an email attachment.
 
 **REALLY IMPORTANT:** Before generating the final proceedings, please carefully check the input pdfs of the camera ready papers with the ACLPUBCHECK tool, a Python tool that automatically detects author formatting errors, margin violations as well as many other common formatting errors in papers that are using the LaTeX sty file associated with ACL venues. The tool and instructions to use it can be found [here](https://github.com/acl-org/aclpubcheck). We *strongly suggest* to share with the authors this tool before the sumbission of their final camera ready, in order to reduce the effort of controlling possibly hundreds of papers. 
 
@@ -90,31 +50,7 @@ watermark_book_title: [optional] If you do not want to use the text in the book_
 
 **Notice**: avoid using LaTeX escape codes but simply use the characters in UTF8, e.g., Rilić instead of Rili'\\{c})).
 
-
-Here some example, first for a conference:
-
-```yaml
-book_title: Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Long Papers)
-event_name: The 60th Annual Meeting of the Association for Computational Linguistics
-cover_subtitle: Proceedings of the Conference (Long Papers)
-anthology_venue_id: ACL
-start_date: 2022-05-22
-end_date: 2022-05-27
-isbn: XXX-X-XXXXXX-XX-X (you should replace this with the real ISBN)
-location: Dublin, Ireland
-editors:
-  - first_name: Smaranda
-    last_name: Muresan
-  - first_name: Preslav
-    last_name: Nakov
-  - first_name: Aline
-    last_name: Villavicencio
-publisher: Association for Computational Linguistics
-volume_name: long
-watermark_book_title: "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics\\\\Volume 1: Long Papers"
-```
-
-and for a workshop
+Here some example, for a workshop
 
 ```yaml
 book_title: Proceedings of the 2nd Workshop on Human Evaluation of NLP Systems (HumEval 2021)
@@ -138,8 +74,6 @@ publisher: Association for Computational Linguistics
 volume_name: 1
 watermark_book_title: Proceedings of the 2nd Workshop on Human Evaluation of NLP Systems (HumEval 2021)
 ```
-
-
 #### sponsors.yml
 This file should list the sponsors (if any). A directory containing the related logos should be created in the same directory of the `.yml` files (named sponsor_logos/).
 
@@ -148,7 +82,6 @@ This file should list the sponsors (if any). A directory containing the related 
   logos:
     - Path to a logo file relative to the sponsor_logos/ directory, e.g. facebook.png
 ```
-
 #### prefaces.yml
 This file should list the prefaces that will be included in the proceedings. A directory containing the `.tex` files that provide the text of the prefaces should be created in the same directory of the `.yml` files (named prefaces/).
 
@@ -210,7 +143,6 @@ and only what is usually found between the `\begin{document}` and `\end{document
 
 This file should list the accepted papers, along with a directory (named papers/) containing the associated PDFs.
 Each of the listed papers must have a unique ID so that they may be referred to by ID within the `program.yml` file later on. You can edit this file manually, or export it from OpenReview [Jump to How to export yml files from OpenReview](#How-to-export-yml-files-from-OpenReview).
-
 
 ```yaml
 - id: Unique ID for the paper.
@@ -306,8 +238,6 @@ python or2program_committee.py myuser@acl.com 123456 aclweb.org/ACL/2022/Confere
 
 2. During the script execution, you may see a message such as "ERROR: or_id not found". It means that the script could not retrieve the profile's information from OpenReview. Therefore, you must insert manually the data in the `paper.yml` or `program_committee.yml`. You can identify the problematic OpenReview ID and their papers in `paper.log` and `program_committee.log`
 
-  
-
 ## Testing the tool to generate your proceedings
 Now that you know the expected structure of the proceedings and you know how to edit/export the required `.yml` input files, you are ready to test the tool to automatically generate the proceedings. First of all, follow the Setup procedures. 
 
@@ -323,12 +253,6 @@ Excellent, you are now ready to run the generation scripts on the files you have
 python -m pip install -r requirements.txt
 ```
 
-### Setup: Install Java
-
-Java is required to use the [pax](https://ctan.org/pkg/pax?lang=en) latex library,
-which is responsible for extracting and reinserting PDF links.
-Visit the [Java website](https://www.java.com/) for instructions on how to install.
-
 ### Setup: Install `pdflatex` and associated dependencies.
 
 #### Ubuntu/Debian
@@ -336,17 +260,6 @@ Visit the [Java website](https://www.java.com/) for instructions on how to insta
 ```
 sudo apt-get install texlive-latex-base texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended texlive-fonts-extra texlive-bibtex-extra texlive-lang-all
 ```
-
-#### OSX
-
-Install `mactex`.
-
-One way this is to install [Homebrew](https://brew.sh) first and then:
-
-```
-brew install mactex
-```
-
 ### Test Run
 
 Ensure that `PYTHONPATH` includes `.`, for example `export PYTHONPATH=.:$PYTHONPATH`.
@@ -385,7 +298,6 @@ Users may wish to make modifications to the output `.tex` files.
 Though we recommend first copying the `.tex` files to a new working directory,
 the `--overwrite` flag helps ensure that local modifications are not accidentally erased.
 
-
 ## Development
 
 The above describe a reasonable default usage of this package, but the behavior can easily be extended or modified by adjusting the contents of the `aclpub2/` directory.
@@ -404,40 +316,3 @@ the Jinja library. Documentation can be found [here](https://jinja.palletsprojec
 Additional configuration for Jinja can be found in the `aclpub2/templates.py` file.
 The purpose of this file are to set up the Jinja environment with LaTeX-like block delimiters so that the `proceedings.tex` file can be syntax highlighted and otherwise interacted with in a fashion that is more natural for LaTeX users.
 In addition, it is also responsible for configuring some convenience functions that allow us to create some LaTeX structures in the final output `.tex` file that are easier to write in native Python than either the Jinja base syntax, or LaTeX alone.
-
-## Handbook generation instructions
-
-** Work in progress **
-
-#### program.yml
-
-Describes the conference program.
-This file is organized in blocks, each with a title, start, and end time, followed by a list of papers IDs.
-Instead of defining presentations, sessions may define subsessions, which have the same structure as the top-level session.
-
-```yaml
-- title: Title of the conference session, e.g. Opening Remarks
-  start_time: Start time of the session as an ISO datestring.
-  end_time: End time of the session as an ISO datestring.
-  location: Location that the session is taking place in, e.g. Main Hall or Online
-  chair: (opt) Name of the chair of the session, e.g. Jane Doe.
-  url: (opt) URL to join or view the session, if applicable.
-  papers:
-  - id: Paper ID
-    start_time: Optional start time of the paper slot as an ISO datestring.
-    end_time: Optional start time of the paper slot as an ISO datestring.
-# Or, if this is a session that is broken into subsessions:
-- title: Title of the conference session, e.g. Opening Remarks
-  start_time: Start time of the session as an ISO datestring.
-  end_time: End time of the session as an ISO datestring.
-  subsessions:
-    - title: Title of the conference session, e.g. Opening Remarks
-    start_time: Start time of the session as an ISO datestring.
-    end_time: End time of the session as an ISO datestring.
-    chair: (opt) Name of the chair of the session, e.g. Jane Doe.
-    location: Location that the session is taking place in.
-    papers:
-    - id: Paper ID
-      start_time: Optional start time of the paper slot as an ISO datestring.
-      end_time: Optional start time of the paper slot as an ISO datestring.
-```
