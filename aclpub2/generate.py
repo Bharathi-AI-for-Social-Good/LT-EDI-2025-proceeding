@@ -16,7 +16,6 @@ import yaml
 
 PARENT_DIR = Path(__file__).parent
 
-
 def generate_proceedings(path: str, overwrite: bool, outdir: str, nopax: bool, frontmatter: bool):
     root = Path(path)
     build_dir = Path("build")
