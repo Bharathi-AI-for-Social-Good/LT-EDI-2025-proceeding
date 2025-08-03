@@ -1,0 +1,2281 @@
+- abstract: Misogyny meme detection is identifying memes that are harmful or offensive
+    to women. These memes can hide hate behind jokes or images, making them difficult
+    to identify. It's important to detect them for a safer and respectful internet
+    for everyone. Our model proposed a multimodal method for misogyny meme detection
+    in Chinese social media by combining both textual and visual aspects of memes.
+    The training and evaluation data were part of a shared task on detecting misogynistic
+    content.  We used a pretrained ResNet-50 architecture to extract visual representations
+    of the memes and processed the meme transcriptions with BERT. The model fused
+    modality-specific representations with a feed-forward neural net for classification.
+    The selected pretrained models were frozen to avoid overfitting and to enhance
+    generalization across all classes, and only the final classifier was fine-tuned
+    on labelled meme recollection. The model was trained and evaluated using test
+    data to achieve a macro F1-score of 0.70345. As a result, we have validated lightweight
+    combining approaches for multimodal fusion techniques on noisy social media and
+    how they can be validated in the context of hostile meme detection tasks.
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area: null
+  authors:
+  - emails: '****@ssn.edu.in'
+    first_name: Sreeja
+    institution: Sri Sivasubramaniya Nadar College of Engineering
+    last_name: K
+    name: Sreeja K
+    username: ~Sreeja_K1
+  - dblp_id: https://dblp.org/pid/176/3054.html
+    emails: '****@ssn.edu.in'
+    first_name: Bharathi
+    google_scholar_id: https://scholar.google.co.in/citations?user=Js22CPwAAAAJ
+    homepage: https://www.ssn.edu.in/staff-members/dr-b-bharathi/
+    last_name: B
+    name: Bharathi B
+    orcid: https://orcid.org/0000-0001-7279-5357
+    username: ~Bharathi_B1
+  decision: Poster
+  end_page: 5
+  file: 1.pdf
+  id: 1
+  num_pages: 5
+  openreview_id: BqgmziaD9Z
+  pdf_file: 65f9528b4399ce38b7a73a545e0e395f23936891.pdf
+  start_page: 1
+  title: SSNCSE@LT-EDI-2025:Detecting Misogyny Memes using Pretrained Deep Learning
+    models
+- abstract: Speech recognition is a helpful tool for accessing technology and allowing
+    people to interact with technology naturally. This is especially true for people
+    who want to access technology but may encounter challenges interacting with technology
+    in traditional formats. Some examples of these people include the elderly or people
+    from the transgender community. This research presents an Automatic Speech Recognition
+    (ASR) system developed for Tamil-speaking elderly and transgender people who are
+    generally underrepresented in mainstream ASR training datasets. The proposed work
+    used the speech data shared by the task organisers of LT-EDI2025. In the proposed
+    work used the fine-tuned model of OpenAI's Whisper model with Parameter-Efficient
+    Fine-Tuning (P-EFT) with Low-Rank Adaptation (LoRA) along with SpecAugment, and
+    used the AdamW optimization method. The model's work led to an overall Word Error
+    Rate (WER) of 42.3\% on the untranscribed test data. A key feature of our work
+    is that it demonstrates potential equitable and accessible ASR systems addressing
+    the linguistic and acoustic features of vulnerable groups.
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area: null
+  authors:
+  - emails: '****@ssn.edu.in'
+    first_name: Sreeja
+    institution: Sri Sivasubramaniya Nadar College of Engineering
+    last_name: K
+    name: Sreeja K
+    username: ~Sreeja_K1
+  - dblp_id: https://dblp.org/pid/176/3054.html
+    emails: '****@ssn.edu.in'
+    first_name: Bharathi
+    google_scholar_id: https://scholar.google.co.in/citations?user=Js22CPwAAAAJ
+    homepage: https://www.ssn.edu.in/staff-members/dr-b-bharathi/
+    last_name: B
+    name: Bharathi B
+    orcid: https://orcid.org/0000-0001-7279-5357
+    username: ~Bharathi_B1
+  decision: Poster
+  end_page: 10
+  file: 2.pdf
+  id: 2
+  num_pages: 5
+  openreview_id: EjRtDOGwQV
+  pdf_file: 69be71a99829db4ed3518f3518995603ea2f9217.pdf
+  start_page: 6
+  title: SSNCSE@LT-EDI-2025:Speech Recognition for Vulnerable Individuals in Tamil
+- abstract: "This research presents an improved Tamil Automatic Speech Recognition\
+    \ (ASR) system designed to enhance accessibility for elderly and transgender populations\
+    \ by addressing unique language challenges. We address the challenges of Tamil\
+    \ ASR\u2014including limited high-quality curated datasets, unique phonetic characteristics,\
+    \ and word-merging tendencies\u2014through a comprehensive pipeline. Our methodology\
+    \ integrates Adaptive Variational Mode Decomposition (AVMD) for selective noise\
+    \ reduction based on signal characteristics, Silero Voice Activity Detection (VAD)\
+    \ with GRU architecture to eliminate non-speech segments, and fine-tuning of OpenAI's\
+    \ Whisper model optimized for Tamil transcription. The system employs beam search\
+    \ decoding during inference to further improve accuracy. Our approach achieved\
+    \ state-of-the-art performance with a Word Error Rate (WER) of 31.9,winning first\
+    \ place in the LT-EDI 2025 shared task."
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area: null
+  authors:
+  - emails: '****@cb.students.amrita.edu'
+    first_name: Ganesh
+    last_name: S
+    middle_name: Sundhar
+    name: Ganesh Sundhar S
+    username: ~Ganesh_Sundhar_S1
+  - emails: '****@cb.students.amrita.edu'
+    first_name: Hari
+    last_name: N
+    middle_name: Krishnan
+    name: Hari Krishnan N
+    username: ~Hari_Krishnan_N1
+  - emails: '****@cb.students.amrita.edu'
+    first_name: Arun
+    last_name: D
+    middle_name: Prasad T
+    name: Arun Prasad T D
+    username: ~Arun_Prasad_T_D1
+  - emails: '****@cb.students.amrita.edu'
+    first_name: Shruthikaa
+    last_name: V
+    name: Shruthikaa V
+    username: ~Shruthikaa_V1
+  - emails: '****@cb.amrita.edu'
+    first_name: Jyothish
+    google_scholar_id: https://scholar.google.co.in/citations?user=QC0uozEAAAAJ&hl=en
+    homepage: https://www.amrita.edu/faculty/jyothish-lal-g/
+    institution: Amrita Vishwa Vidyapeetham (Deemed University)
+    last_name: G
+    middle_name: Lal
+    name: JYOTHISH LAL G
+    username: ~JYOTHISH_LAL_G1
+  decision: Poster
+  end_page: 16
+  file: 4.pdf
+  id: 4
+  num_pages: 6
+  openreview_id: t2HpNgjM7J
+  pdf_file: 92035fba53de66048e22778026ec3860615a6cc2.pdf
+  start_page: 11
+  title: 'CrewX@LT-EDI-2025: Transformer-Based Tamil ASR Fine-Tuning with AVMD Denoising
+    and GRU-VAD for Enhanced Transcription Accuracy'
+- abstract: "Speech recognition has received extensive research attention in recent\
+    \ years. It becomes much more challenging when the speaker\u2019s\nage, gender\
+    \ and other factors introduce variations in the speech. In this work, we propose\
+    \ a fine-tuned automatic speech recognition model derived from OpenAI\u2019s whisper\x02\
+    large-v2. Though we experimented with both Whisper-large and Wav2vec2-XLSR-large,\
+    \ the reduced WER of whisper-large proved to be a superior model. We secured 4th\
+    \ rank in the LT-EDI-2025 shared task. Our implementation details and code are\
+    \ available at our GitHub repository1\n."
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area: null
+  authors:
+  - emails: '****@gmail.com'
+    first_name: Priyobroto
+    last_name: Acharya
+    name: Priyobroto Acharya
+    username: ~Priyobroto_Acharya1
+  - emails: '****@gmail.com'
+    first_name: Soham
+    last_name: Chaudhuri
+    name: Soham Chaudhuri
+    orcid: https://orcid.org/0009-0004-4306-4167
+    username: ~Soham_Chaudhuri1
+  - emails: '****@gmail.com'
+    first_name: Sayan
+    last_name: Das
+    name: Sayan Das
+    username: ~Sayan_Das1
+  - emails: '****@jadavpuruniversity.in'
+    first_name: Dipanjan
+    google_scholar_id: https://scholar.google.com/citations?user=37Fs8n4AAAAJ&hl=en
+    last_name: Saha
+    name: Dipanjan Saha
+    username: ~Dipanjan_Saha1
+  - dblp_id: https://dblp.org/pid/48/3180-1
+    emails: '****@gmail.com'
+    first_name: Dipankar
+    google_scholar_id: https://scholar.google.com/citations?user=xiUCjgoAAAAJ&hl=en
+    institution: Jadavpur University
+    last_name: Das
+    name: Dipankar Das
+    orcid: https://orcid.org/0000-0002-8110-9344
+    username: ~Dipankar_Das3
+  decision: Poster
+  end_page: 25
+  file: 5.pdf
+  id: 5
+  num_pages: 9
+  openreview_id: dJNsWFvKUd
+  pdf_file: e0fef0a6deedeeed546646212d391cea9c678f60.pdf
+  start_page: 17
+  title: 'JUNLP@LT-EDI-2025: Efficient Low-Rank Adaptation of Whisper for Inclusive
+    Tamil Speech Recognition Targeting Vulnerable Populations'
+- abstract: This paper presents a description of the paper submitted to the Shared
+    Task on Homophobia and Transphobia Detection in Social Media Comments, LT-EDI
+    at LDK 2025. We propose a hybrid approach to detect homophobic and transphobic
+    content in low-resource languages using Term Frequency-Inverse Document Frequency
+    (TF-IDF) and Bidirectional Encoder Representations from Transformers (BERT) for
+    contextual embeddings. The TF-IDF helps capture the token's importance, whereas
+    BERT generates contextualized embeddings. This hybridization subsequently generates
+    an embedding that contains statistical surface-level patterns and deep semantic
+    understanding. The system uses principal component analysis (PCA) and a random
+    forest classifier. The application of PCA converts a sparse, very high-dimensional
+    embedding into a dense representation by keeping only the most relevant features.
+    The model achieved robust performance across eight Indian languages, with the
+    highest accuracy in Hindi. However, lower performance in Marathi highlights challenges
+    in low-resource settings. Combining TF-IDF and BERT embeddings leads to better
+    classification results, showing the benefits of integrating simple and complex
+    language models. Limitations include potential feature redundancy and poor performance
+    in languages with complex word forms, indicating a need for future adjustments
+    to support multiple languages and address imbalances.
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area: null
+  authors:
+  - emails: '****@cb.students.amrita.edu'
+    first_name: Konkimalla
+    last_name: Vignesh
+    middle_name: Laxmi
+    name: KONKIMALLA LAXMI VIGNESH
+    username: ~KONKIMALLA_LAXMI_VIGNESH2
+  - emails: '****@cb.students.amrita.edu'
+    first_name: Mahankali
+    last_name: Krishna
+    middle_name: Sri Ram
+    name: Mahankali Sri Ram Krishna
+    username: ~Mahankali_Sri_Ram_Krishna1
+  - emails: '****@cb.students.amrita.edu'
+    first_name: Dondluru
+    last_name: Keerthana
+    name: Dondluru Keerthana
+    username: ~Dondluru_Keerthana1
+  - emails: '****@cb.amrita.edu'
+    first_name: Premjith
+    google_scholar_id: https://scholar.google.co.in/citations?user=B4J7II0AAAAJ&hl=en
+    institution: Amrita Vishwa Vidyapeetham (Deemed University)
+    last_name: B
+    name: Premjith B
+    orcid: https://orcid.org/my-orcid?orcid=0000-0003-1188-1838
+    username: ~Premjith_B1
+  decision: Poster
+  end_page: 30
+  file: 6.pdf
+  id: 6
+  num_pages: 5
+  openreview_id: 5p1958TXjo
+  pdf_file: 073afbb7fb8e41ed96c467951437578fa0f2b0b4.pdf
+  start_page: 26
+  title: 'SKVtrio@LT-EDI-2025: Hybrid TF-IDF and BERT Embeddings for  Multilingual
+    Homophobia and Transphobia Detection in Social Media  Comments'
+- abstract: 'The proliferation of racial hoaxes that associate individuals or groups
+    with fabricated crimes or incidents presents unique challenges in multilingual
+    social media contexts. This paper introduces BaCoHoax, a novel framework for detecting
+    race-based misinformation in code-mixed content. We address this problem by participating
+    in the "Shared Task Detecting Racial Hoaxes in Code-Mixed Hindi-English Social
+    Media Data: LT-EDI@LDK 2025."  BaCoHoax is a bias-aware detection system built
+    on a DeBERTa-based architecture, enhanced with disentangled attention mechanisms,
+    a dynamic bias discovery module that adapts to emerging narrative patterns, and
+    an adaptive contrastive learning objective.  We evaluated BaCoHoax on the HoaxMixPlus
+    corpus, a collection of 5,105 YouTube comments annotated for racial hoaxes, achieved
+    a competitive macro F1 score of 0.67 and securing 7th place among participating
+    teams in the shared task.
+
+    Our findings contribute to the growing field of multilingual misinformation detection
+    and highlight the importance of culturally informed approaches to identifying
+    harmful content in linguistically diverse online spaces.'
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area: null
+  authors:
+  - emails: '****@iiita.ac.in'
+    first_name: Ashok
+    google_scholar_id: https://scholar.google.com/citations?user=z2yT7DgAAAAJ&hl=en
+    last_name: Yadav
+    name: Ashok Yadav
+    username: ~Ashok_Yadav1
+  - dblp_id: https://dblp.org/pid/70/7529.html
+    emails: '****@iiita.ac.in'
+    first_name: Vrijendra
+    google_scholar_id: https://scholar.google.com/citations?user=8i9FP_QAAAAJ&hl=en
+    homepage: https://profile.iiita.ac.in/vrij/
+    last_name: Singh
+    name: Vrijendra Singh
+    orcid: https://orcid.org/0000-0002-8818-5673
+    username: ~Vrijendra_Singh1
+  decision: Poster
+  end_page: 38
+  file: 8.pdf
+  id: 8
+  num_pages: 8
+  openreview_id: zKUzFQCvZ0
+  pdf_file: 232392093fb4c11da3e5e47e751d5d9cd72f1537.pdf
+  start_page: 31
+  title: 'Dll5143A@LT-EDI 2025: Bias-Aware Detection of Racial Hoaxes in Code-Mixed
+    Social Media Data (BaCoHoax)'
+- abstract: "In the age of digital communication, social media platforms have become\
+    \ a medium for the spread of misinformation, with racial hoaxes posing a particularly\
+    \ insidious threat. These hoaxes falsely associate individuals or communities\
+    \ with crimes or misconduct, perpetuating harmful stereotypes and inflaming societal\
+    \ tensions. This paper describes the team \u201CHope_for_best\u201D submission\
+    \ that addresses the challenge of detecting racial hoaxes in codemixed Hindi-English\
+    \ (Hinglish) social media content and secured the 2nd rank in the shared task\
+    \ (Chakravarthi et al., 2025). To address this challenge, the study employs the\
+    \ HoaxMix Plus dataset, developed by LT-EDI 2025, and adopts a multi-phase fine-tuning\
+    \ strategy. Initially, models are sensitized using the THAR dataset\u2014targeted\
+    \ hate speech against religion (Sharma et al., 2024) \u2014to adjust weights toward\
+    \ contextually relevant biases. Further fine-tuning was performed on the HoaxMix\
+    \ Plus dataset. This work employed data balancing sampling strategies to mitigate\
+    \ class imbalance. Among the evaluated models, Hing BERT achieved the highest\
+    \ macro F1-score of 73% demonstrating promising capabilities in detecting racially\
+    \ charged misinformation in code-mixed Hindi-English texts."
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area: null
+  authors:
+  - emails: '****@cs.du.ac.in'
+    first_name: Abhishek
+    last_name: Yadav
+    middle_name: Singh
+    name: Abhishek Singh Yadav
+    username: ~Abhishek_Singh_Yadav1
+  - emails: '****@bhu.ac.in'
+    first_name: Deepawali
+    google_scholar_id: https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=deepawali+sharma&oq=
+    last_name: Sharma
+    name: Deepawali Sharma
+    username: ~Deepawali_Sharma1
+  - emails: '****@cs.du.ac.in'
+    first_name: Aakash
+    homepage: https://www.aakashsingh.co.in
+    last_name: Singh
+    name: Aakash Singh
+    username: ~Aakash_Singh3
+  - emails: '****@cs.du.ac.in'
+    first_name: Vivek
+    homepage: https://viveksingh.in/
+    last_name: Singh
+    middle_name: Kumar
+    name: Vivek Kumar Singh
+    username: ~Vivek_Kumar_Singh7
+  decision: Poster
+  end_page: 46
+  file: 9.pdf
+  id: 9
+  num_pages: 8
+  openreview_id: aYKnhhaSqB
+  pdf_file: 539dc10693ee6ad90ce1f53c94aa00b897064f1a.pdf
+  start_page: 39
+  title: 'Hope\_for\_best@LT-EDI 2025: Detecting Racial Hoaxes in Code-Mixed Hindi-English
+    Social Media Data using a multi-phase fine-tuning strategy'
+- abstract: "Online platforms have enabled users to create and share multimodal content,\
+    \ fostering new forms of personal expression and cultural interaction. Among these,\
+    \ memes\u2014combinations of images and text\u2014have become a prevalent mode\
+    \ of digital communication, often used for humor, satire, or social commentary.\
+    \ However, memes can also serve as vehicles for spreading misogynistic messages,\
+    \ reinforcing harmful gender stereotypes, and targeting individuals based on gender.\
+    \ In this work, we investigate the effectiveness of various multimodal models\
+    \ for detecting misogynistic content in memes. We propose a BERT+CLIP+LR model\
+    \ that integrates BERT\u2019s deep contextual language understanding with CLIP\u2019\
+    s powerful visual encoder, followed by Logistic Regression for classification.\
+    \ This approach leverages complementary strengths of vision-language models for\
+    \ robust cross-modal representation. We compare our proposed model with several\
+    \ baselines, including the original CLIP+LR, and traditional early fusion methods\
+    \ such as BERT + ResNet50 and CNN + InceptionV3. Our focus is on accurately identifying\
+    \ misogynistic content in Chinese memes, with careful attention to the interplay\
+    \ between visual elements and textual cues. Experimental results show that the\
+    \ BERT+CLIP+LR model achieves a macro F1 score of 0.87, highlighting the effectiveness\
+    \ of vision-language models in addressing harmful content on social media platforms."
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area: null
+  authors:
+  - emails: '****@iptgptc.ac.in'
+    first_name: Radhika
+    institution: National Institute of Technology Trichy and Institute of Printing
+      Technology and Government Polytechnic College
+    last_name: T
+    middle_name: K
+    name: Radhika K T
+    orcid: https://orcid.org/0009-0001-1287-0236
+    username: ~Radhika_K_T2
+  - emails: '****@nitt.edu'
+    first_name: Sitara
+    google_scholar_id: https://scholar.google.com/citations?user=wq675AwAAAAJ&hl=en&oi=ao
+    homepage: https://www.nitt.edu/home/academics/departments/cse/faculty/sitara/
+    institution: National Institute of Technology Tiruchirappalli
+    last_name: K
+    name: Sitara K
+    orcid: https://orcid.org/0000-0001-8242-8593
+    username: ~Sitara_K1
+  decision: Poster
+  end_page: 53
+  file: 10.pdf
+  id: 10
+  num_pages: 7
+  openreview_id: ut5U1U1zNv
+  pdf_file: ca6a79a8a499ba3171186966dcb577fa7570c6fc.pdf
+  start_page: 47
+  title: CVF-NITT@LT-EDI-2025:MisogynyDetection
+- abstract: Detecting hate speech targeting caste and migration communities in code-mixed
+    Tamil-English social media content is challenging due to limited resources and
+    socio-cultural complexities. This paper proposes a multi-scale hybrid architecture
+    combining classical and neural representations with hierarchical ensemble learning.
+    We employ advanced preprocessing including transliteration and character repetition
+    removal, then extract features using classical TF-IDF vectors at multiple scales
+    (512, 1024, 2048) processed through linear layers, alongside contextual embeddings
+    from five transformer models-Google BERT, XLM-RoBERTa (Base and Large), SeanBenhur
+    BERT, and IndicBERT. These concatenated representations encode both statistical
+    and contextual information, which are input to multiple ML classification heads
+    (Random Forest, SVM, etc). A three-level hierarchical ensemble strategy combines
+    predictions across classifiers, transformer-TF-IDF combinations, and dimensional
+    scales for enhanced robustness. Our method scored an F1-score of 0.818, ranking
+    3rd in the LT-EDI-2025 shared task, showing the efficacy of blending classical
+    and neural methods with multi-level ensemble learning for hate speech detection
+    in low-resource languages.
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area: null
+  authors:
+  - emails: '****@cb.students.amrita.edu'
+    first_name: Ganesh
+    last_name: S
+    middle_name: Sundhar
+    name: Ganesh Sundhar S
+    username: ~Ganesh_Sundhar_S1
+  - emails: '****@cb.students.amrita.edu'
+    first_name: Durai
+    last_name: K
+    middle_name: Singh
+    name: Durai Singh K
+    username: ~Durai_Singh_K1
+  - emails: '****@cb.students.amrita.edu'
+    first_name: Gnanasabesan
+    last_name: G
+    name: Gnanasabesan G
+    username: ~Gnanasabesan_G1
+  - emails: '****@cb.students.amrita.edu'
+    first_name: Hari
+    last_name: N
+    middle_name: Krishnan
+    name: Hari Krishnan N
+    username: ~Hari_Krishnan_N1
+  - emails: '****@cb.students.amrita.edu'
+    first_name: MC
+    last_name: Dhanush
+    name: MC Dhanush
+    username: ~MC_Dhanush1
+  decision: Poster
+  end_page: 62
+  file: 11.pdf
+  id: 11
+  num_pages: 9
+  openreview_id: sRYNn44oT4
+  pdf_file: e1cc03306d2cc55425fdeb5d13c39f28c8936d87.pdf
+  start_page: 54
+  title: 'Wise@LT-EDI-2025: Combining Classical and Neural Representations with Multi-scale
+    Ensemble Learning for Code-mixed Hate Speech Detection'
+- abstract: False narratives that manipulate racial tensions are increasingly prevalent
+    on social media, often blending languages and cultural references to enhance reach
+    and believability.  Among them, racial hoaxes produce unique harm by fabricating
+    events targeting specific communities, social division and fueling misinformation.
+    This paper presents a novel approach to detecting racial hoaxes in code-mixed
+    Hindi-English social media data. Using a carefully constructed training pipeline,
+    we have fine-tuned the XLM-RoBERTa-base multilingual transformer for training
+    the shared task data. Our approach has incorporated task-specific preprocessing,
+    clear methodology, and extensive hyperparameter tuning. After developing our model,
+    we tested and evaluated it on the LT-EDI@LDK 2025 shared task dataset. Our system
+    achieved the highest performance among all the international participants with
+    an F1-score of 0.75, ranking 1st on the official leaderboard.
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area: null
+  authors:
+  - emails: '****@student.cuet.ac.bd'
+    first_name: Md
+    google_scholar_id: https://scholar.google.com/citations?user=6_wV6e8AAAAJ&hl=en&authuser=1
+    homepage: https://www.linkedin.com/in/md-mizanur-rahman-234961214
+    last_name: Rahman
+    middle_name: Mizanur
+    name: Md Mizanur Rahman
+    username: ~Md_Mizanur_Rahman1
+  - emails: '****@student.cuet.ac.bd'
+    first_name: Jidan
+    last_name: Abrar
+    middle_name: Al
+    name: Jidan Al Abrar
+    username: ~Jidan_Al_Abrar1
+  - emails: '****@student.cuet.ac.bd'
+    first_name: Md
+    last_name: Kawser
+    middle_name: Siddikul Imam
+    name: Md Siddikul Imam Kawser
+    username: ~Md_Siddikul_Imam_Kawser1
+  - emails: '****@student.cuet.ac.bd'
+    first_name: Ariful
+    last_name: Islam
+    name: Ariful Islam
+    username: ~Ariful_Islam2
+  - emails: '****@student.cuet.ac.bd'
+    first_name: Md.
+    last_name: Naib
+    middle_name: Mubasshir
+    name: Md. Mubasshir Naib
+    username: ~Md._Mubasshir_Naib1
+  - emails: '****@cuet.ac.bd'
+    first_name: Hasan
+    homepage: https://www.cuet.ac.bd/members/648
+    institution: Chittagong University of Engineering and Technology
+    last_name: Murad
+    name: Hasan Murad
+    username: ~Hasan_Murad1
+  decision: Poster
+  end_page: 67
+  file: 13.pdf
+  id: 13
+  num_pages: 5
+  openreview_id: okhIYIggkZ
+  pdf_file: b78088c50ebbd92ba3f90a91eb7f2615e3be986e.pdf
+  start_page: 63
+  title: 'CUET''s\_White\_Walkers@LT-EDI 2025: Racial Hoax Detection in Code-Mixed
+    on Social Media Data'
+- abstract: Memes, combining visual and textual elements, have emerged as a prominent
+    medium for both expression and the spread of harmful ideologies, including misogyny.
+    To address this issue in Chinese online content, we present a multimodal framework
+    for misogyny meme detection as part of the LT-EDI@LDK 2025 Shared Task. Our study
+    investigates a range of machine learning (ML) methods such as Logistic Regression,
+    Support Vector Machines, and Random Forests, as well as deep learning (DL) architectures
+    including CNNs and hybrid models like BiLSTM-CNN and CNN-GRU for extracting textual
+    features. On the transformer side, we explored multiple pretrained models including
+    mBERT, MuRIL, and BERT- base-chinese to capture nuanced language representations.
+    These textual models were fused with visual features extracted from pretrained
+    ResNet50 and DenseNet121 architectures using both early and decision-level fusion
+    strategies. Among all evaluated configurations, the BERT-base-chinese + ResNet50
+    early fusion model achieved the best overall performance, with a macro F1-score
+    of 0.8541, ranking 4th in the shared task. These findings underscore the effectiveness
+    of combining pretrained vision and language models for tackling multimodal hate
+    speech detection.
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area: null
+  authors:
+  - emails: '****@student.cuet.ac.bd'
+    first_name: Md.
+    last_name: Naib
+    middle_name: Mubasshir
+    name: Md. Mubasshir Naib
+    username: ~Md._Mubasshir_Naib1
+  - emails: '****@student.cuet.ac.bd'
+    first_name: Md
+    google_scholar_id: https://scholar.google.com/citations?user=6_wV6e8AAAAJ&hl=en&authuser=1
+    homepage: https://www.linkedin.com/in/md-mizanur-rahman-234961214
+    last_name: Rahman
+    middle_name: Mizanur
+    name: Md Mizanur Rahman
+    username: ~Md_Mizanur_Rahman1
+  - emails: '****@student.cuet.ac.bd'
+    first_name: Jidan
+    last_name: Abrar
+    middle_name: Al
+    name: Jidan Al Abrar
+    username: ~Jidan_Al_Abrar1
+  - emails: '****@student.cuet.ac.bd'
+    first_name: Md
+    last_name: Hasan
+    middle_name: Mehedi
+    name: Md Mehedi Hasan
+    username: ~Md_Mehedi_Hasan2
+  - emails: '****@student.cuet.ac.bd'
+    first_name: Md
+    last_name: Kawser
+    middle_name: Siddikul Imam
+    name: Md Siddikul Imam Kawser
+    username: ~Md_Siddikul_Imam_Kawser1
+  - emails: '****@cuet.ac.bd'
+    first_name: Mohammad
+    google_scholar_id: https://scholar.google.com/citations?user=BnNejIMAAAAJ&hl=en
+    last_name: Arefin
+    middle_name: Shamsul
+    name: Mohammad Shamsul Arefin
+    username: ~Mohammad_Shamsul_Arefin1
+  decision: Poster
+  end_page: 74
+  file: 14.pdf
+  id: 14
+  num_pages: 7
+  openreview_id: 12v6gmVP3v
+  pdf_file: 1385c3ab922960f0ffdd5a71bfe7abdf7fffcab5.pdf
+  start_page: 68
+  title: 'CUET''s\_White\_Walkers@LT-EDI-2025: A Multimodal Framework for the Detection
+    of Misogynistic Memes in Chinese Online Content'
+- abstract: Hate speech on social media is an evolving problem, particularly in low-resource
+    languages like Tamil, where traditional hate speech detection approaches remain
+    under developed. In this work, we provide a focused solution for cast and migration-based
+    hate speech detection using Tamil-BERT, a Tamil-specialized pre-trained transformer
+    model. One of the key challenges in hate speech detection is the severe class
+    imbalance in the dataset, with hate speech being the minority class. We solve
+    this using focal loss, a loss function that gives more importance to harder-to-classify
+    examples, improving the performance of the model in detecting minority classes.
+    We train our model on a publicly available labeled dataset of Tamil text as hate
+    and non-hate speech. Under strict evaluation, our approach achieves impressive
+    results, outperforming baseline models by a considerable margin. The model achieves
+    an F1 score of 0.8634 and good precision, recall, and accuracy, making it a robust
+    solution for hate speech detection in Tamil. The results show that fine-tuning
+    transformer-based models like Tamil-BERT, coupled with techniques like focal loss,
+    can substantially improve performance in hate speech detection for low-resource
+    languages. This work is a contribution to this growing amount of research and
+    provides insights on how to tackle class imbalance for NLP tasks.
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area: null
+  authors:
+  - emails: '****@student.cuet.ac.bd'
+    first_name: Jidan
+    last_name: Abrar
+    middle_name: Al
+    name: Jidan Al Abrar
+    username: ~Jidan_Al_Abrar1
+  - emails: '****@student.cuet.ac.bd'
+    first_name: Md
+    google_scholar_id: https://scholar.google.com/citations?user=6_wV6e8AAAAJ&hl=en&authuser=1
+    homepage: https://www.linkedin.com/in/md-mizanur-rahman-234961214
+    last_name: Rahman
+    middle_name: Mizanur
+    name: Md Mizanur Rahman
+    username: ~Md_Mizanur_Rahman1
+  - emails: '****@student.cuet.ac.bd'
+    first_name: Ariful
+    last_name: Islam
+    name: Ariful Islam
+    username: ~Ariful_Islam2
+  - emails: '****@student.cuet.ac.bd'
+    first_name: Md
+    last_name: Hasan
+    middle_name: Mehedi
+    name: Md Mehedi Hasan
+    username: ~Md_Mehedi_Hasan2
+  - emails: '****@student.cuet.ac.bd'
+    first_name: Md.
+    last_name: Naib
+    middle_name: Mubasshir
+    name: Md. Mubasshir Naib
+    username: ~Md._Mubasshir_Naib1
+  - emails: '****@cuet.ac.bd'
+    first_name: Mohammad
+    google_scholar_id: https://scholar.google.com/citations?user=BnNejIMAAAAJ&hl=en
+    last_name: Arefin
+    middle_name: Shamsul
+    name: Mohammad Shamsul Arefin
+    username: ~Mohammad_Shamsul_Arefin1
+  decision: Poster
+  end_page: 79
+  file: 15.pdf
+  id: 15
+  num_pages: 5
+  openreview_id: HauoVUYoHn
+  pdf_file: b1a18d8ebc234964d8a7c0994af858dc5775115f.pdf
+  start_page: 75
+  title: 'CUET''s\_White\_Walkers@LT-EDI 2025: Transformer-Based Model for the Detection
+    of Caste and Migration Hate Speech'
+- abstract: Hate speech directed at caste and migrant communities is a widespread
+    problem on social media, frequently taking the form of insults specific to a given
+    region, coded language, and disparaging slurs. This type of abuse seriously jeopardizes
+    both individual well-being and social harmony in addition to perpetuating discrimination.
+    In order to promote safer and more inclusive digital environments, it is imperative
+    that this challenge be addressed. However, linguistic subtleties, code-mixing,
+    and the lack of extensive annotated datasets make it difficult to detect such
+    hate speech in Indian languages like Tamil. We suggest a supervised machine learning
+    system that uses FastText embeddings specifically designed for Tamil-language
+    content and Whisper-based speech recognition to address these issues. This strategy
+    aims to precisely identify hate speech connected to caste and migration, supporting
+    the larger endeavor to reduce online abuse in low resource languages like Tamil.
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area: null
+  authors:
+  - emails: '****@cb.students.amrita.edu'
+    first_name: Nishanth.S
+    last_name: Nishanth.S
+    name: Nishanth.S
+    username: ~Nishanth.S1
+  - emails: '****@cb.students.amrita.edu'
+    first_name: Shruthi
+    last_name: Rengarajan
+    name: Shruthi Rengarajan
+    username: ~Shruthi_Rengarajan1
+  - emails: '****@gmail.com'
+    first_name: Sachin
+    google_scholar_id: https://scholar.google.co.in/citations?user=-ztk7jMAAAAJ&hl=en
+    homepage: https://www.amrita.edu/faculty/s-sachinkumar/
+    institution: Amrita Vishwa Vidyapeetham (Deemed University)
+    last_name: S
+    middle_name: Kumar
+    name: Sachin Kumar S
+    username: ~Sachin_Kumar_S1
+  decision: Poster
+  end_page: 83
+  file: 16.pdf
+  id: 16
+  num_pages: 4
+  openreview_id: L5GvpOjucv
+  pdf_file: 3822f39034a3999bbcacbd0200eeb507be861a4c.pdf
+  start_page: 80
+  title: NS@LT-EDI-2025 CasteMigration based hate speech Detection
+- abstract: This paper proposes a transformer-based methodology for detecting hate
+    speech in Tamil, developed as part of the shared task on Caste and Migration Hate
+    Speech Detection. Leveraging the multilingual BERT (mBERT) model, we fine-tune
+    it to classify Tamil social media content into caste/migration-related hate speech
+    and non hate speech categories. Our approach achieves a macro F1-score of 0.72462
+    in the development dataset, demonstrating the effectiveness of multilingual pretrained
+    models in low-resource language settings. The code for this work is available
+    on github Hate-Speech Deduction.
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area: null
+  authors:
+  - emails: '****@ssn.edu.in'
+    first_name: Maria
+    institution: Sri Sivasubramaniya Nadar Institutions
+    last_name: C
+    middle_name: Nancy
+    name: Maria Nancy C
+    username: ~Maria_Nancy_C1
+  - emails: '****@ssn.edu.in'
+    first_name: Radha
+    google_scholar_id: https://scholar.google.co.in/citations?user=MxoJelkAAAAJ&hl=en
+    last_name: N
+    name: Radha N
+    username: ~Radha_N1
+  - emails: '****@ssn.edu.in'
+    first_name: Swathika
+    google_scholar_id: https://scholar.google.com/citations?user=ETtcUuQAAAAJ&hl=en
+    last_name: R
+    name: Swathika R
+    username: ~Swathika_R1
+  decision: Poster
+  end_page: 89
+  file: 17.pdf
+  id: 17
+  num_pages: 6
+  openreview_id: Ryi9hjRyXX
+  pdf_file: 720eb50077027104c4d81c062abda5987752dfad.pdf
+  start_page: 84
+  title: 'SSN\_IT\_HATE@LT-EDI-2025: Caste and Migration Hate Speech Detection'
+- abstract: Caste and migration hate speech detection is a critical task in the context
+    of increasingly multilingual and diverse online discourse. In this work, we address
+    the problem of identifying hate speech targeting caste and migrant communities
+    across a multilingual social media dataset containing Tamil, Tamil written in
+    English script, and English. We explore and compare different feature representations,
+    including TF-IDF vectors and embeddings from pretrained transformer-based models,
+    to train various machine learning classifiers. Our experiments show that a Soft
+    Voting Classifier that make use of both TF-IDF vectors and MuRIL embeddings performs
+    best, achieving a macro F1 score of 0.802 on the test set. This approach was evaluated
+    as part of the Shared Task on Caste and Migration Hate Speech Detection at LT-EDI@LDK
+    2025, where it ranked 6th overall.
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area: null
+  authors:
+  - emails: '****@cb.students.amrita.edu'
+    first_name: Amritha
+    google_scholar_id: https://scholar.google.com/citations?user=9jFb9MMAAAAJ&hl=en
+    last_name: L
+    middle_name: Nandini K
+    name: Amritha Nandini K L
+    username: ~Amritha_Nandini_K_L1
+  - emails: '****@gmail.com'
+    first_name: Vishal
+    last_name: S
+    name: Vishal S
+    username: ~Vishal_S2
+  - emails: '****@cb.students.amrita.edu'
+    first_name: Giri
+    last_name: R
+    middle_name: Prasath
+    name: Giri Prasath R
+    username: ~Giri_Prasath_R1
+  - emails: '****@cb.students.amrita.edu'
+    first_name: Anerud
+    last_name: Thiyagarajan
+    name: Anerud Thiyagarajan
+    username: ~Anerud_Thiyagarajan1
+  - emails: '****@gmail.com'
+    first_name: Sachin
+    google_scholar_id: https://scholar.google.co.in/citations?user=-ztk7jMAAAAJ&hl=en
+    homepage: https://www.amrita.edu/faculty/s-sachinkumar/
+    institution: Amrita Vishwa Vidyapeetham (Deemed University)
+    last_name: S
+    middle_name: Kumar
+    name: Sachin Kumar S
+    username: ~Sachin_Kumar_S1
+  decision: Poster
+  end_page: 94
+  file: 18.pdf
+  id: 18
+  num_pages: 5
+  openreview_id: Ns5z0d562D
+  pdf_file: 542cf82bc38f4d64baa4fffba8a795bf76042b53.pdf
+  start_page: 90
+  title: 'ItsAllGoodMan@LT-EDI-2025: Fusing TF-IDF and MuRIL Embeddings for Detecting
+    Caste and Migration Hate Speech'
+- abstract: 'Automatic Speech Recognition (ASR) technology can potentially make marginalized
+    communities more accessible. However, older adults
+
+    and transgender speakers are usually highly disadvantaged in accessing valuable
+    services due to low digital literacy and social biases. In Tamil-speaking regions,
+    these are further compounded by the inability of ASR models to address their unique
+    speech types, accents, and spontaneous speaking styles. To bridge this gap, the
+    LT-EDI-2025 shared task is designed to develop robust ASR systems for Tamil speech
+    from vulnerable populations. Using whisper based models, this task is designed
+    to improve recognition rates in speech data collected from older adults and transgender
+    speakers in naturalistic settings such as banks, hospitals and public offices.
+    By bridging the linguistic heterogeneity and acoustic variability among this underrepresented
+    population, the shared task is designed to develop inclusive AI solutions that
+    break communication barriers and empower vulnerable populations in Tamil Nadu.'
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area: null
+  authors:
+  - emails: '****@cb.students.amrita.edu'
+    first_name: Nishanth.S
+    last_name: Nishanth.S
+    name: Nishanth.S
+    username: ~Nishanth.S1
+  - emails: '****@cb.students.amrita.edu'
+    first_name: Shruthi
+    last_name: Rengarajan
+    name: Shruthi Rengarajan
+    username: ~Shruthi_Rengarajan1
+  - emails: '****@cb.students.amrita.edu'
+    first_name: Burugu
+    last_name: Rahul
+    name: BURUGU RAHUL
+    username: ~BURUGU_RAHUL1
+  - emails: '****@cb.amrita.edu'
+    first_name: Jyothish
+    google_scholar_id: https://scholar.google.co.in/citations?user=QC0uozEAAAAJ&hl=en
+    homepage: https://www.amrita.edu/faculty/jyothish-lal-g/
+    institution: Amrita Vishwa Vidyapeetham (Deemed University)
+    last_name: G
+    middle_name: Lal
+    name: JYOTHISH LAL G
+    username: ~JYOTHISH_LAL_G1
+  decision: Poster
+  end_page: 99
+  file: 19.pdf
+  id: 19
+  num_pages: 5
+  openreview_id: UyC6y5rEVd
+  pdf_file: 6b2057cf87d5c8d9d49c9a1547e6a79f16cdcb76.pdf
+  start_page: 95
+  title: NSR\_LT-EDI-2025 Automatic speech recognition in Tamil
+- abstract: Hate speech detection in low-resource languages such as Tamil presents
+    significant challenges due to linguistic complexity, limited annotated data, and
+    the sociocultural sensitivity of the subject matter. This study focuses on identifying
+    caste- and migration-related hate speech in Tamil social media texts, as part
+    of the LT-EDI@LDK 2025 Shared Task. The dataset used consists of 5,512 training
+    instances and 787 development instances, annotated for binary classification into
+    caste/migration-related and non-caste/migration-related hate speech. We employ
+    a range of models, including Support Vector Machines (SVM), Convolutional Neural
+    Networks (CNN), and transformer-based architectures such as BERT and multilingual
+    BERT (mBERT). A central focus of this work is evaluating model performance using
+    macro F1-score, which provides a balanced assessment across this imbalanced dataset.
+    Experimental results demonstrate that transformer-based models, particularly mBERT,
+    significantly outperform traditional approaches by effectively capturing the contextual
+    and implicit nature of hate speech. This research underscores the importance of
+    culturally informed NLP solutions for fostering safer online environments in underrepresented
+    linguistic communities such as Tamil.
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area: null
+  authors:
+  - emails: '****@gmail.com'
+    first_name: Ananthakumar
+    last_name: S
+    name: Ananthakumar S
+    username: ~Ananthakumar_S1
+  - emails: '****@kongu.edu'
+    first_name: Bharath
+    last_name: P
+    name: Bharath P
+    username: ~Bharath_P1
+  - emails: '****@kongu.edu'
+    first_name: Devasri
+    last_name: A
+    name: Devasri A
+    username: ~Devasri_A1
+  - emails: '****@kongu.edu'
+    first_name: Anirudh
+    last_name: S
+    middle_name: Sriram K
+    name: Anirudh Sriram K S
+    username: ~Anirudh_Sriram_K_S1
+  - emails: '****@kongu.edu'
+    first_name: Mohanapriya
+    institution: Kongu Engineering College
+    last_name: T
+    middle_name: K
+    name: Mohanapriya K T
+    username: ~Mohanapriya_K_T1
+  decision: Poster
+  end_page: 104
+  file: 20.pdf
+  id: 20
+  num_pages: 5
+  openreview_id: QbTbMorN95
+  pdf_file: 2b7e204c9d0b383e05fa022ddd1c13aaa0dc7d1d.pdf
+  start_page: 100
+  title: 'Solvers@LT-EDI-2025: Caste and Migration Hate Speech Detection in Tamil-English
+    Code-Mixed Text'
+- abstract: 'Language that criticizes threatens, or discriminates against people or
+    groups because of their caste, social rank, or status is known as caste and migration
+    hate speech and it has grown in credibly common on social media. Such speech not
+    only contributes to social disruption and in equity, but it also puts at risk
+    the safety and mental health of the targeted groups. Due to the absence of labeled
+    data, the subtlety of culturally unique insults, and the lack of strong linguistic
+    resources for deep text recognition, it is especially difficult to detect caste
+    and migration hate speech in low-resource Dravidian languages like Tamil. In this
+    work, we address the Caste and Migration Hate Speech Detection task, aiming to
+    automatically classify user-generated content as either hateful or non-hateful.
+    We evaluate a range of approaches, including a traditional TF-IDF-based machine
+    learning pipeline using SVM and Logistic Regression, alongside five transformer-based
+    models: mBERT, XLM-R, MuRIL, Tamil BERT, and Tamilhate-BERT.Among these, the domain-adapted
+    Tamilhate BERT achieved the highest macro-F1 score of 0.88 on the test data, securing
+    1st place in the Shared Task on Caste and Migration Hate Speech Detection at DravidianLangTech@LT-EDI
+    2025. Our findings highlight the strong performance of transformer models, particularly
+    those fine-tuned on domain-specific data, in detecting nuanced hate speech in
+    low-resource, code-mixed languages like Tamil.'
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area: null
+  authors:
+  - emails: '****@student.cuet.ac.bd'
+    first_name: Md.
+    institution: Chittagong University of Engineering and Technology
+    last_name: Ruman
+    middle_name: Nur Siddik
+    name: Md. Nur Siddik Ruman
+    username: ~Md._Nur_Siddik_Ruman1
+  - emails: '****@gmail.com'
+    first_name: Md.
+    last_name: Chowdhury
+    middle_name: Tahfim Juwel
+    name: Md. Tahfim Juwel Chowdhury
+    username: ~Md._Tahfim_Juwel_Chowdhury1
+  - emails: '****@cuet.ac.bd'
+    first_name: Hasan
+    homepage: https://www.cuet.ac.bd/members/648
+    institution: Chittagong University of Engineering and Technology
+    last_name: Murad
+    name: Hasan Murad
+    username: ~Hasan_Murad1
+  decision: Poster
+  end_page: 110
+  file: 21.pdf
+  id: 21
+  num_pages: 6
+  openreview_id: BNTJUvbIgf
+  pdf_file: 7ca5e5a86ae30d9f478e25f1259c73ab8b522c34.pdf
+  start_page: 105
+  title: 'CUET\_N317@LT-EDI2025: Detecting Hate Speech Related to Caste and Migration
+    with Transformer Models'
+- abstract: "Detecting misinformation in code-mixed languages, particularly Hindi-English,\
+    \ poses significant challenges in natural language processing due to the linguistic\
+    \ diversity found on social media. This paper focuses on racial hoax detection\u2014\
+    false narratives that target specific communities\u2014within Hindi-English YouTube\
+    \ comments. We evaluate the effectiveness of several machine learning models,\
+    \ including Logistic Regression, Random Forest, Support Vector Machine, Naive\
+    \ Bayes, and Multi-Layer Perceptron, using a dataset of 5,105 annotated comments.\
+    \ Model performance is assessed using accuracy, precision, recall, and F1-score.\
+    \ Experimental results indicate that neural and ensemble models consistently outperform\
+    \ traditional classifiers. Future work will explore the use of transformer-based\
+    \ architectures and data augmentation techniques to enhance detection in low-resource,\
+    \ code-mixed scenarios."
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area: null
+  authors:
+  - emails: '****@gmail.com'
+    first_name: Malliga
+    google_scholar_id: https://scholar.google.co.in/citations?user=NSRyKhIAAAAJ&hl=en
+    homepage: https://sites.google.com/a/kongu.edu/mallisenthil/
+    last_name: Subramanian
+    name: Malliga Subramanian
+    orcid: https://orcid.org/my-orcid?orcid=0000-0003-3263-0376
+    username: ~Malliga_Subramanian1
+  - emails: '****@kongu.edu'
+    first_name: Aruna
+    last_name: A
+    name: Aruna A
+    username: ~Aruna_A1
+  - emails: '****@kongu.edu'
+    first_name: Amudhavan
+    last_name: M
+    name: Amudhavan M
+    username: ~Amudhavan_M1
+  - emails: '****@kongu.edu'
+    first_name: Jahaganapathi
+    last_name: S
+    name: JAHAGANAPATHI S
+    username: ~JAHAGANAPATHI_S1
+  - emails: '****@gmail.com'
+    first_name: Kogilavani
+    google_scholar_id: https://scholar.google.co.in/citations?user=Jx7cdnoAAAAJ&hl=en
+    last_name: Shanmugavadivel
+    name: Kogilavani Shanmugavadivel
+    orcid: https://orcid.org/my-orcid?orcid=0000-0002-0715-143X
+    username: ~Kogilavani_Shanmugavadivel1
+  decision: Poster
+  end_page: 115
+  file: 22.pdf
+  id: 22
+  num_pages: 5
+  openreview_id: F13qKdE49T
+  pdf_file: d9b47a2078784d01ebd64bfbc3645fbbf81f69f8.pdf
+  start_page: 111
+  title: 'KEC-Elite-Analysts@LT-EDI 2025: Leveraging Deep Learning for Racial Hoax
+    Detection in Code-Mixed Hindi-English Tweets'
+- abstract: Memes, originally crafted for humor or cultural commentary, have evolved
+    into powerful tools for spreading harmful content, particularly misogynistic ideologies.
+    These memes sustain damaging gender stereotypes, further entrenching social inequality
+    and encouraging toxic behavior across online platforms. While progress has been
+    made in detecting harmful memes in English, identifying misogynistic content in
+    Chinese remains challenging due to the language's complexities and cultural subtleties.
+    The multimodal nature of memes, combining text and images, adds to the detection
+    difficulty. In the LT-EDI@LDK 2025 Shared Task on Misogyny Meme Detection, we
+    have focused on analyzing both text and image elements to identify misogynistic
+    content in Chinese memes. For text-based models, we have experimented with Chinese
+    BERT, XLM-RoBERTa and DistilBERT, with Chinese BERT yielding the highest performance,
+    achieving an F1 score of 0.86. In terms of image models, VGG16 outperformed ResNet
+    and ViT, also achieving an F1 score of 0.85. Among all model combinations, the
+    integration of Chinese BERT with VGG16 emerged as the most impactful, delivering
+    superior performance,  highlighting the benefit of a multimodal approach. By exploiting
+    these two modalities, our model has effectively captured the subtle details present
+    in memes, improving its ability to accurately detect misogynistic content. This
+    approach has resulted in a macro F1 score of 0.90355, securing 3rd rank in the
+    task.
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area: null
+  authors:
+  - emails: '****@student.cuet.ac.bd'
+    first_name: Adnan
+    last_name: Faisal
+    name: Adnan Faisal
+    username: ~Adnan_Faisal1
+  - emails: '****@student.cuet.ac.bd'
+    first_name: Shiti
+    last_name: Chowdhury
+    name: Shiti Chowdhury
+    username: ~Shiti_Chowdhury1
+  - emails: '****@student.cuet.ac.bd'
+    first_name: Momtazul
+    institution: Chittagong University of Engineering and Technology
+    last_name: Labib
+    middle_name: Arefin
+    name: Momtazul Arefin Labib
+    username: ~Momtazul_Arefin_Labib1
+  - emails: '****@cuet.ac.bd'
+    first_name: Hasan
+    homepage: https://www.cuet.ac.bd/members/648
+    institution: Chittagong University of Engineering and Technology
+    last_name: Murad
+    name: Hasan Murad
+    username: ~Hasan_Murad1
+  decision: Poster
+  end_page: 120
+  file: 23.pdf
+  id: 23
+  num_pages: 5
+  openreview_id: Thbyq6tqII
+  pdf_file: d459b6eef235c86c82ffaa0f754b1f23795cba22.pdf
+  start_page: 116
+  title: 'Team\_Luminaries\_0227@LT-EDI-2025: A Transformer-Based Fusion Approach
+    to Misogyny Detection in Chinese Memes'
+- abstract: This paper presents our system for the detection of racial hoaxes in code-mixed
+    Hindi-English social media narratives, which is in reality a form of debunking
+    of online disinformation claiming fake incidents against a racial group. We experiment
+    with different modeling techniques on HoaxMixPlus dataset of 5,102 annotated YouTube
+    comments. In our approach, we utilize traditional machine learning classifiers
+    (SVM, LR, RF), deep learning models (CNN, CNN-LSTM, CNN-BiLSTM), and transformer-based
+    architectures (MuRIL, XLM-RoBERTa, HingRoBERTa-mixed). Experiments show that transformer-based
+    methods substantially outperform traditional approaches, and the HingRoBERTa-mixed
+    model is the best one with an F1 score of 0.7505. An error analysis identifies
+    the difficulty of recognizing implicit bias and nuanced contexts in complex hoaxes.
+    Our team was 5th place in the challenge with an F1 score of 0.69. This work contributes
+    to combating online misinformation in low-resource linguistic environments and
+    highlights the effectiveness of specialized language models for code-mixed content.
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area: null
+  authors:
+  - emails: '****@seu.edu.bd'
+    first_name: Md.
+    last_name: Rahman
+    middle_name: Abdur
+    name: Md. Abdur Rahman
+    orcid: https://orcid.org/0009-0002-8595-5772
+    username: ~Md._Abdur_Rahman2
+  - emails: '****@gmail.com'
+    first_name: MD
+    google_scholar_id: https://scholar.google.com/citations?user=5f7cSQQAAAAJ&hl=en
+    last_name: Amin
+    middle_name: AL
+    name: MD AL AMIN
+    orcid: https://orcid.org/0009-0008-8981-9667
+    username: ~MD_AL_AMIN1
+  - emails: '****@student.cuet.ac.bd'
+    first_name: Sabik
+    homepage: https://sites.google.com/view/sabik-aftahee/home?authuser=0
+    last_name: Aftahee
+    name: Sabik Aftahee
+    orcid: https://orcid.org/0009-0002-9249-4548
+    username: ~Sabik_Aftahee1
+  - dblp_id: https://dblp.org/pid/99/8077.html
+    emails: '****@seu.edu.bd'
+    first_name: Md
+    google_scholar_id: https://scholar.google.com/citations?user=Il1oO7gAAAAJ&hl=en
+    homepage: https://sites.google.com/view/ashiqur-rahman
+    institution: Southeast University
+    last_name: Rahman
+    middle_name: Ashiqur
+    name: Md Ashiqur Rahman
+    username: ~Md_Ashiqur_Rahman5
+  decision: Poster
+  end_page: 126
+  file: 24.pdf
+  id: 24
+  num_pages: 6
+  openreview_id: WlwIQiWOxz
+  pdf_file: 26f91de0b1f34e8a3cdda24ad4a30e56fa863b31.pdf
+  start_page: 121
+  title: 'Hinterwelt@LT-EDI 2025: A Transformer-Based Approach for Identifying Racial
+    Hoaxes in Code-Mixed Hindi-English Social Media Narratives'
+- abstract: Misogynistic memes spread harmful stereotypes and toxic content across
+    social media platforms, often combining sarcastic text and offensive visuals that
+    make them difficult to detect using traditional methods. Our research has been
+    part of the the Shared Task on Misogyny Meme Detection - LT- EDI@LDK 2025, identifying
+    misogynistic memes using deep learning-based multimodal approach that leverages
+    both textual and visual information for accurate classification of such memes.
+    We experiment with various models including CharBERT, BiLSTM, and CLIP for text
+    and image encoding, and explore fusion strategies like early and gated fusion.
+    Our best performing model, CharBERT + BiLSTM + CLIP with gated fusion, achieves
+    strong results, showing the effectiveness of combining features from both modalities.
+    To address challenges like language mixing and class imbalance, we apply preprocessing
+    techniques (e.g., Romanizing Chinese text) and data augmentation (e.g., image
+    transformations, text back-translation). The results demonstrate significant improvements
+    over unimodal baselines, highlighting the value of multimodal learning in detecting
+    subtle and harmful content online.
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area: null
+  authors:
+  - emails: '****@student.cuet.ac.bd'
+    first_name: Mehreen
+    institution: Chittagong University of Engineering and Technology
+    last_name: Rahman
+    name: Mehreen Rahman
+    username: ~Mehreen_Rahman1
+  - emails: '****@student.cuet.ac.bd'
+    first_name: Faozia
+    last_name: Fariha
+    name: Faozia Fariha
+    username: ~Faozia_Fariha1
+  - emails: '****@gmail.com'
+    first_name: Nabilah
+    institution: Chittagong University of Engineering and Technology
+    last_name: Tabassum
+    name: Nabilah Tabassum
+    username: ~Nabilah_Tabassum1
+  - emails: '****@student.cuet.ac.bd'
+    first_name: Samia
+    last_name: Rahman
+    name: Samia Rahman
+    username: ~Samia_Rahman1
+  - emails: '****@cuet.ac.bd'
+    first_name: Hasan
+    homepage: https://www.cuet.ac.bd/members/648
+    institution: Chittagong University of Engineering and Technology
+    last_name: Murad
+    name: Hasan Murad
+    username: ~Hasan_Murad1
+  decision: Poster
+  end_page: 132
+  file: 25.pdf
+  id: 25
+  num_pages: 6
+  openreview_id: xsD21bfEl7
+  pdf_file: 7f56e403b6100ecb9c25a3d764358d42d373e0d0.pdf
+  start_page: 127
+  title: 'CUET\_12033@LT-EDI-2025: Misogyny Detection'
+- abstract: 'The rapid growth of the internet and social media has given people an
+    open space to share their opinions, but it has also led to a rise in hate speech
+    targeting different social, cultural, and political groups. While much of the
+    research on hate speech detection has focused on widely spoken languages, languages
+    like Tamil, which are less commonly studied, still face significant gaps in this
+    area. To tackle this, the Shared Task on Caste and Migration Hate Speech Detection
+    was organized at the Fifth Workshop on Language Technology for Equality, Diversity,
+    and Inclusion (LT-EDI-2025). This paper aims to create an automatic system that
+    can detect caste and migration-related hate speech in Tamil-language social media
+    content. We broke down our approach into two phases: in the first phase, we tested
+    seven machine learning models and five transformer-based models. In the second
+    phase, we combined the predictions from the fine-tuned transformers using a majority
+    voting technique. This ensemble approach outperformed all other models, achieving
+    the highest macro F1 score of 0.81682, which earned us 4th place in the competition.'
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area: null
+  authors:
+  - emails: '****@student.cuet.ac.bd'
+    first_name: Shahriar
+    last_name: Karim
+    middle_name: Farhan
+    name: Shahriar Farhan Karim
+    username: ~Shahriar_Farhan_Karim1
+  - emails: '****@student.cuet.ac.bd'
+    first_name: Anower
+    last_name: Kashmary
+    middle_name: Sha Shajalal
+    name: Anower Sha Shajalal Kashmary
+    username: ~Anower_Sha_Shajalal_Kashmary1
+  - emails: '****@cuet.ac.bd'
+    first_name: Hasan
+    homepage: https://www.cuet.ac.bd/members/648
+    institution: Chittagong University of Engineering and Technology
+    last_name: Murad
+    name: Hasan Murad
+    username: ~Hasan_Murad1
+  decision: Poster
+  end_page: 139
+  file: 26.pdf
+  id: 26
+  num_pages: 7
+  openreview_id: 43DgavDdaq
+  pdf_file: 204f6dd55460df405236589aa6266bc0f7d85b0e.pdf
+  start_page: 133
+  title: 'CUET\_Blitz\_Aces@LT-EDI-2025: Leveraging Transformer Ensembles and Majority
+    Voting for Hate Speech Detection'
+- abstract: This paper presents our system for detecting caste and migration-related
+    hate speech in Tamil social media comments, addressing the challenges in this
+    low-resource language setting. We experimented with multiple approaches on a dataset
+    of 7,875 annotated comments. Our methodology encompasses traditional machine learning
+    classifiers (SVM, Random Forest, KNN), deep learning models (CNN, CNN-BiLSTM),
+    and transformer-based architectures (MuRIL, IndicBERT, XLM-RoBERTa). Comprehensive
+    evaluations demonstrate that transformer-based models substantially outperform
+    traditional approaches, with MuRIL-large achieving the highest performance with
+    a macro F1 score of 0.8092. Error analysis reveals challenges in detecting implicit
+    and culturally-specific hate speech expressions requiring deeper socio-cultural
+    context. Our team ranked 5th in the LT-EDI@LDK 2025 shared task with an F1 score
+    of 0.80916. This work contributes to combating harmful online content in low-resource
+    languages and highlights the effectiveness of large pre-trained multilingual models
+    for nuanced text classification tasks.
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area: null
+  authors:
+  - emails: '****@gmail.com'
+    first_name: MD
+    google_scholar_id: https://scholar.google.com/citations?user=5f7cSQQAAAAJ&hl=en
+    last_name: Amin
+    middle_name: AL
+    name: MD AL AMIN
+    orcid: https://orcid.org/0009-0008-8981-9667
+    username: ~MD_AL_AMIN1
+  - emails: '****@student.cuet.ac.bd'
+    first_name: Sabik
+    homepage: https://sites.google.com/view/sabik-aftahee/home?authuser=0
+    last_name: Aftahee
+    name: Sabik Aftahee
+    orcid: https://orcid.org/0009-0002-9249-4548
+    username: ~Sabik_Aftahee1
+  - emails: '****@seu.edu.bd'
+    first_name: Md.
+    last_name: Rahman
+    middle_name: Abdur
+    name: Md. Abdur Rahman
+    orcid: https://orcid.org/0009-0002-8595-5772
+    username: ~Md._Abdur_Rahman2
+  - emails: '****@student.cuet.ac.bd'
+    first_name: Md
+    institution: Chittagong University of Engineering and Technology
+    last_name: Khan
+    middle_name: Sajid Hossain
+    name: Md Sajid Hossain Khan
+    username: ~Md_Sajid_Hossain_Khan1
+  - dblp_id: https://dblp.org/pid/99/8077.html
+    emails: '****@seu.edu.bd'
+    first_name: Md
+    google_scholar_id: https://scholar.google.com/citations?user=Il1oO7gAAAAJ&hl=en
+    homepage: https://sites.google.com/view/ashiqur-rahman
+    institution: Southeast University
+    last_name: Rahman
+    middle_name: Ashiqur
+    name: Md Ashiqur Rahman
+    username: ~Md_Ashiqur_Rahman5
+  decision: Poster
+  end_page: 145
+  file: 27.pdf
+  id: 27
+  num_pages: 6
+  openreview_id: PbeWQ0vuRg
+  pdf_file: 51c2b43d694e5f104473b098780507651a39d8cd.pdf
+  start_page: 140
+  title: 'Hinterwelt@LT-EDI 2025: A Transformer-Based Detection of Caste and Migration
+    Hate Speech in Tamil Social Media'
+- abstract: Social media platforms and user-generated content, such as tweets, comments,
+    and blog posts often contain offensive language, including racial hate speech,
+    personal attacks, and sexual harassment. Detecting such inappropriate language
+    is essential to ensure user safety and to prevent the spread of hateful behavior
+    and online aggression. Approaches base on conventional machine learning and deep
+    learning have shown robust results for high-resource languages like English and
+    find it hard to deal with code-mixed text, which is common in bilingual communication.
+    We participated in the shared task "LT-EDI@LDK 2025" organized by DravidianLangTech,
+    applying the BERT-base multilingual cased model and achieving an F1 score of 0.63.
+    These results demonstrate how our model effectively processes and interprets the
+    unique linguistic features of code-mixed content. The source code is available
+    on GitHub.1
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area: null
+  authors:
+  - emails: '****@gmail.com'
+    first_name: Tewodros
+    google_scholar_id: https://scholar.google.com/citations?user=vODJs98AAAAJ&hl=en&authuser=1
+    last_name: Achamaleh
+    name: Tewodros Achamaleh
+    orcid: https://orcid.org/0009-0002-9511-0263
+    semantic_scholar_id: https://www.semanticscholar.org/author/Tewodros-Achamaleh/2291365176
+    username: ~Tewodros_Achamaleh2
+  - emails: '****@cic.ipn.mx'
+    first_name: Fatima
+    last_name: Uroosa
+    name: Fatima Uroosa
+    username: ~Fatima_Uroosa1
+  - emails: '****@cic.ipn.mx'
+    first_name: Nida
+    last_name: Hafeez
+    name: Nida Hafeez
+    orcid: https://orcid.org/0009-0008-5490-102X
+    username: ~Nida_Hafeez1
+  - emails: '****@cic.ipn.mx'
+    first_name: Tolulope
+    last_name: Abiola
+    middle_name: Olalekan
+    name: Tolulope Olalekan Abiola
+    username: ~Tolulope_Olalekan_Abiola1
+  - emails: '****@gmail.com'
+    first_name: Mikiyas
+    last_name: Mebraihtu
+    name: Mikiyas Mebraihtu
+    username: ~Mikiyas_Mebraihtu1
+  - emails: '****@gmail.com'
+    first_name: Sara
+    last_name: Getachew
+    name: Sara Getachew
+    username: ~Sara_Getachew1
+  - emails: '****@cic.ipn.mx'
+    first_name: Grigori
+    homepage: https://www.cic.ipn.mx/~sidorov/
+    institution: "Instituto Polit\xE9cnico Nacional"
+    last_name: Sidorov
+    name: Grigori Sidorov
+    orcid: https://orcid.org/0000-0003-3901-3522
+    username: ~Grigori_Sidorov1
+  - emails: '****@ipn.mx'
+    first_name: Rolando
+    institution: "Instituto Polit\xE9cnico Nacional"
+    last_name: Quintero
+    name: Rolando Quintero
+    orcid: https://orcid.org/0000-0003-4454-8791
+    username: ~Rolando_Quintero1
+  decision: Poster
+  end_page: 151
+  file: 28.pdf
+  id: 28
+  num_pages: 6
+  openreview_id: tc6cfeUDCQ
+  pdf_file: 268defdd1630c4a3326217e0be319d87c9016a70.pdf
+  start_page: 146
+  title: 'EM-26@LT-EDI 2025: Detecting Racial Hoaxes in Code-Mixed Social Media Data'
+- abstract: "In this paper, we describe the system developed by Team EM-26 for the\
+    \ Shared Task on Caste and Migration Hate Speech Detection at LT\x02EDI@LDK 2025.\
+    \ The task addresses the challenge of recognizing caste-based and migration related\
+    \ hate speech in Tamil social media text, a language that is both nuanced and\
+    \ under resourced for machine learning. To tackle this, we fine-tuned the multilingual\
+    \ transformer XLM-RoBERTa-Large on the provided training data, leveraging its\
+    \ cross-lingual strengths to detect both explicit and implicit hate speech. To\
+    \ improve performance, we applied social media\u2013focused preprocessing techniques,\
+    \ including Tamil text normalization and noise removal. Our model achieved a macro\
+    \ F1-score of 0.6567 on the test set, highlighting the effectiveness of multilingual\
+    \ transformers for low resource hate speech detection. Additionally, we discuss\
+    \ key challenges and errors in Tamil hate speech classification, which may guide\
+    \ future work toward building more ethical and inclusive AI systems. The source\
+    \ code is available on GitHub.1"
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area: null
+  authors:
+  - emails: '****@gmail.com'
+    first_name: Tewodros
+    google_scholar_id: https://scholar.google.com/citations?user=vODJs98AAAAJ&hl=en&authuser=1
+    last_name: Achamaleh
+    name: Tewodros Achamaleh
+    orcid: https://orcid.org/0009-0002-9511-0263
+    semantic_scholar_id: https://www.semanticscholar.org/author/Tewodros-Achamaleh/2291365176
+    username: ~Tewodros_Achamaleh2
+  - emails: '****@cic.ipn.mx'
+    first_name: Tolulope
+    last_name: Abiola
+    middle_name: Olalekan
+    name: Tolulope Olalekan Abiola
+    username: ~Tolulope_Olalekan_Abiola1
+  - emails: '****@gmail.com'
+    first_name: Mikiyas
+    last_name: Mebraihtu
+    name: Mikiyas Mebraihtu
+    username: ~Mikiyas_Mebraihtu1
+  - emails: '****@gmail.com'
+    first_name: Sara
+    last_name: Getachew
+    name: Sara Getachew
+    username: ~Sara_Getachew1
+  - emails: '****@cic.ipn.mx'
+    first_name: Grigori
+    homepage: https://www.cic.ipn.mx/~sidorov/
+    institution: "Instituto Polit\xE9cnico Nacional"
+    last_name: Sidorov
+    name: Grigori Sidorov
+    orcid: https://orcid.org/0000-0003-3901-3522
+    username: ~Grigori_Sidorov1
+  decision: Poster
+  end_page: 158
+  file: 29.pdf
+  id: 29
+  num_pages: 7
+  openreview_id: XNhDvFYpyL
+  pdf_file: 0a00696f8db8f8af8d7f7a77063deec72478f944.pdf
+  start_page: 152
+  title: 'EM-26@LT-EDI 2025: Caste and Migration Hate Speech Detection in Tamil-English
+    Code-Mixed Social Media Texts'
+- abstract: "This paper presents our system for the LT-EDI 2025 Shared Task on Racial\
+    \ Hoax Detection, addressing the critical challenge of identifying racially charged\
+    \ misinformation in code-mixed Hindi-English (Hinglish) social media\u2014a low-resource,\
+    \ linguistically complex domain with real-world impact. We adopt a two-pronged\
+    \ strategy, independently fine-tuning a transformer-based model and a large language\
+    \ model. CharBERT was optimized using Optuna, while XLM-RoBERTa and DistilBERT\
+    \ were fine-tuned for the classification task. FLAN-T5-base was fine-tuned with\
+    \ SMOTE-based oversampling, semantic-preserving back translation, and prompt engineering,\
+    \ whereas LLaMA was used solely for inference. Our preprocessing included Hinglish-specific\
+    \ normalization, noise reduction, sentiment-aware corrections and a custom weighted\
+    \ loss to emphasize the minority Hoax class. Despite using FLAN-T5-base due to\
+    \ resource limits, our models performed well. CharBERT achieved a macro F1 of\
+    \ 0.70 and FLAN-T5 followed at 0.69, both outperforming baselines like DistilBERT\
+    \ and LLaMA-3.2-1B. Our submission ranked 4th of 11 teams, underscoring the promise\
+    \ of our approach for scalable misinformation detection in code-switched contexts.\
+    \ Future work will explore larger LLMs, adversarial training and context-aware\
+    \ decoding."
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area: null
+  authors:
+  - emails: '****@student.cuet.ac.bd'
+    first_name: Abrar
+    last_name: Rabbani
+    middle_name: Hafiz
+    name: Abrar Hafiz Rabbani
+    username: ~Abrar_Hafiz_Rabbani1
+  - emails: '****@student.cuet.ac.bd'
+    first_name: Diganta
+    institution: Chittagong University of Engineering and Technology
+    last_name: Droba
+    middle_name: Das
+    name: Diganta Das Droba
+    username: ~Diganta_Das_Droba1
+  - emails: '****@student.cuet.ac.bd'
+    first_name: Momtazul
+    institution: Chittagong University of Engineering and Technology
+    last_name: Labib
+    middle_name: Arefin
+    name: Momtazul Arefin Labib
+    username: ~Momtazul_Arefin_Labib1
+  - emails: '****@student.cuet.ac.bd'
+    first_name: Samia
+    last_name: Rahman
+    name: Samia Rahman
+    username: ~Samia_Rahman1
+  - emails: '****@cuet.ac.bd'
+    first_name: Hasan
+    homepage: https://www.cuet.ac.bd/members/648
+    institution: Chittagong University of Engineering and Technology
+    last_name: Murad
+    name: Hasan Murad
+    username: ~Hasan_Murad1
+  decision: Poster
+  end_page: 170
+  file: 30.pdf
+  id: 30
+  num_pages: 12
+  openreview_id: GMkK7WOlkx
+  pdf_file: 445b6b3437548616b0e6ca2d16d3f2e5fc896144.pdf
+  start_page: 159
+  title: 'Hoax Terminators@LT-EDI 2025: CharBERT''s dominance over LLM Models in the
+    Detection of Racial Hoaxes in Code-Mixed Hindi-English Social Media Data'
+- abstract: 'Misogynistic content in memes on social me dia platforms poses a significant
+    challenge for content moderation, particularly in languages like Chinese, where
+    cultural nuances and multi modal elements complicate detection. Address ing this
+    issue is critical for creating safer online environments, A shared task on multimodal
+    misogyny identification in Chinese memes, or ganized by LT-EDI@LDK 2025, provided
+    a curated dataset for this purpose. Since memes mix pictures and words, we used
+    two smart tools: ResNet-50 to understand the images and Chinese RoBERTa to make
+    sense of the text. The data set consisted of Chinese social media memes annotated
+    with binary labels (Misogynistic and Non-Misogynistic), capturing explicit misogyny,
+    implicit biases, and stereo types. Our experiments demonstrated that ResNet-50
+    combined with Chinese RoBERTa achieved a macro F1 score of 0.91, placing second
+    in the competition and underscoring its effectiveness in handling the complex
+    interplay of text and visuals in Chinese memes. This research advances multimodal
+    misogyny detection and contributes to natural language and vision processing for
+    low-resource languages, particularly in combating gender-based abuse online.'
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area: null
+  authors:
+  - emails: '****@student.cuet.ac.bd'
+    first_name: MD.Mahadi
+    institution: Chittagong University of Engineering and Technology
+    last_name: Rahman
+    name: MD.Mahadi Rahman
+    username: ~MD.Mahadi_Rahman1
+  - emails: '****@student.cuet.ac.bd'
+    first_name: Mohammad
+    last_name: Uddin
+    middle_name: Minhaj
+    name: Mohammad Minhaj Uddin
+    username: ~Mohammad_Minhaj_Uddin1
+  - emails: '****@student.cuet.ac.bd'
+    first_name: Mohammad
+    institution: Chittagong University of Engineering and Technology
+    last_name: Oman
+    name: Mohammad Oman
+    username: ~Mohammad_Oman1
+  - emails: '****@cuet.ac.bd'
+    first_name: Mohammad
+    google_scholar_id: https://scholar.google.com/citations?user=BnNejIMAAAAJ&hl=en
+    last_name: Arefin
+    middle_name: Shamsul
+    name: Mohammad Shamsul Arefin
+    username: ~Mohammad_Shamsul_Arefin1
+  decision: Poster
+  end_page: 176
+  file: 31.pdf
+  id: 31
+  num_pages: 6
+  openreview_id: LxtKb6fTd3
+  pdf_file: 3ef9e372b2ad91da1ae4a0e5ed3c56d796c3a58f.pdf
+  start_page: 171
+  title: 'CUET\_Ignite@LT-EDI-2025: A Multimodal Transformer-Based Approach for Detecting
+    Misogynistic Memes in Chinese Social Media'
+- abstract: The proliferation of caste- and migration-based hate speech on social
+    media poses a significant challenge, particularly in low-resource languages like
+    Tamil. This paper presents our approach to the LT-EDI@ACL 2025 shared task, addressing
+    this issue through a hybrid transformer-based framework. We explore a range of
+    Machine Learning (ML), Deep Learning (DL), and multilingual transformer models,
+    culminating in a novel m-BERT+BiLSTM hybrid architecture. This model integrates
+    contextual embeddings from m-BERT with lexical features from TF-IDF and FastText,
+    feeding the enriched representations into a BiLSTM to capture bidirectional semantic
+    dependencies. Empirical results demonstrate the superiority of this hybrid architecture,
+    achieving a macro-F1 score of 0.76 on the test set and surpassing the performance
+    of standalone models such as MuRIL and IndicBERT. These results affirm the effectiveness
+    of hybrid multilingual models for hate speech detection in low-resource and culturally
+    complex linguistic settings.
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area: null
+  authors:
+  - emails: '****@student.cuet.ac.bd'
+    first_name: Towshin
+    last_name: Tushi
+    middle_name: HOssain
+    name: towshin HOssain tushi
+    username: ~towshin_HOssain_tushi1
+  - emails: '****@student.cuet.ac.bd'
+    first_name: Walisa
+    last_name: Alam
+    name: Walisa Alam
+    username: ~Walisa_Alam1
+  - emails: '****@student.cuet.ac.bd'
+    first_name: Rehenuma
+    last_name: Ilman
+    name: REHENUMA ILMAN
+    username: ~REHENUMA_ILMAN1
+  - emails: '****@student.cuet.ac.bd'
+    first_name: Samia
+    last_name: Rahman
+    name: Samia Rahman
+    username: ~Samia_Rahman1
+  decision: Poster
+  end_page: 182
+  file: 32.pdf
+  id: 32
+  num_pages: 6
+  openreview_id: 9gMdxctagh
+  pdf_file: 20ee4b4bd4258d0b3ac47f14fe46ef24fbef7792.pdf
+  start_page: 177
+  title: 'girlsteam@LT-EDI-2025: Caste/Migration based hate speech Detection'
+- abstract: 'Detecting misogyny in memes is challenging due to their complex interplay
+    of images and text that often disguise offensive content. Current AI models struggle
+    with these cross-modal relationships and contain inherent biases. We tested multiple
+    approaches for the Misogyny Meme Detection task at LT-EDI@LDK 2025: ChineseBERT,
+    mBERT, and XLM-R for text; DenseNet, ResNet, and InceptionV3 for images. Our best-performing
+    system fused fine-tuned ChineseBERT and DenseNet features, concatenating them
+    before final classification through a fully connected network. This multimodal
+    approach achieved a 0.93035 macro F1-score, winning 1st place in the competition
+    and demonstrating the effectiveness of our strategy for analyzing the subtle ways
+    misogyny manifests in visual-textual content.'
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area: null
+  authors:
+  - emails: '****@student.cuet.ac.bd'
+    first_name: Madiha
+    last_name: Chowdhury
+    middle_name: Ahmed
+    name: Madiha Ahmed Chowdhury
+    username: ~Madiha_Ahmed_Chowdhury1
+  - emails: '****@student.cuet.ac.bd'
+    first_name: Lamia
+    last_name: Khan
+    middle_name: Tasnim
+    name: Lamia Tasnim Khan
+    username: ~Lamia_Tasnim_Khan1
+  - emails: '****@student.cuet.ac.bd'
+    first_name: Md.shafiqul
+    last_name: Hasan
+    name: MD.SHAFIQUL HASAN
+    username: ~MD.SHAFIQUL_HASAN1
+  - emails: '****@cuet.ac.bd'
+    first_name: Ashim
+    google_scholar_id: https://scholar.google.com/citations?user=fZe4LQcAAAAJ&hl=en
+    homepage: https://www.cuet.ac.bd/members/526
+    institution: Chittagong University of Engineering and Technology
+    last_name: Dey
+    name: Ashim Dey
+    username: ~Ashim_Dey1
+  decision: Poster
+  end_page: 188
+  file: 33.pdf
+  id: 33
+  num_pages: 6
+  openreview_id: VNu7sLdUAi
+  pdf_file: f7a120b56c24e8c94c01f6b34ef809c16e9f62f7.pdf
+  start_page: 183
+  title: 'CUET\_320@LT-EDI-2025: A Multimodal Approach for Misogyny Meme Detection
+    in Chinese Social Media'
+- abstract: The performance of Automatic Speech Recognition (ASR) systems has improved
+    significantly, driven by advancements in large-scale pre-trained models. However,
+    adapting such models to low-resource languages such as Nepali is challenging due
+    to the lack of labeled data and computational resources. Additionally, adapting
+    the unique speech parameters of the speaker to a model is also a challenging task.
+    Personalization helps to target the model to fit the particular speaker. This
+    work investigates parameter-efficient fine-tuning (PEFT) methods like Low-Rank
+    Adaptation (LoRA) and Decomposed Weight Low-Rank Adaptation (DoRA) to improve
+    the performance of fine-tuned Whisper ASR models for Nepali ASR tasks by Personalization.
+    These experiments demonstrate that the PEFT methods obtain competitive results
+    while significantly reducing the number of trainable parameters compared to full
+    fine-tuning. LoRA and DoRA show a relative WER to $FT_{Base}$ increment of 34.93\%
+    and 36.79\%, respectively, and a relative CER to $FT_{Base}$ increment of 49.50\%
+    and 50.03\%, respectively. Furthermore, the results highlight a 99.74\% reduction
+    in total training parameters.
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area: null
+  authors:
+  - emails: '****@kiranpantha.com.np'
+    first_name: Kiran
+    homepage: https://kiranpantha.com.np
+    institution: Kathmandu University
+    last_name: Pantha
+    name: Kiran Pantha
+    orcid: https://orcid.org/0009-0002-7955-9765
+    username: ~Kiran_Pantha1
+  - emails: '****@ku.edu.np'
+    first_name: Rupak
+    google_scholar_id: https://scholar.google.com/citations?user=kkQkhVIAAAAJ&hl=en
+    last_name: Ghimire
+    middle_name: Raj
+    name: Rupak Raj Ghimire
+    username: ~Rupak_Raj_Ghimire1
+  - dblp_id: https://dblp.org/pid/56/8153.html
+    emails: '****@ku.edu.np'
+    first_name: Bal Krishna
+    google_scholar_id: https://scholar.google.com/citations?user=Xr9Z1EQAAAAJ
+    homepage: https://ku.edu.np/contact-detail/bal-krishna-bal
+    institution: Kathmandu University
+    last_name: Bal
+    name: Bal Krishna Bal
+    username: ~Bal_Krishna_Bal1
+  decision: Poster
+  end_page: 198
+  file: 34.pdf
+  id: 34
+  num_pages: 10
+  openreview_id: qmqT5iEPgt
+  pdf_file: 250f584055aa926afa4a01925984cddc7755fc48.pdf
+  start_page: 189
+  title: Speech Personalization using Parameter Efficient Fine-Tuning for Nepali Speakers
+- abstract: The increasing prevalence of misogynistic content in online memes has
+    raised concerns about their impact on digital discourse. The culture specific
+    images and informal usage of text in the memes present considerable challenges
+    for the automatic detection systems, especially in low-resource languages. While
+    previous shared tasks have addressed misogyny detection in English and several
+    European languages, misogynistic meme detection in the Chinese has remained largely
+    unexplored. To address this gap, we introduced a shared task focused on binary
+    classification of Chinese language memes as misogynistic or non-misogynistic.
+    The task featured memes collected from the Chinese social media and annotated
+    by native speakers. A total of 45 teams registered, with 8 teams submitting predictions
+    from their multimodal models integrating textual and visual features through diverse
+    fusion strategies. The best-performing system achieved a macro F1-score of 0.93035,
+    highlighting the effectiveness of lightweight pretrained encoder fusion. This
+    system used the Chinese BERT and DenseNet-121 for text and image feature extraction,
+    respectively. A feedforward network was trained as a classifier using the features
+    obtained by concatenating text and image features.
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area: null
+  authors:
+  - dblp_id: https://dblp.org/pid/241/0168
+    emails: '****@gmail.com'
+    first_name: Bharathi Raja
+    google_scholar_id: https://scholar.google.com/citations?user=irCl028AAAAJ&hl=en
+    homepage: https://www.insight-centre.org/our-team/bharathi-raja/
+    institution: University of Galway
+    last_name: Chakravarthi
+    name: Bharathi Raja Chakravarthi
+    orcid: https://orcid.org/0000-0002-4575-7934
+    semantic_scholar_id: https://www.semanticscholar.org/author/Bharathi-Raja-Chakravarthi/117018834
+    username: ~Bharathi_Raja_Chakravarthi1
+  - emails: '****@gmail.com'
+    first_name: Rahul
+    google_scholar_id: https://scholar.google.com/citations?user=m6bYtawAAAAJ
+    last_name: Ponnusamy
+    name: Rahul Ponnusamy
+    orcid: https://orcid.org/0000-0001-8023-7742
+    username: ~Rahul_Ponnusamy1
+  - emails: '****@universityofgalway.ie'
+    first_name: Ping
+    google_scholar_id: https://scholar.google.com/citations?user=RMqZS8IAAAAJ&hl=en
+    last_name: Du
+    name: Ping Du
+    username: ~Ping_Du1
+  - emails: '****@universityofgalway.ie'
+    first_name: Xiaojian
+    homepage: https://pandalow.github.io/
+    last_name: Zhuang
+    name: Xiaojian Zhuang
+    username: ~Xiaojian_Zhuang1
+  - emails: '****@acad.cutn.ac.in'
+    first_name: Saranya
+    google_scholar_id: https://scholar.google.co.in/citations?user=_qaAzjIAAAAJ&hl=en
+    homepage: https://cutn.ac.in/staff-members/dr-r-saranya/
+    institution: 'Central University of Tamil Nadu '
+    last_name: Rajiakodi
+    name: Saranya Rajiakodi
+    username: ~Saranya_Rajiakodi1
+  - dblp_id: https://dblp.org/pid/08/3075
+    emails: '****@insight-centre.org'
+    first_name: Paul
+    google_scholar_id: https://scholar.google.com/citations?hl=en&user=aDJBCh4AAAAJ
+    institution: University of Galway
+    last_name: Buitelaar
+    name: Paul Buitelaar
+    orcid: https://orcid.org/0000-0001-7238-9842
+    username: ~Paul_Buitelaar1
+  - emails: '****@cb.amrita.edu'
+    first_name: Premjith
+    google_scholar_id: https://scholar.google.co.in/citations?user=B4J7II0AAAAJ&hl=en
+    institution: Amrita Vishwa Vidyapeetham (Deemed University)
+    last_name: B
+    name: Premjith B
+    orcid: https://orcid.org/my-orcid?orcid=0000-0003-1188-1838
+    username: ~Premjith_B1
+  - emails: '****@gmail.com'
+    first_name: Bhuvaneswari
+    google_scholar_id: https://scholar.google.co.in/citations?hl=en&user=eAcS_0EAAAAJ
+    institution: Central University of Tamil Nadu
+    last_name: Sivagnanam
+    name: Bhuvaneswari Sivagnanam
+    username: ~Bhuvaneswari_Sivagnanam1
+  - emails: '****@gmail.com'
+    first_name: Anshid
+    google_scholar_id: https://scholar.google.com/citations?hl=en&user=2MUgbbEAAAAJ
+    last_name: A
+    middle_name: K
+    name: Anshid K A
+    orcid: https://orcid.org/0009-0003-4824-5250
+    username: ~Anshid_K_A1
+  - emails: '****@gmail.com'
+    first_name: SK
+    google_scholar_id: https://scholar.google.com/citations?user=s3dszaoAAAAJ&hl=en&oi=sra
+    institution: Anna University
+    last_name: Lavanya
+    name: SK Lavanya
+    username: ~SK_Lavanya1
+  decision: Oral
+  end_page: 207
+  file: 35.pdf
+  id: 35
+  num_pages: 9
+  openreview_id: TwgB03jAYP
+  pdf_file: 309ea4e2be433d4ab4c19328fd291c01642b3ad8.pdf
+  start_page: 199
+  title: An Overview of the Misogyny Meme Detection Shared Task for Chinese Social
+    Media
+- abstract: "The Multilingual Bias and Propaganda Annotation task focuses on annotating\
+    \ biased and propagandist content in political discourse across English and Tamil.\
+    \ This paper presents the findings of the shared task on bias and propaganda annotation\
+    \ task. This task involves two sub tasks, one in English and another in Tamil,\
+    \ both of which are annotation task where a text comment is to be labeled. With\
+    \ a particular emphasis on polarizing policy debates such as the US Gender Policy\
+    \ and India\u2019s Three Language Policy, this shared task invites participants\
+    \ to build annotation systems capable of labeling textual bias and propaganda.\
+    \ The dataset was curated by collecting comments from YouTube videos. Our curated\
+    \ dataset consists of 13,010 English sentences on US Gender Policy, Russia-Ukraine\
+    \ War and 5,880 Tamil sentences on Three Language Policy. Participants were instructed\
+    \ to annotate following the guidelines at sentence level with the bias labels\
+    \ that are fine-grained, domain specific and 4 propaganda labels. Participants\
+    \ were encouraged to leverage existing tools or develop novel approaches to perform\
+    \ fine-grained annotations that capture the complex socio-political nuances present\
+    \ in the data."
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area: null
+  authors:
+  - emails: '****@universityofgalway.ie'
+    first_name: Shunmuga
+    homepage: https://amrita.edu/school/computing/coimbatore/faculty/
+    last_name: Chinnan
+    middle_name: Priya Muthusamy
+    name: Shunmuga Priya Muthusamy Chinnan
+    orcid: https://orcid.org/0000-0001-5341-7684
+    username: ~Shunmuga_Priya_Muthusamy_Chinnan1
+  - dblp_id: https://dblp.org/pid/241/0168
+    emails: '****@gmail.com'
+    first_name: Bharathi Raja
+    google_scholar_id: https://scholar.google.com/citations?user=irCl028AAAAJ&hl=en
+    homepage: https://www.insight-centre.org/our-team/bharathi-raja/
+    institution: University of Galway
+    last_name: Chakravarthi
+    name: Bharathi Raja Chakravarthi
+    orcid: https://orcid.org/0000-0002-4575-7934
+    semantic_scholar_id: https://www.semanticscholar.org/author/Bharathi-Raja-Chakravarthi/117018834
+    username: ~Bharathi_Raja_Chakravarthi1
+  - emails: '****@gmail.com'
+    first_name: Meghann
+    institution: Atlantic Technological University, Ireland
+    last_name: Drury-Grogan
+    name: Meghann Drury-Grogan
+  - emails: '****@velammalitech.edu.in'
+    first_name: Senthil Kumar
+    google_scholar_id: https://scholar.google.com/citations?user=tmr1MvAAAAAJ&hl=en
+    institution: Velammal Institute of Technology
+    last_name: B
+    name: Senthil Kumar B
+    orcid: https://orcid.org/0000-0003-0835-5271
+    semantic_scholar_id: https://www.semanticscholar.org/author/Senthil-Kumar-B/144252387
+    username: ~Senthil_Kumar_B1
+  - emails: '****@acad.cutn.ac.in'
+    first_name: Saranya
+    google_scholar_id: https://scholar.google.co.in/citations?user=_qaAzjIAAAAJ&hl=en
+    homepage: https://cutn.ac.in/staff-members/dr-r-saranya/
+    institution: 'Central University of Tamil Nadu '
+    last_name: Rajiakodi
+    name: Saranya Rajiakodi
+    username: ~Saranya_Rajiakodi1
+  - emails: '****@ssn.edu.in'
+    first_name: Angel
+    google_scholar_id: https://scholar.google.com/citations?user=r6eX8d0AAAAJ&hl=en
+    last_name: S
+    middle_name: Deborah
+    name: Angel Deborah S
+    username: ~Angel_Deborah_S1
+  decision: Submission
+  end_page: 213
+  file: 36.pdf
+  id: 36
+  num_pages: 6
+  openreview_id: QyxA7suuGl
+  pdf_file: 31eb43adcd6b5fe9017aa92562c8c1b03206fa32.pdf
+  start_page: 208
+  title: Findings of the Shared Task Multilingual Bias and Propaganda Annotation in
+    Political Discourse
+- abstract: Hate speech targeting caste and migration communities is a growing concern
+    in online platforms, particularly in linguistically diverse regions. By focusing
+    on Tamil language text content, this task provides a unique opportunity to tackle
+    caste or migration related hate speech detection in a low resource language Tamil,
+    contributing to a safer digital space. We present the results and main findings
+    of the shared task caste and migration hate speech detection. The task is a binary
+    classification determining whether a text is caste/migration related hate speech
+    or not. The task attracted 17 participating teams, experimenting with a wide range
+    of methodologies from traditional machine learning to advanced multilingual transformers.
+    The top performing system achieved a macro F1-score of 0.88105, enhancing an ensemble
+    of fine-tuned transformer models including XLM-R and MuRIL. Our analysis highlights
+    the effectiveness of multilingual transformers in low resource, ensemble learning,
+    and culturally informed socio political context based techniques.
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area: null
+  authors:
+  - emails: '****@acad.cutn.ac.in'
+    first_name: Saranya
+    google_scholar_id: https://scholar.google.co.in/citations?user=_qaAzjIAAAAJ&hl=en
+    homepage: https://cutn.ac.in/staff-members/dr-r-saranya/
+    institution: 'Central University of Tamil Nadu '
+    last_name: Rajiakodi
+    name: Saranya Rajiakodi
+    username: ~Saranya_Rajiakodi1
+  - dblp_id: https://dblp.org/pid/241/0168
+    emails: '****@gmail.com'
+    first_name: Bharathi Raja
+    google_scholar_id: https://scholar.google.com/citations?user=irCl028AAAAJ&hl=en
+    homepage: https://www.insight-centre.org/our-team/bharathi-raja/
+    institution: University of Galway
+    last_name: Chakravarthi
+    name: Bharathi Raja Chakravarthi
+    orcid: https://orcid.org/0000-0002-4575-7934
+    semantic_scholar_id: https://www.semanticscholar.org/author/Bharathi-Raja-Chakravarthi/117018834
+    username: ~Bharathi_Raja_Chakravarthi1
+  - emails: '****@gmail.com'
+    first_name: Rahul
+    google_scholar_id: https://scholar.google.com/citations?user=m6bYtawAAAAJ
+    last_name: Ponnusamy
+    name: Rahul Ponnusamy
+    orcid: https://orcid.org/0000-0001-8023-7742
+    username: ~Rahul_Ponnusamy1
+  - emails: '****@universityofgalway.ie'
+    first_name: Shunmuga
+    homepage: https://amrita.edu/school/computing/coimbatore/faculty/
+    last_name: Chinnan
+    middle_name: Priya Muthusamy
+    name: Shunmuga Priya Muthusamy Chinnan
+    orcid: https://orcid.org/0000-0001-5341-7684
+    username: ~Shunmuga_Priya_Muthusamy_Chinnan1
+  - dblp_id: https://dblp.org/pid/294/8326
+    emails: kprasannakumar30@gmail.com
+    first_name: Prasanna
+    google_scholar_id: https://scholar.google.com/citations?hl=en&user=6ZlifigAAAAJ
+    homepage: https://prasanna-kumar.carrd.co
+    institution: Data Science Institution, University of Galway, Ireland
+    last_name: Kumaresan
+    middle_name: Kumar
+    name: Prasanna Kumar Kumaresan
+    orcid: https://orcid.org/0000-0003-2244-246X
+    semantic_scholar_id: https://www.semanticscholar.org/author/Prasanna-Kumar-Kumaresan/2081605433
+    username: ~Prasanna_Kumar_Kumaresan2
+  - emails: '****@skacas.ac.in'
+    first_name: Sathiyaraj
+    google_scholar_id: https://scholar.google.co.in/citations?user=TR8U4lUAAAAJ&hl=en
+    homepage: https://meyveendu.blogspot.com/p/blog-page_14.html
+    last_name: Thangasamy
+    name: Sathiyaraj Thangasamy
+    orcid: https://orcid.org/0000-0002-2272-3117
+    semantic_scholar_id: https://www.semanticscholar.org/me/research
+    username: ~Sathiyaraj_Thangasamy1
+  - emails: '****@gmail.com'
+    first_name: Bhuvaneswari
+    google_scholar_id: https://scholar.google.co.in/citations?hl=en&user=eAcS_0EAAAAJ
+    institution: Central University of Tamil Nadu
+    last_name: Sivagnanam
+    name: Bhuvaneswari Sivagnanam
+    username: ~Bhuvaneswari_Sivagnanam1
+  - emails: '****@gmail.com'
+    first_name: Balasubramanian
+    google_scholar_id: https://scholar.google.com/citations?user=comIzc0AAAAJ&hl=en
+    homepage: https://recruitstaff.iiitkottayam.ac.in/#!/faculty/bala
+    institution: IIIT Kottayam
+    last_name: Palani
+    name: Balasubramanian Palani
+    username: ~Balasubramanian_Palani1
+  - emails: '****@gmail.com'
+    first_name: Kogilavani
+    google_scholar_id: https://scholar.google.co.in/citations?user=Jx7cdnoAAAAJ&hl=en
+    last_name: Shanmugavadivel
+    name: Kogilavani Shanmugavadivel
+    orcid: https://orcid.org/my-orcid?orcid=0000-0002-0715-143X
+    username: ~Kogilavani_Shanmugavadivel1
+  - emails: '****@gmail.com'
+    first_name: Abirami
+    google_scholar_id: https://scholar.google.com/citations?user=ojFgyLAAAAAJ&hl=en
+    institution: Anna University
+    last_name: Murugappan
+    name: Abirami Murugappan
+    username: ~Abirami_Murugappan1
+  - emails: '****@gmail.com'
+    first_name: Charmathi
+    last_name: Rajkumar
+    name: Charmathi Rajkumar
+    username: ~Charmathi_Rajkumar1
+  decision: Submission
+  end_page: 220
+  file: 37.pdf
+  id: 37
+  num_pages: 7
+  openreview_id: sx9StM03y4
+  pdf_file: a9efd6e30df110f9040478c814c8dddb0026e1a8.pdf
+  start_page: 214
+  title: Findings of the Shared Task Caste and Migration Hate Speech Detection
+- abstract: The widespread use of social media has made it easier for false information
+    to proliferate, particularly racially motivated hoaxes that can encourage violence
+    and hatred. Such content is frequently shared in code-mixed languages in multilingual
+    nations like India, which presents special difficulties for automated detection
+    systems because of the casual language, erratic grammar, and rich cultural background.
+    The shared task on detecting racial hoaxes in code mixed social media data aims
+    to identify the racial hoaxes in Hindi-English data. It is a binary classification
+    task with more than 5,000 labeled instances. A total of 11 teams participated
+    in the task, and the results are evaluated using the macro-F1 score. The team
+    that employed XLM-RoBERTa secured the first position in the task.
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area: null
+  authors:
+  - dblp_id: https://dblp.org/pid/241/0168
+    emails: '****@gmail.com'
+    first_name: Bharathi Raja
+    google_scholar_id: https://scholar.google.com/citations?user=irCl028AAAAJ&hl=en
+    homepage: https://www.insight-centre.org/our-team/bharathi-raja/
+    institution: University of Galway
+    last_name: Chakravarthi
+    name: Bharathi Raja Chakravarthi
+    orcid: https://orcid.org/0000-0002-4575-7934
+    semantic_scholar_id: https://www.semanticscholar.org/author/Bharathi-Raja-Chakravarthi/117018834
+    username: ~Bharathi_Raja_Chakravarthi1
+  - dblp_id: https://dblp.org/pid/294/8326
+    emails: kprasannakumar30@gmail.com
+    first_name: Prasanna
+    google_scholar_id: https://scholar.google.com/citations?hl=en&user=6ZlifigAAAAJ
+    homepage: https://prasanna-kumar.carrd.co
+    institution: Data Science Institution, University of Galway, Ireland
+    last_name: Kumaresan
+    middle_name: Kumar
+    name: Prasanna Kumar Kumaresan
+    orcid: https://orcid.org/0000-0003-2244-246X
+    semantic_scholar_id: https://www.semanticscholar.org/author/Prasanna-Kumar-Kumaresan/2081605433
+    username: ~Prasanna_Kumar_Kumaresan2
+  - emails: '****@gmail.com'
+    first_name: Shanu
+    last_name: Dhawale
+    name: Shanu Dhawale
+    username: ~Shanu_Dhawale1
+  - emails: '****@acad.cutn.ac.in'
+    first_name: Saranya
+    google_scholar_id: https://scholar.google.co.in/citations?user=_qaAzjIAAAAJ&hl=en
+    homepage: https://cutn.ac.in/staff-members/dr-r-saranya/
+    institution: 'Central University of Tamil Nadu '
+    last_name: Rajiakodi
+    name: Saranya Rajiakodi
+    username: ~Saranya_Rajiakodi1
+  - emails: '****@esn.ac.lk'
+    first_name: Sajeetha
+    google_scholar_id: https://scholar.google.com/citations?user=yiL0uLUAAAAJ&hl=en
+    last_name: Thavareesan
+    name: Sajeetha Thavareesan
+    username: ~Sajeetha_Thavareesan1
+  - emails: '****@srmist.edu.in'
+    first_name: Subalalitha
+    last_name: Navaneethakrishnan
+    middle_name: Chinnaudayar
+    name: Subalalitha Chinnaudayar Navaneethakrishnan
+    username: ~Subalalitha_Chinnaudayar_Navaneethakrishnan1
+  - dblp_id: https://dblp.org/pid/04/5705.html
+    emails: '****@ssn.edu.in'
+    first_name: Thenmozhi
+    google_scholar_id: https://scholar.google.com/citations?user=gQRc6CgAAAAJ&hl=en
+    homepage: https://www.ssn.edu.in/staff-members/dr-d-thenmozhi/
+    last_name: Durairaj
+    name: Thenmozhi Durairaj
+    orcid: https://orcid.org/0000-0003-0681-6628
+    username: ~Thenmozhi_Durairaj1
+  decision: Submission
+  end_page: 227
+  file: 38.pdf
+  id: 38
+  num_pages: 7
+  openreview_id: TAYAVqxVXt
+  pdf_file: 6a0a2bb2be70184138f7e04a78485a3485e0763a.pdf
+  start_page: 221
+  title: Overview of the Shared Task on Detecting Racial Hoaxes in Code-Mixed Hindi-English
+    Social Media Data
+- abstract: 'The rise and the intensity of harassment and hate speech in social media
+    platforms against LGBTQ+ communities is a growing concern. This work is an initiative
+    to address this problem by conducting a shared task focused on the detection of
+    homophobic and transphobic content in multilingual settings. The task comprises
+    two subtasks: (1) multi-class classification of content into Homophobia, Transphobia,
+    or Non-anti-LGBT+ categories across eight languages and (2) span-level detection
+    to identify specific toxic segments within comments in English, Tamil, and Marathi.
+    This initiative helps the development of explainable and socially re- sponsible
+    AI tools for combating identity-based harm in digital spaces. Multiple teams registered
+    for the task, however only two teams submitted their results, and the results
+    were evaluated using the macro F1 score.'
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area: null
+  authors:
+  - dblp_id: https://dblp.org/pid/294/8326
+    emails: kprasannakumar30@gmail.com
+    first_name: Prasanna
+    google_scholar_id: https://scholar.google.com/citations?hl=en&user=6ZlifigAAAAJ
+    homepage: https://prasanna-kumar.carrd.co
+    institution: Data Science Institution, University of Galway, Ireland
+    last_name: Kumaresan
+    middle_name: Kumar
+    name: Prasanna Kumar Kumaresan
+    orcid: https://orcid.org/0000-0003-2244-246X
+    semantic_scholar_id: https://www.semanticscholar.org/author/Prasanna-Kumar-Kumaresan/2081605433
+    username: ~Prasanna_Kumar_Kumaresan2
+  - dblp_id: https://dblp.org/pid/241/0168
+    emails: '****@gmail.com'
+    first_name: Bharathi Raja
+    google_scholar_id: https://scholar.google.com/citations?user=irCl028AAAAJ&hl=en
+    homepage: https://www.insight-centre.org/our-team/bharathi-raja/
+    institution: University of Galway
+    last_name: Chakravarthi
+    name: Bharathi Raja Chakravarthi
+    orcid: https://orcid.org/0000-0002-4575-7934
+    semantic_scholar_id: https://www.semanticscholar.org/author/Bharathi-Raja-Chakravarthi/117018834
+    username: ~Bharathi_Raja_Chakravarthi1
+  - emails: '****@gmail.com'
+    first_name: Ruba
+    google_scholar_id: https://scholar.google.com/citations?user=QD-mJd4AAAAJ&hl=en
+    institution: The Gandhigram Rural Institute - Deemed University
+    last_name: Priyadharshini
+    name: Ruba Priyadharshini
+    username: ~Ruba_Priyadharshini1
+  - dblp_id: https://dblp.org/pid/08/3075
+    emails: '****@insight-centre.org'
+    first_name: Paul
+    google_scholar_id: https://scholar.google.com/citations?hl=en&user=aDJBCh4AAAAJ
+    institution: University of Galway
+    last_name: Buitelaar
+    name: Paul Buitelaar
+    orcid: https://orcid.org/0000-0001-7238-9842
+    username: ~Paul_Buitelaar1
+  - emails: '****@gmail.com'
+    first_name: Malliga
+    google_scholar_id: https://scholar.google.co.in/citations?user=NSRyKhIAAAAJ&hl=en
+    homepage: https://sites.google.com/a/kongu.edu/mallisenthil/
+    last_name: Subramanian
+    name: Malliga Subramanian
+    orcid: https://orcid.org/my-orcid?orcid=0000-0003-3263-0376
+    username: ~Malliga_Subramanian1
+  - emails: '****@gmail.com'
+    first_name: Kishore
+    google_scholar_id: https://scholar.google.com/citations?user=rUpbYvIAAAAJ&hl=en&authuser=1
+    last_name: Ponnusamy
+    middle_name: Kumar
+    name: Kishore Kumar Ponnusamy
+    orcid: https://orcid.org/0000-0001-9621-668X
+    username: ~Kishore_Kumar_Ponnusamy1
+  decision: Submission
+  end_page: 233
+  file: 40.pdf
+  id: 40
+  num_pages: 6
+  openreview_id: d3kKodxdfE
+  pdf_file: 41a3e995203d377131da54766f51671f913e0f89.pdf
+  start_page: 228
+  title: Overview of Homophobia and Transphobia Span Detection in Social Media Comments
+- abstract: "In this paper, an overview of the shared task on speech recognition for\
+    \ vulnerable individuals in Tamil (LT-EDI@LDK2025) is described. The work comes\
+    \ with a Tamil dataset that was collected from elderly individuals who identify\
+    \ as male, female, or transgender. The audio samples were taken in public places\
+    \ such as markets, vegetable shops, hospitals, etc. The training phase and the\
+    \ testing phase are when the dataset is made available. The task required of the\
+    \ participants was to handle audio signals using various models and techniques\
+    \ and then turn in their results as transcriptions of the provided test samples.\
+    \ The participant\u2019s results were assessed using WER (Word Error Rate). The\
+    \ transformer-based approach was used by participants to achieve automatic voice\
+    \ recognition. This overview paper discusses the findings and various pre-trained\
+    \ transformer-based models that the participants employed."
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area: null
+  authors:
+  - dblp_id: https://dblp.org/pid/176/3054.html
+    emails: '****@ssn.edu.in'
+    first_name: Bharathi
+    google_scholar_id: https://scholar.google.co.in/citations?user=Js22CPwAAAAJ
+    homepage: https://www.ssn.edu.in/staff-members/dr-b-bharathi/
+    last_name: B
+    name: Bharathi B
+    orcid: https://orcid.org/0000-0001-7279-5357
+    username: ~Bharathi_B1
+  - dblp_id: https://dblp.org/pid/241/0168
+    emails: '****@gmail.com'
+    first_name: Bharathi Raja
+    google_scholar_id: https://scholar.google.com/citations?user=irCl028AAAAJ&hl=en
+    homepage: https://www.insight-centre.org/our-team/bharathi-raja/
+    institution: University of Galway
+    last_name: Chakravarthi
+    name: Bharathi Raja Chakravarthi
+    orcid: https://orcid.org/0000-0002-4575-7934
+    semantic_scholar_id: https://www.semanticscholar.org/author/Bharathi-Raja-Chakravarthi/117018834
+    username: ~Bharathi_Raja_Chakravarthi1
+  - dblp_id: 'https://dblp.org/pid/196/6100 #dblp'
+    emails: '****@ssn.edu.in'
+    first_name: Sripriya
+    google_scholar_id: https://scholar.google.com/citations?user=Lie21J0AAAAJ&hl=en
+    last_name: N
+    name: Sripriya N
+    orcid: https://orcid.org/0000-0003-2070-418X
+    semantic_scholar_id: https://www.semanticscholar.org/author/N.-Sripriya/9368009
+    username: ~Sripriya_N1
+  - emails: '****@gmail.com'
+    first_name: Rajeswari
+    google_scholar_id: https://scholar.google.com/citations?user=02FZh-0AAAAJ&hl=en
+    homepage: https://www.svce.ac.in/profile-info/?id=5118
+    last_name: Natarajan
+    name: Rajeswari Natarajan
+    username: ~Rajeswari_Natarajan1
+  - dblp_id: https://dblp.org/pid/287/7762
+    emails: '****@vit.ac.in'
+    first_name: Ratnavel
+    google_scholar_id: https://scholar.google.co.in/citations?user=iR-crJYAAAAJ&hl=en
+    institution: Vellore Institute of Technology
+    last_name: Rajalakshmi
+    name: Ratnavel Rajalakshmi
+    orcid: https://orcid.org/0000-0002-6570-483X
+    username: ~Ratnavel_Rajalakshmi1
+  - emails: '****@ssn.edu.in'
+    first_name: Suhasini
+    last_name: S
+    name: Suhasini S
+    username: ~Suhasini_S1
+  decision: Submission
+  end_page: 240
+  file: 41.pdf
+  id: 41
+  num_pages: 7
+  openreview_id: qGDXhdehLm
+  pdf_file: 890d3f272c4350ce691ca0776340e6796b8cce29.pdf
+  start_page: 234
+  title: Overview of the Fifth Shared Task on Speech Recognition for Vulnerable Individuals
+    in Tamil
